@@ -1,25 +1,37 @@
-from sqlalchemy import inspect
-from database_connection import get_db_connection
 import pandas as pd
+from sqlalchemy import create_engine
+from scripts.database_connection import get_db_engine
 
-def import_data(df: pd.DataFrame, table_name: str):
-    """
-    ایمپورت DataFrame به جدول مورد نظر در دیتابیس
-    """
-    engine, session = get_db_connection()
-    
-    # بررسی وجود جدول در دیتابیس
-    inspector = inspect(engine)
-    if not inspector.has_table(table_name):
-        # اگر جدول وجود ندارد، آن را ایجاد کن
-        df.head(0).to_sql(table_name, engine, if_exists='fail', index=False)
-    
-    # ایمپورت داده‌ها
-    df.to_sql(
-        name=table_name,
-        con=engine,
-        if_exists='append',  # جایگزین با 'replace' برای بازنویسی جدول
-        index=False
-    )
-    session.close()
-    print(f"دیتا با موفقیت به جدول {table_name} اضافه شد!")
+# Function to import misconceptions
+def import_misconceptions():
+    df_misconceptions = pd.read_csv("./database/misconception_mapping.csv")
+    df_misconceptions.to_sql(name="Misconceptions", con=get_db_engine(), if_exists="append", index=False)
+    print("✅ Misconceptions imported!")
+
+# Function to import questions
+def import_questions():
+    df_questions = pd.read_csv("./database/train.csv")
+    questions_data = df_questions[["QuestionId", "ConstructId", "ConstructName", "SubjectId", "SubjectName", "CorrectAnswer", "QuestionText"]]
+    questions_data.to_sql(name="Questions", con=get_db_engine(), if_exists="append", index=False)
+    print("✅ Questions imported!")
+
+# Function to import answers
+def import_answers():
+    df_answers = pd.read_csv("./database/train.csv")
+    answers_list = []
+
+    for _, row in df_answers.iterrows():
+        question_id = row["QuestionId"]
+        for answer_type in ['A', 'B', 'C', 'D']:
+            answer_text = row[f"Answer{answer_type}Text"]
+            misconception_id = row.get(f"Misconception{answer_type}Id") or None
+            answers_list.append({
+                "QuestionId": question_id,
+                "AnswerType": answer_type,
+                "AnswerText": answer_text,
+                "MisconceptionId": misconception_id
+            })
+
+    df_answers_final = pd.DataFrame(answers_list)
+    df_answers_final.to_sql(name="Answers", con=get_db_engine(), if_exists="append", index=False)
+    print("✅ Answers imported!")
