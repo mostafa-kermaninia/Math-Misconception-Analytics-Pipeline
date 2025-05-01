@@ -1,0 +1,32 @@
+name: Data Pipeline CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  pipeline-check:
+    runs-on: ubuntu-latest  # This will run the workflow on the latest version of Ubuntu.
+
+    steps:
+      # Step 1: Checkout the code from the repository
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Step 2: Set up Python
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.12'  # Specify the version of Python you want to use.
+
+      # Step 3: Install dependencies using requirements.txt
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      # Step 4: Run your main pipeline script
+      - name: Run pipeline script
+        run: |
+          python pipeline.py
