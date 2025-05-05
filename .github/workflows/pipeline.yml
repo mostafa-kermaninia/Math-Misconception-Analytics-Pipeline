@@ -29,10 +29,11 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         
-      - uses: actions/setup-python@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
           python-version: '3.12'
-          cache: 'pip'
+          cache: 'pip'  # این خط را حذف کنید اگر مشکل ادامه داشت
       
       - name: Install dependencies
         run: |
@@ -40,9 +41,9 @@ jobs:
           pip install -r requirements.txt
           pip install sqlalchemy pymysql pandas
       
-      - name: Configure MySQL securely
+      - name: Configure MySQL
         run: |
-          # ایجاد فایل پیکربندی امن برای MySQL
+          # راهکار امن‌تر برای اتصال به MySQL
           mysql_config="[client]\nuser=root\npassword=root\nhost=127.0.0.1"
           echo "$mysql_config" > ~/.my.cnf
           chmod 600 ~/.my.cnf
