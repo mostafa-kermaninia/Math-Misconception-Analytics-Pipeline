@@ -4,6 +4,7 @@ from sklearn.cluster import KMeans
 from scripts.load_data import load_data  # Import load_data function
 from scripts.preprocess import preprocess_data 
 import re
+from scripts.database_operations.import_df_to_db import import_dataframe
 
 def subject_clustering(df_dataset):
     subjects = df_dataset['subject'].unique()
@@ -235,5 +236,5 @@ if __name__ == "__main__":
     df_dataset = preprocess_data(df_questions, df_answers, df_misconceptions)
     # Perform feature engineering
     df_dataset = feature_engineering(df_dataset)
-    
+    import_dataframe(df_dataset)
     print("Feature engineering complete!")
