@@ -3,6 +3,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
 from scripts.load_data import load_data  # Import load_data function
 from scripts.preprocess import preprocess_data 
+import re
 
 def subject_clustering(df_dataset):
     subjects = df_dataset['subject'].unique()
@@ -213,9 +214,8 @@ def misconception_clustering(df_dataset):
     df_dataset['misconception_merged_id'] = df_dataset['misconception_merged'].map(cluster_mapping2num)
     return df_dataset
 
-def feature_engineering(df_questions, df_answers, df_misconceptions):
+def feature_engineering(df_dataset):
     """Perform feature engineering on the dataset."""
-    df_dataset = pd.DataFrame()
     df_dataset = subject_clustering(df_dataset)
     df_dataset = add_hardness_label(df_dataset)
     df_dataset = misconception_clustering(df_dataset)
@@ -224,9 +224,9 @@ def feature_engineering(df_questions, df_answers, df_misconceptions):
     df_questions.to_csv('./processed_data/processed_questions.csv', index=False)
     df_answers.to_csv('./processed_data/processed_answers.csv', index=False)
     df_misconceptions.to_csv('./processed_data/misconceptions.csv', index=False)
-    df_dataset.to_csv('./processed_data/misconceptions.csv', index=False)
-    
-    return df_questions, df_answers
+    df_dataset.to_csv('./processed_data/dataset.csv', index=False)
+    print(df_dataset.head())
+    return df_dataset
 
 if __name__ == "__main__":
     # Load and preprocess data
@@ -234,6 +234,6 @@ if __name__ == "__main__":
     
     df_dataset = preprocess_data(df_questions, df_answers, df_misconceptions)
     # Perform feature engineering
-    df_questions, df_answers = feature_engineering(df_questions, df_answers, df_misconceptions)
+    df_dataset = feature_engineering(df_dataset)
     
     print("Feature engineering complete!")
