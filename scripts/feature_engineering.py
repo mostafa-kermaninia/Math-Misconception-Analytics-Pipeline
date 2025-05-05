@@ -236,5 +236,5 @@ if __name__ == "__main__":
     df_dataset = preprocess_data(df_questions, df_answers, df_misconceptions)
     # Perform feature engineering
     df_dataset = feature_engineering(df_dataset)
-    import_dataframe(df_dataset)
+    # import_dataframe(df_dataset)
     print("Feature engineering complete!")
