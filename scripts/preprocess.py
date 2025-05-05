@@ -33,22 +33,22 @@ def preprocess_data(df_questions, df_answers, df_misconceptions):
                 (df_answers["QuestionId"] == question_id)
                 & (df_answers["AnswerType"] == "A"),
                 "AnswerText"
-            ],
+            ].values[0],
             'B': df_answers.loc[
                 (df_answers["QuestionId"] == question_id)
                 & (df_answers["AnswerType"] == "B"),
                 "AnswerText"
-            ],
+            ].values[0],
             'C': df_answers.loc[
                 (df_answers["QuestionId"] == question_id)
                 & (df_answers["AnswerType"] == "C"),
                 "AnswerText"
-            ],
+            ].values[0],
             'D': df_answers.loc[
                 (df_answers["QuestionId"] == question_id)
                 & (df_answers["AnswerType"] == "D"),
                 "AnswerText"
-            ]
+            ].values[0]
         }
 
         # Process each incorrect option
@@ -71,7 +71,6 @@ def preprocess_data(df_questions, df_answers, df_misconceptions):
                 "MisconceptionName"
             ]
             misconception_desc = misconception_desc.iloc[0]
-            # print(misconception_desc)
             
             # Feature engineering for LLM
             preprocess_data.append({
