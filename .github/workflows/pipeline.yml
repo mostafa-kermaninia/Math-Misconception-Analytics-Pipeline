@@ -48,16 +48,7 @@ jobs:
           echo "$mysql_config" > ~/.my.cnf
           chmod 600 ~/.my.cnf
           
-          # انتظار برای آماده‌سازی MySQL
-          for i in {1..10}; do
-            if mysql -e "SELECT 1" &>/dev/null; then
-              echo "MySQL is ready!"
-              break
-            else
-              echo "Waiting for MySQL... Attempt $i"
-              sleep 5
-            fi
-          done
+
           
           # ایجاد دیتابیس و کاربر با روش احراز هویت قدیمی
           mysql -e "CREATE DATABASE IF NOT EXISTS University_DB;"
