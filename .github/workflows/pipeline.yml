@@ -34,6 +34,15 @@ jobs:
         with:
           python-version: '3.12'
       
+      - name: Verify MySQL health
+        run: |
+          # بررسی وضعیت سلامت
+          docker inspect --format='{{.State.Health.Status}}' $(docker ps -qf "name=mysql")
+          
+          # بررسی IP کانتینر
+          echo "Container IP:"
+          docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' $(docker ps -qf "name=mysql")
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
