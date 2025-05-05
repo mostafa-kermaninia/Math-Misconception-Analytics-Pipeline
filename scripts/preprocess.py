@@ -22,11 +22,11 @@ def preprocess_data(df_questions, df_answers, df_misconceptions):
         # construct_subject = row["Construct_Subject"]
         subject = row["SubjectName"]
         correct_text = df_answers.loc[
-            (df_answers["AnswerType"] == question_id) &
-            (df_answers["QuestionId"] == correct_ans),
+            (df_answers["AnswerType"] == correct_ans) &
+            (df_answers["QuestionId"] == question_id),
             "AnswerText"
         ]
-
+        correct_text = correct_text.iloc[0]        
         # Extract all options
         options = {
             'A': df_answers.loc[

@@ -1,16 +1,32 @@
 import sqlalchemy
+import os
 
-# Database configuration
-DB_CONFIG = {
-    "user": "workbench_user",           # Username for your database
-    "password": "1",         # Password for your database
-    "host": "172.24.96.194",   # Host IP
-    "port": "3306",             # Port number
-    "database": "University_DB"  # Database name
+# Database configurations
+DB_CONFIGS = {
+    "local": {
+        "user": "workbench_user",
+        "password": "1",
+        "host": "172.24.96.194",
+        "port": "3306",
+        "database": "University_DB"
+    },
+    "github": {
+        "user": "root",
+        "password": "root",
+        "host": "localhost",
+        "port": "3306",
+        "database": "University_DB"
+    }
 }
 
-# Create a connection to the database
 def get_db_engine():
     """Returns a connection engine for MySQL."""
-    engine = sqlalchemy.create_engine(f"mysql+pymysql://{DB_CONFIG['user']}:{DB_CONFIG['password']}@{DB_CONFIG['host']}:{DB_CONFIG['port']}/{DB_CONFIG['database']}")
+    # Check if running in GitHub Actions
+    if os.getenv('GITHUB_ACTIONS') == 'true':
+        config = DB_CONFIGS["github"]
+    else:
+        config = DB_CONFIGS["local"]
+    
+    connection_string = f"mysql+pymysql://{config['user']}:{config['password']}@{config['host']}:{config['port']}/{config['database']}"
+    engine = sqlalchemy.create_engine(connection_string)
     return engine
