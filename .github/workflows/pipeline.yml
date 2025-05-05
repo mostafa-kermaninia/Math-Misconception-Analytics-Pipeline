@@ -25,7 +25,6 @@ jobs:
           --health-interval=15s
           --health-timeout=10s
           --health-retries=10
-          --default-authentication-plugin=mysql_native_password
 
     steps:
       - uses: actions/checkout@v3
@@ -41,36 +40,40 @@ jobs:
           pip install -r requirements.txt
           pip install cryptography pymysql
       
-      - name: Wait for MySQL to be ready
+      - name: Configure MySQL
         run: |
-          # ایجاد فایل پیکربندی موقت
-          echo "[client]\nuser=root\npassword=root\nhost=127.0.0.1" > ~/.my.cnf
+          # تنظیم فایل پیکربندی امن
+          echo "[client]
+          user=root
+          password=root
+          host=127.0.0.1
+          protocol=TCP" > ~/.my.cnf
           chmod 600 ~/.my.cnf
           
-          # افزایش زمان انتظار و تعداد تلاش‌ها
-          for i in {1..15}; do
-            if mysqladmin ping --silent; then
-              echo "MySQL is ready!"
+          # انتظار برای MySQL با تلاش‌های بیشتر
+          for i in {1..20}; do
+            if mysql -e "SET GLOBAL default_authentication_plugin='mysql_native_password'; SELECT 1" &>/dev/null; then
+              echo "MySQL is ready and configured!"
               mysql -e "CREATE DATABASE IF NOT EXISTS University_DB;"
               mysql -e "CREATE USER IF NOT EXISTS 'workbench_user'@'%' IDENTIFIED WITH mysql_native_password BY '1';"
               mysql -e "GRANT ALL PRIVILEGES ON University_DB.* TO 'workbench_user'@'%';"
               mysql -e "FLUSH PRIVILEGES;"
               exit 0
             else
-              echo "Waiting for MySQL... Attempt $i"
+              echo "Waiting for MySQL to be ready... Attempt $i"
               sleep 10
             fi
           done
-          echo "::error::Failed to connect to MySQL after 15 attempts"
+          echo "::error::MySQL failed to start after 20 attempts"
           exit 1
       
       - name: Verify dataset files
         run: |
           if [ ! -f "database/train.csv" ] || [ ! -f "database/misconception_mapping.csv" ]; then
-            echo "::error::Dataset files are missing!"
+            echo "::error::Required dataset files are missing!"
             exit 1
           fi
-          echo "Dataset files verified successfully"
+          echo "All dataset files present"
       
       - name: Run database import script
         env:
