@@ -1,32 +1,33 @@
 import sqlalchemy
 import os
 
-# Database configurations
-DB_CONFIGS = {
-    "local": {
-        "user": "workbench_user",
-        "password": "1",
-        "host": "172.24.96.194",
-        "port": "3306",
-        "database": "University_DB"
-    },
-    "github": {
-        "user": "root",
-        "password": "root",
-        "host": "localhost",
-        "port": "3306",
-        "database": "University_DB"
-    }
-}
-
 def get_db_engine():
-    """Returns a connection engine for MySQL."""
-    # Check if running in GitHub Actions
-    if os.getenv('GITHUB_ACTIONS') == 'true':
-        config = DB_CONFIGS["github"]
-    else:
-        config = DB_CONFIGS["local"]
+    """Returns a connection engine for MySQL with enhanced compatibility."""
+    # استفاده از متغیرهای محیطی اگر وجود دارند، در غیر این صورت از مقادیر پیش‌فرض
+    db_config = {
+        "user": os.getenv('DB_USER', 'workbench_user'),
+        "password": os.getenv('DB_PASSWORD', '1'),
+        "host": os.getenv('DB_HOST', '172.24.96.194'),
+        "port": os.getenv('DB_PORT', '3306'),
+        "database": os.getenv('DB_NAME', 'University_DB'),
+        "connect_args": {
+            'connect_timeout': 10  # افزایش زمان انتظار برای اتصال
+        }
+    }
     
-    connection_string = f"mysql+pymysql://{config['user']}:{config['password']}@{config['host']}:{config['port']}/{config['database']}"
-    engine = sqlalchemy.create_engine(connection_string)
+    # تنظیمات خاص برای GitHub Actions
+    if os.getenv('GITHUB_ACTIONS') == 'true':
+        db_config.update({
+            "host": "127.0.0.1",  # استفاده از localhost در GitHub Actions
+            "port": "3306",
+            "connect_args": {
+                'connect_timeout': 20  # زمان بیشتر برای محیط CI
+            }
+        })
+    
+    connection_string = f"mysql+pymysql://{db_config['user']}:{db_config['password']}@{db_config['host']}:{db_config['port']}/{db_config['database']}"
+    engine = sqlalchemy.create_engine(
+        connection_string,
+        pool_pre_ping=True,  # بررسی سلامت اتصال قبل از استفاده
+    )
     return engine
