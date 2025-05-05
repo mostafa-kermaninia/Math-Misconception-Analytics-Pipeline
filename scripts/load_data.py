@@ -22,6 +22,6 @@ def load_data():
 if __name__ == "__main__":
     # Load the data and print the first few rows
     df_questions, df_answers, df_misconceptions = load_data()
-    print("Questions DataFrame loaded:", df_questions.head())
-    print("Answers DataFrame loaded:", df_answers.head())
-    print("Misconceptions DataFrame loaded:", df_misconceptions.head())
+    # print("Questions DataFrame loaded:", df_questions.head())
+    # print("Answers DataFrame loaded:", df_answers.head())
+    # print("Misconceptions DataFrame loaded:", df_misconceptions.head())

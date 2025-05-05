@@ -6,10 +6,10 @@ def run_pipeline():
     print("Starting data pipeline...")
 
     # Load data
-    # subprocess.run(["python", "scripts/load_data.py"])
+    subprocess.run(["python", "scripts/load_data.py"])
     
     # Preprocess data
-    # subprocess.run(["python", "scripts/preprocess.py"])
+    subprocess.run(["python", "scripts/preprocess.py"])
     
     # Perform feature engineering
     subprocess.run(["python", "scripts/feature_engineering.py"])
