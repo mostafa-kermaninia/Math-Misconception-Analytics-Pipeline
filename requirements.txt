@@ -1,2 +1,4 @@
 pandas==2.0.3
 SQLAlchemy==2.0.40
+re==2.2.1
+scikit-learn==1.4.0
