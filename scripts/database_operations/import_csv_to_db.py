@@ -13,6 +13,7 @@ def reset_database():
         conn.execute(text("DROP TABLE IF EXISTS Answers"))
         conn.execute(text("DROP TABLE IF EXISTS Questions"))
         conn.execute(text("DROP TABLE IF EXISTS Misconceptions"))
+        conn.execute(text("DROP TABLE IF EXISTS Dataset"))
         
         # ایجاد مجدد دیتابیس
         conn.execute(text("CREATE DATABASE IF NOT EXISTS University_DB"))
@@ -55,6 +56,29 @@ def reset_database():
                     REFERENCES Misconceptions(MisconceptionId) 
                     ON DELETE SET NULL,
                 INDEX idx_misconception (MisconceptionId)
+            ) ENGINE=InnoDB;
+        """))
+        
+        conn.execute(text("""
+            CREATE TABLE IF NOT EXISTS Dataset (
+                question_id INT NOT NULL,
+                question_text TEXT NOT NULL,
+                construct TEXT NOT NULL,
+                subject TEXT NOT NULL,
+                correct_option CHAR(1) NOT NULL,
+                correct_text TEXT NOT NULL,
+                incorrect_option CHAR(1) NOT NULL,
+                incorrect_text TEXT NOT NULL,
+                has_math_symbols TEXT NOT NULL,
+                misconception_id INT NOT NULL,
+                misconception_desc TEXT NOT NULL,
+                subject_cluster TEXT NOT NULL,
+                difficulty TEXT NOT NULL,
+                misconception_cluster TEXT NOT NULL,
+                misconception_clusterId INT NOT NULL,
+                misconception_merged TEXT NOT NULL,
+                misconception_merged_id INT NOT NULL,
+                PRIMARY KEY (question_id, incorrect_option),
             ) ENGINE=InnoDB;
         """))
         
