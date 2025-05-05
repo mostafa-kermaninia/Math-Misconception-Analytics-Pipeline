@@ -1,10 +1,10 @@
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
-from scripts.load_data import load_data  # Import load_data function
-from scripts.preprocess import preprocess_data 
+from load_data import load_data  # Import load_data function
+from preprocess import preprocess_data 
 import re
-from scripts.database_operations.import_df_to_db import import_dataframe
+from database_operations.import_df_to_db import import_dataframe
 
 def subject_clustering(df_dataset):
     subjects = df_dataset['subject'].unique()

@@ -1,5 +1,5 @@
 import pandas as pd
-from scripts.load_data import load_data
+from load_data import load_data
 import re
 
 

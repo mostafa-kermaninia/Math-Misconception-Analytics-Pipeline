@@ -1,5 +1,5 @@
 import pandas as pd
-from scripts.database_connection import get_db_engine
+from database_connection import get_db_engine
 
 def load_data():
     """Queries data from the database and loads it into pandas DataFrames."""

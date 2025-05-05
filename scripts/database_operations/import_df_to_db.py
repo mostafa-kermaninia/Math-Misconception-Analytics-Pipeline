@@ -1,6 +1,6 @@
 import pandas as pd
 from sqlalchemy import create_engine
-from scripts.database_connection import get_db_engine
+from database_connection import get_db_engine
 
 def import_dataframe(df):
     """Import dataframe data into the database."""

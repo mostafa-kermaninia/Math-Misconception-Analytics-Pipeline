@@ -1,4 +1,5 @@
 MisconceptionId,MisconceptionName
+0,Does not know that angles in a triangle sum to 180 degrees
 1,Uses dividing fractions method for multiplying fractions
 2,Believes there are 100 degrees in a full turn
 3,"Thinks a quadratic without a non variable term, can not be factorised"
@@ -2590,4 +2591,3 @@ Has incorrect belief about the meaning of ""expression"""
 2584,Believes that any percentage of a larger number will be greater than any percentage of a smaller number
 2585,Believes a cubic expression should have three terms
 2586,Misunderstands order of operations in algebraic expressions
-2588,Does not know that angles in a triangle sum to 180 degrees

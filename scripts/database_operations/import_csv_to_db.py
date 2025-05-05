@@ -78,7 +78,7 @@ def reset_database():
                 misconception_clusterId INT NOT NULL,
                 misconception_merged TEXT NOT NULL,
                 misconception_merged_id INT NOT NULL,
-                PRIMARY KEY (question_id, incorrect_option),
+                PRIMARY KEY (question_id, incorrect_option)
             ) ENGINE=InnoDB;
         """))
         

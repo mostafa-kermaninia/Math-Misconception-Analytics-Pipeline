@@ -2,11 +2,11 @@ import sqlalchemy
 
 # Database configuration
 DB_CONFIG = {
-    "user": "Mosiyo",           # Username for your database
-    "password": "1383",         # Password for your database
-    "host": "172.29.143.138",   # Host IP
+    "user": "workbench_user",           # Username for your database
+    "password": "1",         # Password for your database
+    "host": "172.24.96.194",   # Host IP
     "port": "3306",             # Port number
-    "database": "DataScience_DB"  # Database name
+    "database": "University_DB"  # Database name
 }
 
 # Create a connection to the database

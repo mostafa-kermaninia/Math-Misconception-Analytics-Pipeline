@@ -16,7 +16,7 @@ Name: AnswerText, dtype: object",True,2142,"Does not know that to factorise a qu
 \( 24 \mathrm{~cm}, 17 \mathrm{~cm}, 42 \mathrm{~cm}, 26 \mathrm{~cm}, 13 \mathrm{~cm} \)
 Tom says if all the plants were cut in half, the range wouldn't change.
 Katie says if all the plants grew by \( 3 \mathrm{~cm} \) each, the range wouldn't change.
-Who do you agree with?",Calculate the range from a list of data,Range and Interquartile Range from a List of Data,B,"Series([], Name: AnswerText, dtype: object)",A,"8    Only\nTom
+Who do you agree with?",Calculate the range from a list of data,Range and Interquartile Range from a List of Data,B,"Series([], Name: AnswerText, dtype: object)",A,"8    Only\r\nTom
 Name: AnswerText, dtype: object",False,1287,Believes if you changed all values by the same proportion the range would not change,Core Mathematical Fundamentals,Medium,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
 2,"Tom and Katie are discussing the \( 5 \) plants with these heights:
 \( 24 \mathrm{~cm}, 17 \mathrm{~cm}, 42 \mathrm{~cm}, 26 \mathrm{~cm}, 13 \mathrm{~cm} \)
@@ -108,7 +108,7 @@ Name: AnswerText, dtype: object",True,907,Does not find a common denominator whe
 to the graph of
 \(
 y=f(x-3)
-\)",Identify horizontal translations in the form f(x) = for non-trigonometric functions,Transformations of functions in the form f(x),C,"Series([], Name: AnswerText, dtype: object)",A,"36    Translation by vector\n\(\n\left[\begin{array}...
+\)",Identify horizontal translations in the form f(x) = for non-trigonometric functions,Transformations of functions in the form f(x),C,"Series([], Name: AnswerText, dtype: object)",A,"36    Translation by vector\r\n\(\r\n\left[\begin{ar...
 Name: AnswerText, dtype: object",True,1889,Believes f(x - a) translates the function up a units,Core Mathematical Fundamentals,Medium,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
 9,"What transformation maps the graph of
 \(y=f(x)
@@ -116,7 +116,7 @@ Name: AnswerText, dtype: object",True,1889,Believes f(x - a) translates the func
 to the graph of
 \(
 y=f(x-3)
-\)",Identify horizontal translations in the form f(x) = for non-trigonometric functions,Transformations of functions in the form f(x),C,"Series([], Name: AnswerText, dtype: object)",B,"37    Translation by vector\n\(\n\left[\begin{array}...
+\)",Identify horizontal translations in the form f(x) = for non-trigonometric functions,Transformations of functions in the form f(x),C,"Series([], Name: AnswerText, dtype: object)",B,"37    Translation by vector\r\n\(\r\n\left[\begin{ar...
 Name: AnswerText, dtype: object",True,1234,Believes f(x + a) translates the function up a units,Core Mathematical Fundamentals,Medium,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
 9,"What transformation maps the graph of
 \(y=f(x)
@@ -124,7 +124,7 @@ Name: AnswerText, dtype: object",True,1234,Believes f(x + a) translates the func
 to the graph of
 \(
 y=f(x-3)
-\)",Identify horizontal translations in the form f(x) = for non-trigonometric functions,Transformations of functions in the form f(x),C,"Series([], Name: AnswerText, dtype: object)",D,"39    Translation by vector\n\(\n\left[\begin{array}...
+\)",Identify horizontal translations in the form f(x) = for non-trigonometric functions,Transformations of functions in the form f(x),C,"Series([], Name: AnswerText, dtype: object)",D,"39    Translation by vector\r\n\(\r\n\left[\begin{ar...
 Name: AnswerText, dtype: object",True,1312,Believes f(x) + a translates the function right a units,Core Mathematical Fundamentals,Medium,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
 10,"John is expanding these three brackets:
 \(
@@ -148,7 +148,7 @@ Name: AnswerText, dtype: object",False,690,Struggles to visualise nets of 3D sha
 Tom says angles \( p \) and \( q \) are alternate.
 
 Katie says angles \( p \) and \( q \) are equal.
-Who is correct? ![Shows two non parallel lines that are intersected by another line. Angles P and Q are both on the outside of the lines and on opposite sides of the transversal.]()",Identify alternate angles,Angle Facts with Parallel Lines,A,"Series([], Name: AnswerText, dtype: object)",B,"49    Only\nKatie
+Who is correct? ![Shows two non parallel lines that are intersected by another line. Angles P and Q are both on the outside of the lines and on opposite sides of the transversal.]()",Identify alternate angles,Angle Facts with Parallel Lines,A,"Series([], Name: AnswerText, dtype: object)",B,"49    Only\r\nKatie
 Name: AnswerText, dtype: object",False,2156,Thinks alternate angles are always equal,Graphs & Coordinate Geometry,Medium,Ratio & Proportional Reasoning Errors,0,Fractions_Ratios,2
 12,"Tom and Katie are arguing about alternate angles.
 Tom says angles \( p \) and \( q \) are alternate.
@@ -959,7 +959,7 @@ Tom says you can write: \( 5 v+1=-3 \)
 
 Katie says you can write: \( 4 v+4=9 v \)
 
-Who is correct?","Solve linear equations with the variable appearing on both sides, with all positive integers",Linear Equations,B,"Series([], Name: AnswerText, dtype: object)",A,"384    Only\nTom
+Who is correct?","Solve linear equations with the variable appearing on both sides, with all positive integers",Linear Equations,B,"Series([], Name: AnswerText, dtype: object)",A,"384    Only\r\nTom
 Name: AnswerText, dtype: object",True,1138,Subtracts the smallest digit from the largest digit,Core Mathematical Fundamentals,Hard,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 96,"Tom and Katie are arguing about a first step to solve this equation:
 \(4 v+1=9 v-3\)
@@ -1142,7 +1142,7 @@ Name: AnswerText, dtype: object",True,2131,"When multiplying out 2 or more brack
 114,"When you multiply out the brackets and simplify, what replaces the triangle?
 \(
 m(m+5)(m-5) \equiv m^{3} \bigstar \ m^{2} \triangle \ m \bigcirc
-\)",Expand double brackets with an extra variable outside,Expanding Double Brackets,A,"Series([], Name: AnswerText, dtype: object)",D,"459    \(\n\triangle=+0\n\)\n(no \( m \) term)
+\)",Expand double brackets with an extra variable outside,Expanding Double Brackets,A,"Series([], Name: AnswerText, dtype: object)",D,"459    \(\r\n\triangle=+0\r\n\)\r\n(no \( m \) term)
 Name: AnswerText, dtype: object",True,2256,Believes the constant in an expanded quadratic comes from adding the two numbers in the brackets,Core Mathematical Fundamentals,Hard,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
 115,Three left and five down in vector notation is... \( \left(\begin{array}{c}\triangle \\ \bigcirc\end{array}\right) \) What should replace the \( \triangle \) ?,Write a given translation in vector notation,Translation and Vectors,B,"Series([], Name: AnswerText, dtype: object)",A,"460    \( 3 \)
 Name: AnswerText, dtype: object",False,851,Thinks a negative x value in a column vector means to move right rather than left ,Core Mathematical Fundamentals,Easy,Ratio & Proportional Reasoning Errors,0,Fractions_Ratios,2
@@ -1176,12 +1176,12 @@ Name: AnswerText, dtype: object",True,2332,Uses slant height instead of perpendi
 119,"Tom and Katie are trying to write different calculations for the diagram on the left.
 Tom writes: \( -3 \times(-8)=-24 \)
 Katie writes: \( \frac{(-24)}{-3}=-8 \)
-Who is correct? ![A diagram showing an arrow to the left, marked with a value of -24. Underneath this arrow there is a smaller arrow, still pointing to the left, that is a third of the length of the larger arrow]()",Carry out division  problems involving one negative integer,Multiplying and Dividing Negative Numbers,D,"Series([], Name: AnswerText, dtype: object)",A,"476    Only\nTom
+Who is correct? ![A diagram showing an arrow to the left, marked with a value of -24. Underneath this arrow there is a smaller arrow, still pointing to the left, that is a third of the length of the larger arrow]()",Carry out division  problems involving one negative integer,Multiplying and Dividing Negative Numbers,D,"Series([], Name: AnswerText, dtype: object)",A,"476    Only\r\nTom
 Name: AnswerText, dtype: object",True,1597,Believes multiplying two negatives gives a negative answer,"Fractions, Decimals & Conversions",Hard,Decimal Operations & Place Value,6,Fundamental_Arithmetic,1
 119,"Tom and Katie are trying to write different calculations for the diagram on the left.
 Tom writes: \( -3 \times(-8)=-24 \)
 Katie writes: \( \frac{(-24)}{-3}=-8 \)
-Who is correct? ![A diagram showing an arrow to the left, marked with a value of -24. Underneath this arrow there is a smaller arrow, still pointing to the left, that is a third of the length of the larger arrow]()",Carry out division  problems involving one negative integer,Multiplying and Dividing Negative Numbers,D,"Series([], Name: AnswerText, dtype: object)",B,"477    Only\nKatie
+Who is correct? ![A diagram showing an arrow to the left, marked with a value of -24. Underneath this arrow there is a smaller arrow, still pointing to the left, that is a third of the length of the larger arrow]()",Carry out division  problems involving one negative integer,Multiplying and Dividing Negative Numbers,D,"Series([], Name: AnswerText, dtype: object)",B,"477    Only\r\nKatie
 Name: AnswerText, dtype: object",True,1400,Believes dividing a negative by a negative gives a negative answer,"Fractions, Decimals & Conversions",Hard,Decimal Operations & Place Value,6,Fundamental_Arithmetic,1
 120,"Square \( \mathrm{P} \) has an area of \( 4 \mathrm{~cm}^{2} \)
 Square \( Q \) has an area of \( 4 \mathrm{~mm}^{2} \)
@@ -1262,7 +1262,7 @@ Name: AnswerText, dtype: object",True,1743,Believes that the coefficient of x re
 128,"Jo and Paul are arguing about the result of this Function Machine:
 Jo says the output is: \( \frac{n}{5}+3 \)
 Paul says the output is: \( \frac{n+3}{5} \)
-Who is correct? ![A function machine showing an input of n and operations divide by 5 and add 3]()",Use brackets to write function machines as calculations,Writing Expressions,A,"Series([], Name: AnswerText, dtype: object)",B,"513    Only\nPaul
+Who is correct? ![A function machine showing an input of n and operations divide by 5 and add 3]()",Use brackets to write function machines as calculations,Writing Expressions,A,"Series([], Name: AnswerText, dtype: object)",B,"513    Only\r\nPaul
 Name: AnswerText, dtype: object",True,77,"Does not follow the arrows through a function machine, changes the order of the operations asked.",Core Mathematical Fundamentals,Medium,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 128,"Jo and Paul are arguing about the result of this Function Machine:
 Jo says the output is: \( \frac{n}{5}+3 \)
@@ -1286,7 +1286,7 @@ Name: AnswerText, dtype: object",True,1648,Believes dividing two positives will 
 When calculating the nth-term rule of this sequence, what should replace the triangle?
 
 nth-term rule: \( 3 n^{2} \)\( \color{red}\triangle \)  \(n\) \( \color{purple}\square \)
-",Find the nth term rule for ascending quadratic sequences in the form ax² + bx + c,Quadratic Sequences,B,"Series([], Name: AnswerText, dtype: object)",A,"520    \[\n+1\n\]\n(or just a + sign)
+",Find the nth term rule for ascending quadratic sequences in the form ax² + bx + c,Quadratic Sequences,B,"Series([], Name: AnswerText, dtype: object)",A,"520    \[\r\n+1\r\n\]\r\n(or just a + sign)
 Name: AnswerText, dtype: object",True,1213,"When finding the differences between terms in a sequence, believes they can do so from right to left ",Numerical Sequences & Patterns,Hard,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
 130,"\(
 6,14,28,48,74, \ldots
@@ -1408,7 +1408,7 @@ Name: AnswerText, dtype: object",True,838,"When factorising a quadratic without 
 
 Katie says the star could be \( -4 \)
 
-Who is correct?","Given a negative x value, find the corresponding y value for curves in the form y = x² + c",Plotting Quadratics from Tables of Values,C,"Series([], Name: AnswerText, dtype: object)",A,"564    Only\nTom
+Who is correct?","Given a negative x value, find the corresponding y value for curves in the form y = x² + c",Plotting Quadratics from Tables of Values,C,"Series([], Name: AnswerText, dtype: object)",A,"564    Only\r\nTom
 Name: AnswerText, dtype: object",True,82,Believes the square of a negative will also be negative,Core Mathematical Fundamentals,Hard,Decimal Operations & Place Value,6,Fundamental_Arithmetic,1
 142,"What is the size of the marked angle? ![A 360 degree protractor with 2 red lines and a pink sector marking out a reflex angle being measured by the protractor. The inner scale goes from 0 to 360 in an anti-clockwise direction. The angle is between one red line that is at 0 (inner scale) and 180 (outer scale) on the protractor and goes anti-clockwise to the other red line that is half way between 330 and 340 (inner scale) and halfway between 210 and 200 (outer scale).
 ]()",Use a protractor to measure angles between 270° and 360°,Measuring Angles,C,"Series([], Name: AnswerText, dtype: object)",A,"568    \( 345^{\circ} \)
@@ -1702,7 +1702,7 @@ Name: AnswerText, dtype: object",True,1743,Believes that the coefficient of x re
 175,"Tom and Katie are arguing about the diagonals of quadrilaterals.
 Tom says a kite has bisecting diagonals.
 Katie says a rhombus has bisecting diagonals.
-Who is correct? ![A pair of intersecting lines]()",Recall and use the intersecting diagonals properties of a rhombus,Properties of Quadrilaterals,B,"Series([], Name: AnswerText, dtype: object)",A,"700    Only\nTom
+Who is correct? ![A pair of intersecting lines]()",Recall and use the intersecting diagonals properties of a rhombus,Properties of Quadrilaterals,B,"Series([], Name: AnswerText, dtype: object)",A,"700    Only\r\nTom
 Name: AnswerText, dtype: object",False,1940,Believes a kite has bisecting diagonals,Geometry & Shapes,Medium,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
 175,"Tom and Katie are arguing about the diagonals of quadrilaterals.
 Tom says a kite has bisecting diagonals.
@@ -1838,7 +1838,7 @@ Name: AnswerText, dtype: object",True,22,Confuses the ten thousands and thousand
 She shares them into \( 6 \) equal groups and there is one left over.
 How many apples could she have?",Carry out mental divisions when the answer leaves a remainder,Mental Multiplication and Division,D,"Series([], Name: AnswerText, dtype: object)",C,"750    \( 35 \)
 Name: AnswerText, dtype: object",False,2329,Thinks the remainder is the difference between the dividend and the next biggest multiple,Core Mathematical Fundamentals,Easy,Ratio & Proportional Reasoning Errors,0,Fractions_Ratios,2
-188,"Tom and Katie are arguing about how to reflect the object in the line of reflection. Who reflects it correctly? ![A grid with a left-leaning parallelogram drawn in the upper half and a blue line across the middle, marked 'line of reflection'. ]() ![Tom does this: an image of a grid with a left-leaning parallelogram drawn in the upper half, a blue line across the middle and a left-leaning parallelogram drawn immediately below. ]() ![Katie does this: An image of a grid with a left-leaning parallelogram drawn in the upper half, a blue line across the middle and a left-leaning parallelogram drawn one line down from the blue line. ]()","Reflect an object or a point in a horizontal line with the line of reflection drawn, where the line of reflection lies on the edge or outside the object",Reflection,D,"Series([], Name: AnswerText, dtype: object)",A,"752    Only\nTom
+188,"Tom and Katie are arguing about how to reflect the object in the line of reflection. Who reflects it correctly? ![A grid with a left-leaning parallelogram drawn in the upper half and a blue line across the middle, marked 'line of reflection'. ]() ![Tom does this: an image of a grid with a left-leaning parallelogram drawn in the upper half, a blue line across the middle and a left-leaning parallelogram drawn immediately below. ]() ![Katie does this: An image of a grid with a left-leaning parallelogram drawn in the upper half, a blue line across the middle and a left-leaning parallelogram drawn one line down from the blue line. ]()","Reflect an object or a point in a horizontal line with the line of reflection drawn, where the line of reflection lies on the edge or outside the object",Reflection,D,"Series([], Name: AnswerText, dtype: object)",A,"752    Only\r\nTom
 Name: AnswerText, dtype: object",True,1990,Fails to reflect across mirror line,Core Mathematical Fundamentals,Hard,Fraction Operations & Concepts,1,Fractions_Ratios,2
 188,"Tom and Katie are arguing about how to reflect the object in the line of reflection. Who reflects it correctly? ![A grid with a left-leaning parallelogram drawn in the upper half and a blue line across the middle, marked 'line of reflection'. ]() ![Tom does this: an image of a grid with a left-leaning parallelogram drawn in the upper half, a blue line across the middle and a left-leaning parallelogram drawn immediately below. ]() ![Katie does this: An image of a grid with a left-leaning parallelogram drawn in the upper half, a blue line across the middle and a left-leaning parallelogram drawn one line down from the blue line. ]()","Reflect an object or a point in a horizontal line with the line of reflection drawn, where the line of reflection lies on the edge or outside the object",Reflection,D,"Series([], Name: AnswerText, dtype: object)",B,"753    Only Katie
 Name: AnswerText, dtype: object",True,1990,Fails to reflect across mirror line,Core Mathematical Fundamentals,Hard,Fraction Operations & Concepts,1,Fractions_Ratios,2
@@ -2079,7 +2079,7 @@ Tom says \( \boldsymbol{y}=\mathbf{2 x}+\mathbf{3} \) and \( \boldsymbol{y}=\mat
 
 Katie says \( \boldsymbol{y}=\mathbf{2 x}+\mathbf{3} \) and \( \boldsymbol{y}=\mathbf{2 x}-\mathbf{3} \) are parallel.
 
-Who is correct?",Identify parallel lines written in the form y = mx + c,Parallel Lines,B,"Series([], Name: AnswerText, dtype: object)",A,"864    Only\nTom
+Who is correct?",Identify parallel lines written in the form y = mx + c,Parallel Lines,B,"Series([], Name: AnswerText, dtype: object)",A,"864    Only\r\nTom
 Name: AnswerText, dtype: object",True,2037,Believes switching the gradient and y-intercept gives a parallel line,Graphs & Coordinate Geometry,Hard,Fraction Operations & Concepts,1,Fractions_Ratios,2
 216,"Tom and Katie are arguing about parallel lines.
 
@@ -2347,7 +2347,7 @@ expanded and simplified?
 \(
 (p-3)(p+3) \equiv p^{2} \color{purple}\triangle\) \(p\)\(\color{green}\bigcirc
 \)
-",Expand two brackets with linear terms in the form (x + a)(x + b),Expanding Double Brackets,D,"Series([], Name: AnswerText, dtype: object)",B,"949    \(\color{green}\bigcirc\) = +0 \n(no number term)
+",Expand two brackets with linear terms in the form (x + a)(x + b),Expanding Double Brackets,D,"Series([], Name: AnswerText, dtype: object)",B,"949    \(\color{green}\bigcirc\) = +0 \r\n(no number ...
 Name: AnswerText, dtype: object",True,2256,Believes the constant in an expanded quadratic comes from adding the two numbers in the brackets,Core Mathematical Fundamentals,Hard,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
 237,"What should replace the circle when these two brackets are
 expanded and simplified?
@@ -2433,7 +2433,7 @@ Name: AnswerText, dtype: object",False,332,Confuses reciprocal and quadratic gra
 
 Katie says if you subtract the two equations together you will eliminate a variable
 
-Who is correct?",Recognise whether you need to add or subtract linear equations in order to eliminate a variable,Simultaneous Equations,B,"Series([], Name: AnswerText, dtype: object)",A,"996    Only\nTom
+Who is correct?",Recognise whether you need to add or subtract linear equations in order to eliminate a variable,Simultaneous Equations,B,"Series([], Name: AnswerText, dtype: object)",A,"996    Only\r\nTom
 Name: AnswerText, dtype: object",True,1233,"Believes that when eliminating a variable, if the signs of the terms with matching coefficients are the same, we add the equations.",Core Mathematical Fundamentals,Hard,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
 249,"Tom and Katie are discussing this pair of simultaneous equations: \( \begin{array}{l}3 x-2 y=8 \\ 3 x+y=14\end{array} \) Tom says if you add the two equations together you will eliminate a variable
 
@@ -2465,7 +2465,7 @@ Name: AnswerText, dtype: object",False,1460,Identifies second decimal place valu
 \( 2p-4q=6 \) & \( 2p-4q=6 \)\\
 \( 7p+4q=9 \) & \( 7p-4q=9 \)
 \end{array}
-",Recognise whether you need to add or subtract linear equations in order to eliminate a variable,Simultaneous Equations,A,"Series([], Name: AnswerText, dtype: object)",B,"1005    Add Pair \( 1 \)\nAdd Pair \( 2 \)
+",Recognise whether you need to add or subtract linear equations in order to eliminate a variable,Simultaneous Equations,A,"Series([], Name: AnswerText, dtype: object)",B,"1005    Add Pair \( 1 \)\r\nAdd Pair \( 2 \)
 Name: AnswerText, dtype: object",True,1233,"Believes that when eliminating a variable, if the signs of the terms with matching coefficients are the same, we add the equations.",Core Mathematical Fundamentals,Hard,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
 251,"What do you need to do to eliminate the \( q \)s in each of these pairs of simultaneous equations?
 \begin{array}{cc}
@@ -2473,7 +2473,7 @@ Name: AnswerText, dtype: object",True,1233,"Believes that when eliminating a var
 \( 2p-4q=6 \) & \( 2p-4q=6 \)\\
 \( 7p+4q=9 \) & \( 7p-4q=9 \)
 \end{array}
-",Recognise whether you need to add or subtract linear equations in order to eliminate a variable,Simultaneous Equations,A,"Series([], Name: AnswerText, dtype: object)",D,"1007    Subtract Pair \( 1 \)\nSubtract Pair \( 2 \)
+",Recognise whether you need to add or subtract linear equations in order to eliminate a variable,Simultaneous Equations,A,"Series([], Name: AnswerText, dtype: object)",D,"1007    Subtract Pair \( 1 \)\r\nSubtract Pair \( 2 \)
 Name: AnswerText, dtype: object",True,1420,"Believes that when eliminating a variable, regardless of the signs of the terms with matching coefficients, we subtract the equations",Core Mathematical Fundamentals,Hard,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
 252,\( y=(x-3)(x-5) \) Where does this curve intercept the \( x \) axis?,Know that the factorised form of a quadratic is useful for finding where the curve crosses the x-axis,Sketching from Factorised Form,B,"Series([], Name: AnswerText, dtype: object)",A,"1008    \( (3,5) \)
 Name: AnswerText, dtype: object",True,1168,Believes both the x and y co-ordinates of the x-intercept of a quadratic are derived from the constants in the factorised form.,Core Mathematical Fundamentals,Medium,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
@@ -2647,17 +2647,17 @@ Name: AnswerText, dtype: object",False,1927,Does not know the definition of a pr
 272,"What transformation maps the graph of
 \(y=f(x)\)
 to the graph of
-\(y=-f(x)\)",Identify vertical reflections in the form f(x) = for non-trigonometric functions,Transformations of functions in the form f(x),A,"Series([], Name: AnswerText, dtype: object)",B,"1089    Reflection in the\n\[\ny \text {-axis }\n\]
+\(y=-f(x)\)",Identify vertical reflections in the form f(x) = for non-trigonometric functions,Transformations of functions in the form f(x),A,"Series([], Name: AnswerText, dtype: object)",B,"1089    Reflection in the\r\n\[\r\ny \text {-axis }\r\n\]
 Name: AnswerText, dtype: object",True,594,Believes y=-f(x) is a reflection in the y-axis,Core Mathematical Fundamentals,Easy,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
 272,"What transformation maps the graph of
 \(y=f(x)\)
 to the graph of
-\(y=-f(x)\)",Identify vertical reflections in the form f(x) = for non-trigonometric functions,Transformations of functions in the form f(x),A,"Series([], Name: AnswerText, dtype: object)",C,"1090    Reflection in the line\n\[\ny=x\n\]
+\(y=-f(x)\)",Identify vertical reflections in the form f(x) = for non-trigonometric functions,Transformations of functions in the form f(x),A,"Series([], Name: AnswerText, dtype: object)",C,"1090    Reflection in the line\r\n\[\r\ny=x\r\n\]
 Name: AnswerText, dtype: object",True,47,Believes y=-f(x) is a reflection in y=x,Core Mathematical Fundamentals,Easy,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
 272,"What transformation maps the graph of
 \(y=f(x)\)
 to the graph of
-\(y=-f(x)\)",Identify vertical reflections in the form f(x) = for non-trigonometric functions,Transformations of functions in the form f(x),A,"Series([], Name: AnswerText, dtype: object)",D,"1091    Reflection in the line\n\[\ny=-x\n\]
+\(y=-f(x)\)",Identify vertical reflections in the form f(x) = for non-trigonometric functions,Transformations of functions in the form f(x),A,"Series([], Name: AnswerText, dtype: object)",D,"1091    Reflection in the line\r\n\[\r\ny=-x\r\n\]
 Name: AnswerText, dtype: object",True,1303,Believes y=-f(x) is a reflection in y=-x,Core Mathematical Fundamentals,Easy,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
 273,"![Two angles meeting on a straight line, labelled a degrees and b degrees]() Which of the following is true?",Recognise the angles on a straight line relationship,"Basic Angle Facts (straight line, opposite, around a point, etc)",A,"Series([], Name: AnswerText, dtype: object)",B,"1093    \( a+b=360^{\circ} \)
 Name: AnswerText, dtype: object",False,2362,Believes angles on a straight line add to 360 degrees,Graphs & Coordinate Geometry,Easy,Fraction Operations & Concepts,1,Fractions_Ratios,2
@@ -2750,7 +2750,7 @@ Name: AnswerText, dtype: object",False,2359,Believes division is commutative ,"F
 287,"Tom and Katie are discussing units of time 
 Tom says days is a unit of time 
 Katie says \( \mathrm{km} / \mathrm{h} \) is a unit of time 
-Who is correct?",Identify a unit of time,Time,A,"Series([], Name: AnswerText, dtype: object)",B,"1149    Only\nKatie
+Who is correct?",Identify a unit of time,Time,A,"Series([], Name: AnswerText, dtype: object)",B,"1149    Only\r\nKatie
 Name: AnswerText, dtype: object",False,2507,Mistakes unit of speed for unit of time,Graphs & Coordinate Geometry,Medium,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 287,"Tom and Katie are discussing units of time 
 Tom says days is a unit of time 
@@ -2836,7 +2836,7 @@ Name: AnswerText, dtype: object",False,31,Does not understand bar modelling in a
 \hline
 \end{tabular} Who do you agree with?",Represent an equation using a bar model,Writing Expressions,B,"Series([], Name: AnswerText, dtype: object)",D,"1175    Neither is correct
 Name: AnswerText, dtype: object",False,31,Does not understand bar modelling in algebra,Core Mathematical Fundamentals,Medium,Simplification & Conversion Errors,9,Data_Conversions,5
-294,Tom and Katie are discussing regular polygons Tom says this is a regular polygon: ![A rhombus]() Katie says this is a regular polygon: ![A rectangle]() Who is correct?,"Understand the terms equilateral and regular, and recognise the notation for regular polygons",Properties of Polygons,D,"Series([], Name: AnswerText, dtype: object)",A,"1176    Only\nTom
+294,Tom and Katie are discussing regular polygons Tom says this is a regular polygon: ![A rhombus]() Katie says this is a regular polygon: ![A rectangle]() Who is correct?,"Understand the terms equilateral and regular, and recognise the notation for regular polygons",Properties of Polygons,D,"Series([], Name: AnswerText, dtype: object)",A,"1176    Only\r\nTom
 Name: AnswerText, dtype: object",False,294,Thinks that only the sides need to be equal for a polygon to be regular,Geometry & Shapes,Medium,Ratio & Proportional Reasoning Errors,0,Fractions_Ratios,2
 294,Tom and Katie are discussing regular polygons Tom says this is a regular polygon: ![A rhombus]() Katie says this is a regular polygon: ![A rectangle]() Who is correct?,"Understand the terms equilateral and regular, and recognise the notation for regular polygons",Properties of Polygons,D,"Series([], Name: AnswerText, dtype: object)",B,"1177    Only Katie
 Name: AnswerText, dtype: object",False,2104,Thinks that only the angles need to be the same for a polygon to be regular,Geometry & Shapes,Medium,Ratio & Proportional Reasoning Errors,0,Fractions_Ratios,2
@@ -2971,17 +2971,17 @@ Name: AnswerText, dtype: object",True,1214,"When solving an equation, uses the s
 306,"Problem P: \( 4-5+6= \)
 Problem Q: \( 4+5 \times 6= \)
 
-Which calculation should you do first in each problem?","Use the order of operations to carry out calculations involving addition, subtraction, multiplication, and/or division",BIDMAS,B,"Series([], Name: AnswerText, dtype: object)",A,"1224    Problem P: \( 4-5 \)\nProblem Q: \( 4+5 \)
+Which calculation should you do first in each problem?","Use the order of operations to carry out calculations involving addition, subtraction, multiplication, and/or division",BIDMAS,B,"Series([], Name: AnswerText, dtype: object)",A,"1224    Problem P: \( 4-5 \)\r\nProblem Q: \( 4+5 \)
 Name: AnswerText, dtype: object",True,1507,Carries out operations from left to right regardless of priority order,Core Mathematical Fundamentals,Medium,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 306,"Problem P: \( 4-5+6= \)
 Problem Q: \( 4+5 \times 6= \)
 
-Which calculation should you do first in each problem?","Use the order of operations to carry out calculations involving addition, subtraction, multiplication, and/or division",BIDMAS,B,"Series([], Name: AnswerText, dtype: object)",C,"1226    Problem P: \( 5+6 \)\nProblem Q: \( 4+5 \)
+Which calculation should you do first in each problem?","Use the order of operations to carry out calculations involving addition, subtraction, multiplication, and/or division",BIDMAS,B,"Series([], Name: AnswerText, dtype: object)",C,"1226    Problem P: \( 5+6 \)\r\nProblem Q: \( 4+5 \)
 Name: AnswerText, dtype: object",True,1516,Performs addition ahead of any other operation,Core Mathematical Fundamentals,Medium,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 306,"Problem P: \( 4-5+6= \)
 Problem Q: \( 4+5 \times 6= \)
 
-Which calculation should you do first in each problem?","Use the order of operations to carry out calculations involving addition, subtraction, multiplication, and/or division",BIDMAS,B,"Series([], Name: AnswerText, dtype: object)",D,"1227    Problem P: \( 5+6 \)\nProblem Q: \( 5 \times 6 \)
+Which calculation should you do first in each problem?","Use the order of operations to carry out calculations involving addition, subtraction, multiplication, and/or division",BIDMAS,B,"Series([], Name: AnswerText, dtype: object)",D,"1227    Problem P: \( 5+6 \)\r\nProblem Q: \( 5 \times...
 Name: AnswerText, dtype: object",True,2306,"Applies BIDMAS in strict order (does not realize addition and subtraction, and multiplication and division, are of equal priority)",Core Mathematical Fundamentals,Medium,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 307,"Eliza is trying to work out if \( 82 \) is a term in the sequence \( 3 n+1 \)
 
@@ -3194,7 +3194,7 @@ Name: AnswerText, dtype: object",True,234,Subtracts instead of adds,"Fractions, 
 329,"Tom and Katie are discussing the order of operations
 Tom says: \( 0.1-0.2 \div 0.3 \equiv 0.1-(0.2 \div 0.3) \)
 Katie says: \( 0.1-0.2 \div 0.3 \equiv 0.2 \div 0.3-0.1 \)
-Who is correct?",Answer decimal problems that require the use of BIDMAS,BIDMAS,A,"Series([], Name: AnswerText, dtype: object)",B,"1317    Only\nKatie
+Who is correct?",Answer decimal problems that require the use of BIDMAS,BIDMAS,A,"Series([], Name: AnswerText, dtype: object)",B,"1317    Only\r\nKatie
 Name: AnswerText, dtype: object",True,1507,Carries out operations from left to right regardless of priority order,Core Mathematical Fundamentals,Hard,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 329,"Tom and Katie are discussing the order of operations
 Tom says: \( 0.1-0.2 \div 0.3 \equiv 0.1-(0.2 \div 0.3) \)
@@ -3285,7 +3285,7 @@ Jo says a good way to add \( 19 \) is to add \( 10 \), then another \( 10 \) and
 
 Paul says a good way to subtract \( 19 \) is to subtract \( 10 \), then another \( 10 \) and then add \( 1 \).
 
-Who is correct?",Recognise and use efficient strategies for mental subtraction,Mental Addition and Subtraction,C,"Series([], Name: AnswerText, dtype: object)",A,"1340    Only\nJo
+Who is correct?",Recognise and use efficient strategies for mental subtraction,Mental Addition and Subtraction,C,"Series([], Name: AnswerText, dtype: object)",A,"1340    Only\r\nJo
 Name: AnswerText, dtype: object",False,1338,Does not understand the effect of consecutive operations,Core Mathematical Fundamentals,Medium,Simplification & Conversion Errors,9,Data_Conversions,5
 335,"Jo and Paul are discussing mental addition and subtraction strategies.
 
@@ -3293,7 +3293,7 @@ Jo says a good way to add \( 19 \) is to add \( 10 \), then another \( 10 \) and
 
 Paul says a good way to subtract \( 19 \) is to subtract \( 10 \), then another \( 10 \) and then add \( 1 \).
 
-Who is correct?",Recognise and use efficient strategies for mental subtraction,Mental Addition and Subtraction,C,"Series([], Name: AnswerText, dtype: object)",B,"1341    Only\nPaul
+Who is correct?",Recognise and use efficient strategies for mental subtraction,Mental Addition and Subtraction,C,"Series([], Name: AnswerText, dtype: object)",B,"1341    Only\r\nPaul
 Name: AnswerText, dtype: object",False,1338,Does not understand the effect of consecutive operations,Core Mathematical Fundamentals,Medium,Simplification & Conversion Errors,9,Data_Conversions,5
 335,"Jo and Paul are discussing mental addition and subtraction strategies.
 
@@ -3315,7 +3315,7 @@ Name: AnswerText, dtype: object",True,1310,"When interpreting a pictogram, think
 337,"Jo and Paul are arguing about percentages.
 Jo says \( 52 \%=0.052 \)
 Paul says \( 52 \%<\frac{20}{41} \)
-Who is correct?","Solve problems involving converting between fractions, decimals and percentages",Converting between Fractions and Percentages,D,"Series([], Name: AnswerText, dtype: object)",A,"1348    Only\nJo
+Who is correct?","Solve problems involving converting between fractions, decimals and percentages",Converting between Fractions and Percentages,D,"Series([], Name: AnswerText, dtype: object)",A,"1348    Only\r\nJo
 Name: AnswerText, dtype: object",True,1622,Divides by 1000 instead of 100 when converting a percentage to a decimal,"Fractions, Decimals & Conversions",Easy,Spatial Reasoning & Estimation,7,Geometry_Spatial,4
 338,Complete the statement \( \frac{4}{6}=\frac{}{12} \),Identify equivalent fractions when presented as numbers,Equivalent Fractions,D,"Series([], Name: AnswerText, dtype: object)",A,"1352    \( \frac{4}{6}=\frac{2}{12} \)
 Name: AnswerText, dtype: object",True,6,Can identify the multiplier used to form an equivalent fraction but does not apply to the numerator,"Fractions, Decimals & Conversions",Easy,Advanced Functions & Graphs,11,Algebra_Advanced_Math,3
@@ -3500,13 +3500,13 @@ Name: AnswerText, dtype: object",True,130,"Believes that for a line written in t
 What is it's gradient?",Find the gradient of a line written in the form ax + by = c,Finding the Gradient and Intercept of a Line from the Equation,C,"Series([], Name: AnswerText, dtype: object)",D,"1451    \( \frac{4}{3} \)
 Name: AnswerText, dtype: object",True,1214,"When solving an equation, uses the same operation rather than the inverse.",Graphs & Coordinate Geometry,Medium,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 363,"Which model does not correctly represent the following expression?
-\(2(n+3)\)",Create a situation to match an algebraic expression,Writing Expressions,D,"Series([], Name: AnswerText, dtype: object)",A,"1452    ![\begin{tabular}{|c|c|}\n\hline\( n \) & \( 3...
+\(2(n+3)\)",Create a situation to match an algebraic expression,Writing Expressions,D,"Series([], Name: AnswerText, dtype: object)",A,"1452    ![\begin{tabular}{|c|c|}\r\n\hline\( n \) & \(...
 Name: AnswerText, dtype: object",True,31,Does not understand bar modelling in algebra,Core Mathematical Fundamentals,Medium,Simplification & Conversion Errors,9,Data_Conversions,5
 363,"Which model does not correctly represent the following expression?
-\(2(n+3)\)",Create a situation to match an algebraic expression,Writing Expressions,D,"Series([], Name: AnswerText, dtype: object)",B,"1453    ![\begin{tabular}{|l|l|l|l|}\n\hline \( \mathr...
+\(2(n+3)\)",Create a situation to match an algebraic expression,Writing Expressions,D,"Series([], Name: AnswerText, dtype: object)",B,"1453    ![\begin{tabular}{|l|l|l|l|}\r\n\hline \( \mat...
 Name: AnswerText, dtype: object",True,31,Does not understand bar modelling in algebra,Core Mathematical Fundamentals,Medium,Simplification & Conversion Errors,9,Data_Conversions,5
 363,"Which model does not correctly represent the following expression?
-\(2(n+3)\)",Create a situation to match an algebraic expression,Writing Expressions,D,"Series([], Name: AnswerText, dtype: object)",C,"1454    ![\begin{tabular}{|l|l|l|l|}\n\hline \( \mathr...
+\(2(n+3)\)",Create a situation to match an algebraic expression,Writing Expressions,D,"Series([], Name: AnswerText, dtype: object)",C,"1454    ![\begin{tabular}{|l|l|l|l|}\r\n\hline \( \mat...
 Name: AnswerText, dtype: object",True,1226,Does not recognise the distributive property,Core Mathematical Fundamentals,Medium,Geometric Concepts & Properties,3,Geometry_Spatial,4
 364,"\[
 3 k+2<m+2
@@ -3817,7 +3817,7 @@ The gym is on floor \( -1 \).
 How many floors does John need to go down to get from his flat to the gym? ![A vertical number line from -8 to 7 increasing in 1 digit increments]()",Count backwards through zero starting from a positive integer,Adding and Subtracting Negative Numbers,A,"Series([], Name: AnswerText, dtype: object)",D,"1595    \( 4 \)
 Name: AnswerText, dtype: object",True,1793,Does not count end number when counting,Core Mathematical Fundamentals,Hard,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 399,"When \( h=10 \)
-Which of the following pairs of statements is true?",Substitute positive integer values into expressions involving powers or roots,Substitution into Formula,B,"Series([], Name: AnswerText, dtype: object)",A,"1596    \( 3 h^{2}=300 \)\n\( (3 h)^{2}=300 \)
+Which of the following pairs of statements is true?",Substitute positive integer values into expressions involving powers or roots,Substitution into Formula,B,"Series([], Name: AnswerText, dtype: object)",A,"1596    \( 3 h^{2}=300 \)\r\n\( (3 h)^{2}=300 \)
 Name: AnswerText, dtype: object",True,2488,Answers order of operations questions with brackets as if the brackets are not there,Core Mathematical Fundamentals,Easy,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 399,"When \( h=10 \)
 Which of the following pairs of statements is true?",Substitute positive integer values into expressions involving powers or roots,Substitution into Formula,B,"Series([], Name: AnswerText, dtype: object)",C,"1598    \( \begin{array}{l}3 h^{2}=900 \\ (3 h)^{2}=90...
@@ -3849,7 +3849,7 @@ Name: AnswerText, dtype: object",True,608,Believes an upward line has a negative
 404,"Tom and Katie are discussing sequences
 Tom says \( (\boldsymbol{n}+\mathbf{1})^{3} \) would produce a linear sequence.
 Katie says \( 3-\frac{n}{3} \) would produce a linear sequence
-Who is correct?",Generate a descending integer linear sequence from the nth term rule,Quadratic Sequences,B,"Series([], Name: AnswerText, dtype: object)",A,"1616    Only\nTom
+Who is correct?",Generate a descending integer linear sequence from the nth term rule,Quadratic Sequences,B,"Series([], Name: AnswerText, dtype: object)",A,"1616    Only\r\nTom
 Name: AnswerText, dtype: object",True,1198,Does not recognise that a linear sequence must increase or decrease by same amount,Numerical Sequences & Patterns,Hard,Geometric Concepts & Properties,3,Geometry_Spatial,4
 404,"Tom and Katie are discussing sequences
 Tom says \( (\boldsymbol{n}+\mathbf{1})^{3} \) would produce a linear sequence.
@@ -3970,7 +3970,7 @@ Name: AnswerText, dtype: object",False,1150,Does not believe you can scale up a 
 417,"Jo and Paul are discussing \( 3^{2} \times 4^{2} \)
 Jo says \( 3^{2} \times 4^{2}=12^{4} \)
 Paul says \( 3^{2} \times 4^{2}=12^{2} \)
-Who is correct?",Multiplication law of indices with positive integer powers and a different base number,"Squares, Cubes, etc",B,"Series([], Name: AnswerText, dtype: object)",A,"1668    Only\nJo
+Who is correct?",Multiplication law of indices with positive integer powers and a different base number,"Squares, Cubes, etc",B,"Series([], Name: AnswerText, dtype: object)",A,"1668    Only\r\nJo
 Name: AnswerText, dtype: object",True,2084,"When multiplying numbers with different bases, multiplies the powers and multiplies the base numbers.",Core Mathematical Fundamentals,Hard,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 417,"Jo and Paul are discussing \( 3^{2} \times 4^{2} \)
 Jo says \( 3^{2} \times 4^{2}=12^{4} \)
@@ -4086,7 +4086,7 @@ Name: AnswerText, dtype: object",True,391,Mixes up the value of two terms when s
 
 ""Describe how you feel when you are about to go on holiday.""
 
-What type of data is she collecting by asking this question?",Identify data which is qualitative or quantitative,Types of Data and Questionnaires,D,"Series([], Name: AnswerText, dtype: object)",A,"1732    Primary\nQuantitative\ndata
+What type of data is she collecting by asking this question?",Identify data which is qualitative or quantitative,Types of Data and Questionnaires,D,"Series([], Name: AnswerText, dtype: object)",A,"1732    Primary\r\nQuantitative\r\ndata
 Name: AnswerText, dtype: object",False,782,Mixes up quantitative and qualitative data types,Core Mathematical Fundamentals,Medium,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 433,"Leanne has written a questionnaire on the topic of holidays. One of her questions is,
 
@@ -4476,7 +4476,7 @@ Name: AnswerText, dtype: object",False,1383,"When two digits sum to 10 or more d
 Starfish: \( -7 m \)
 Shark: \( -9 m \)
 Dolphin: \( -8.3 \mathrm{~m} \)
-Arrange their depths in ascending order, starting with the deepest",Order negative decimals with the same number of digits,Ordering Negative Numbers,C,"Series([], Name: AnswerText, dtype: object)",A,"1924    \( 1^{\text {st }} \) Dolphin\n\( 2^{\text {nd...
+Arrange their depths in ascending order, starting with the deepest",Order negative decimals with the same number of digits,Ordering Negative Numbers,C,"Series([], Name: AnswerText, dtype: object)",A,"1924    \( 1^{\text {st }} \) Dolphin\r\n\( 2^{\text {...
 Name: AnswerText, dtype: object",True,2237,"Thinks the more digits a number has the greater it is, regardless of place value",Core Mathematical Fundamentals,Hard,Ratio & Proportional Reasoning Errors,0,Fractions_Ratios,2
 481,"Here are the depths below sea level of \( 3 \) creatures:
 Starfish: \( -7 m \)
@@ -5088,7 +5088,7 @@ Name: AnswerText, dtype: object",False,1986,"When writing ratio from diagram, wr
 Name: AnswerText, dtype: object",False,105,Mixes up sides of a ratio,Core Mathematical Fundamentals,Easy,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 550,"Tom and Katie are discussing the order of operations
 Tom says: \( 3+2-1 \equiv 3-1+2 \)
-Katie says: \( 3+2 \times 1 \equiv 2 \times 1+3 \)","Use the order of operations to carry out calculations involving addition, subtraction, multiplication, and/or division",BIDMAS,C,"Series([], Name: AnswerText, dtype: object)",A,"2200    Only\nTom
+Katie says: \( 3+2 \times 1 \equiv 2 \times 1+3 \)","Use the order of operations to carry out calculations involving addition, subtraction, multiplication, and/or division",BIDMAS,C,"Series([], Name: AnswerText, dtype: object)",A,"2200    Only\r\nTom
 Name: AnswerText, dtype: object",True,328,Performs addition ahead of multiplication,Core Mathematical Fundamentals,Hard,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 550,"Tom and Katie are discussing the order of operations
 Tom says: \( 3+2-1 \equiv 3-1+2 \)
@@ -5097,12 +5097,12 @@ Name: AnswerText, dtype: object",True,1507,Carries out operations from left to r
 551,"Jo and Paul are arguing about the size of the marked angle.
 Jo says it is \( 120^{\circ} \)
 Paul says it is \( 60^{\circ} \)
-Who is correct? ![Angle with a protractor over it showing 240 degrees]()",Use a protractor to measure angles between 180° and 270°,Measuring Angles,D,"Series([], Name: AnswerText, dtype: object)",A,"2204    Only\nJo
+Who is correct? ![Angle with a protractor over it showing 240 degrees]()",Use a protractor to measure angles between 180° and 270°,Measuring Angles,D,"Series([], Name: AnswerText, dtype: object)",A,"2204    Only\r\nJo
 Name: AnswerText, dtype: object",True,1703,When using a 180 degree protractor to measure reflex angles gives the value of the acute or obtuse angle that is a complement to 360,Geometry & Shapes,Hard,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 551,"Jo and Paul are arguing about the size of the marked angle.
 Jo says it is \( 120^{\circ} \)
 Paul says it is \( 60^{\circ} \)
-Who is correct? ![Angle with a protractor over it showing 240 degrees]()",Use a protractor to measure angles between 180° and 270°,Measuring Angles,D,"Series([], Name: AnswerText, dtype: object)",B,"2205    Only\nPaul
+Who is correct? ![Angle with a protractor over it showing 240 degrees]()",Use a protractor to measure angles between 180° and 270°,Measuring Angles,D,"Series([], Name: AnswerText, dtype: object)",B,"2205    Only\r\nPaul
 Name: AnswerText, dtype: object",True,2535,Does not add on 180 degrees when using a protractor to measure a reflex angle,Geometry & Shapes,Hard,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 552,"One of these equations has exactly one solution.
 Which is it?",Solve quadratic equations using factorisation in the form (x + a)(x + b) ,Quadratic Equations,D,"Series([], Name: AnswerText, dtype: object)",A,"2208    \( t^{2}-16=0 \)
@@ -5162,17 +5162,17 @@ Name: AnswerText, dtype: object",False,2356,Thinks a difference of one part in a
 561,"What transformation maps the graph of
 \(y=f(x)\)
 to the graph of
-\(y=f(x)+1\)",Identify vertical translations in the form f(x) = for non-trigonometric functions,Transformations of functions in the form f(x),A,"Series([], Name: AnswerText, dtype: object)",B,"2245    Translation by vector\n\(\left[\begin{array}{l...
+\(y=f(x)+1\)",Identify vertical translations in the form f(x) = for non-trigonometric functions,Transformations of functions in the form f(x),A,"Series([], Name: AnswerText, dtype: object)",B,"2245    Translation by vector\r\n\(\left[\begin{array}...
 Name: AnswerText, dtype: object",True,2380,Believes f(x) - a translates the function up a units,Core Mathematical Fundamentals,Easy,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
 561,"What transformation maps the graph of
 \(y=f(x)\)
 to the graph of
-\(y=f(x)+1\)",Identify vertical translations in the form f(x) = for non-trigonometric functions,Transformations of functions in the form f(x),A,"Series([], Name: AnswerText, dtype: object)",C,"2246    Translation by vector\n\(\left[\begin{array}{l...
+\(y=f(x)+1\)",Identify vertical translations in the form f(x) = for non-trigonometric functions,Transformations of functions in the form f(x),A,"Series([], Name: AnswerText, dtype: object)",C,"2246    Translation by vector\r\n\(\left[\begin{array}...
 Name: AnswerText, dtype: object",True,1312,Believes f(x) + a translates the function right a units,Core Mathematical Fundamentals,Easy,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
 561,"What transformation maps the graph of
 \(y=f(x)\)
 to the graph of
-\(y=f(x)+1\)",Identify vertical translations in the form f(x) = for non-trigonometric functions,Transformations of functions in the form f(x),A,"Series([], Name: AnswerText, dtype: object)",D,"2247    Translation by vector\n\(\left[\begin{array}{l...
+\(y=f(x)+1\)",Identify vertical translations in the form f(x) = for non-trigonometric functions,Transformations of functions in the form f(x),A,"Series([], Name: AnswerText, dtype: object)",D,"2247    Translation by vector\r\n\(\left[\begin{array}...
 Name: AnswerText, dtype: object",True,362,Believes f(x) - a translates the function right a units,Core Mathematical Fundamentals,Easy,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
 562,"\begin{tabular}{|l|}
 \hline Exchange rates \\
@@ -5315,7 +5315,7 @@ Name: AnswerText, dtype: object",False,11,"When reading value from graph, reads 
 580,"Tom and Katie are discussing ways to calculate \( 59 \times 4 \) mentally
 Tom doubles \( 59 \) and then doubles the answer
 Katie does \( 60 \times 4 \) and then subtracts \( 4 \) from the answer
-Who would get the correct answer?",Recognise and use efficient methods for mental multiplication,Mental Multiplication and Division,C,"Series([], Name: AnswerText, dtype: object)",A,"2320    Only\nTom
+Who would get the correct answer?",Recognise and use efficient methods for mental multiplication,Mental Multiplication and Division,C,"Series([], Name: AnswerText, dtype: object)",A,"2320    Only\r\nTom
 Name: AnswerText, dtype: object",False,1066,Does not think that the compensation strategy for the multiplication of 2 numbers is valid.,Core Mathematical Fundamentals,Medium,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 580,"Tom and Katie are discussing ways to calculate \( 59 \times 4 \) mentally
 Tom doubles \( 59 \) and then doubles the answer
@@ -5380,17 +5380,17 @@ Name: AnswerText, dtype: object",False,2020,"When simplifying surds, does not us
 587,"Problem P: \( 6 \div 3+5= \)
 Problem Q: \( 6 \div 3 \times 5= \)
 
-Which calculation should you do first in each problem?","Use the order of operations to carry out calculations involving addition, subtraction, multiplication, and/or division",BIDMAS,D,"Series([], Name: AnswerText, dtype: object)",A,"2348    Problem P: \( 3+5 \)\nProblem Q: \( 3 \times 5 \)
+Which calculation should you do first in each problem?","Use the order of operations to carry out calculations involving addition, subtraction, multiplication, and/or division",BIDMAS,D,"Series([], Name: AnswerText, dtype: object)",A,"2348    Problem P: \( 3+5 \)\r\nProblem Q: \( 3 \times...
 Name: AnswerText, dtype: object",True,706,Carries out operations from right to left regardless of priority order,Core Mathematical Fundamentals,Medium,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 587,"Problem P: \( 6 \div 3+5= \)
 Problem Q: \( 6 \div 3 \times 5= \)
 
-Which calculation should you do first in each problem?","Use the order of operations to carry out calculations involving addition, subtraction, multiplication, and/or division",BIDMAS,D,"Series([], Name: AnswerText, dtype: object)",B,"2349    Problem P: \( 3+5 \)\nProblem Q: \( 6 \div 3 \)
+Which calculation should you do first in each problem?","Use the order of operations to carry out calculations involving addition, subtraction, multiplication, and/or division",BIDMAS,D,"Series([], Name: AnswerText, dtype: object)",B,"2349    Problem P: \( 3+5 \)\r\nProblem Q: \( 6 \div 3 \)
 Name: AnswerText, dtype: object",True,15,"Confuses the order of operations, believes addition comes before division",Core Mathematical Fundamentals,Medium,Fraction Arithmetic & Algebra,13,Fractions_Ratios,2
 587,"Problem P: \( 6 \div 3+5= \)
 Problem Q: \( 6 \div 3 \times 5= \)
 
-Which calculation should you do first in each problem?","Use the order of operations to carry out calculations involving addition, subtraction, multiplication, and/or division",BIDMAS,D,"Series([], Name: AnswerText, dtype: object)",C,"2350    Problem P: \( 6 \div 3 \)\nProblem Q: \( 3 \ti...
+Which calculation should you do first in each problem?","Use the order of operations to carry out calculations involving addition, subtraction, multiplication, and/or division",BIDMAS,D,"Series([], Name: AnswerText, dtype: object)",C,"2350    Problem P: \( 6 \div 3 \)\r\nProblem Q: \( 3 \...
 Name: AnswerText, dtype: object",True,2306,"Applies BIDMAS in strict order (does not realize addition and subtraction, and multiplication and division, are of equal priority)",Core Mathematical Fundamentals,Medium,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 588,\( 0.2 \) hours \( = _______ \) minutes,Change decimals of hours into minutes,Time,A,"Series([], Name: AnswerText, dtype: object)",B,"2353    \( 20 \)
 Name: AnswerText, dtype: object",True,161,Answers as if there are 100 minutes in an hour when changing from hours to minutes,Graphs & Coordinate Geometry,Easy,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
@@ -5746,14 +5746,14 @@ Name: AnswerText, dtype: object",False,653,Does not have when calculating the ar
 Jo says there is no value of \( m \) that means \( 3^{m} \) is even.
 
 Paul says there is no value of \( n \) that means \( 4^{n} \) ends in \( 0 \).
-Who is correct?",Raise a positive integer to a positive integer power,"Squares, Cubes, etc",C,"Series([], Name: AnswerText, dtype: object)",A,"2524    Only\nJo
+Who is correct?",Raise a positive integer to a positive integer power,"Squares, Cubes, etc",C,"Series([], Name: AnswerText, dtype: object)",A,"2524    Only\r\nJo
 Name: AnswerText, dtype: object",True,557,Assumes a fact without considering enough examples,Core Mathematical Fundamentals,Hard,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 631,"Jo and Paul are arguing about powers.
 
 Jo says there is no value of \( m \) that means \( 3^{m} \) is even.
 
 Paul says there is no value of \( n \) that means \( 4^{n} \) ends in \( 0 \).
-Who is correct?",Raise a positive integer to a positive integer power,"Squares, Cubes, etc",C,"Series([], Name: AnswerText, dtype: object)",B,"2525    Only\nPaul
+Who is correct?",Raise a positive integer to a positive integer power,"Squares, Cubes, etc",C,"Series([], Name: AnswerText, dtype: object)",B,"2525    Only\r\nPaul
 Name: AnswerText, dtype: object",True,557,Assumes a fact without considering enough examples,Core Mathematical Fundamentals,Hard,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 631,"Jo and Paul are arguing about powers.
 
@@ -5859,7 +5859,7 @@ Tom says \( 4 \) is a common factor of \( 6 x \) and \( 9 y^{2} \)
 
 Katie says \( y \) is a common factor of \( 6 x \) and \( 9 y^{2} \)
 
-Who is correct?",Identify factors of algebraic expressions,Factors and Highest Common Factor,D,"Series([], Name: AnswerText, dtype: object)",A,"2564    Only\nTom
+Who is correct?",Identify factors of algebraic expressions,Factors and Highest Common Factor,D,"Series([], Name: AnswerText, dtype: object)",A,"2564    Only\r\nTom
 Name: AnswerText, dtype: object",True,1554,Does not know how to identify common factors from algebraic terms,Core Mathematical Fundamentals,Hard,Fundamental Arithmetic Misconceptions,5,Fundamental_Arithmetic,1
 641,"Tom and Katie are discussing factors
 
@@ -5867,7 +5867,7 @@ Tom says \( 4 \) is a common factor of \( 6 x \) and \( 9 y^{2} \)
 
 Katie says \( y \) is a common factor of \( 6 x \) and \( 9 y^{2} \)
 
-Who is correct?",Identify factors of algebraic expressions,Factors and Highest Common Factor,D,"Series([], Name: AnswerText, dtype: object)",B,"2565    Only\nKatie
+Who is correct?",Identify factors of algebraic expressions,Factors and Highest Common Factor,D,"Series([], Name: AnswerText, dtype: object)",B,"2565    Only\r\nKatie
 Name: AnswerText, dtype: object",True,1554,Does not know how to identify common factors from algebraic terms,Core Mathematical Fundamentals,Hard,Fundamental Arithmetic Misconceptions,5,Fundamental_Arithmetic,1
 641,"Tom and Katie are discussing factors
 
@@ -5968,7 +5968,7 @@ Name: AnswerText, dtype: object",True,102,Does not think a factorised expression
 651,"Tom and Katie are arguing about the result of this Function Machine:
 Tom says the output is: \( 3 n-12 \)
 Katie says the output is: \( 3(n-4) \)
-Who is correct? ![A function machine with input n and operations subtract 4, multiply by 3]()",Use brackets to write function machines as calculations,Writing Expressions,C,"Series([], Name: AnswerText, dtype: object)",B,"2605    Only\nKatie
+Who is correct? ![A function machine with input n and operations subtract 4, multiply by 3]()",Use brackets to write function machines as calculations,Writing Expressions,C,"Series([], Name: AnswerText, dtype: object)",B,"2605    Only\r\nKatie
 Name: AnswerText, dtype: object",True,102,Does not think a factorised expression is equivalent to its multiplied out form,Core Mathematical Fundamentals,Medium,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 652,"Which of the following term-to-term rule describes this sequence?
 \[
@@ -6053,7 +6053,7 @@ Katie says both functions cross the \( y \)-axis at the same point
 
 Who is correct?",Work out the y-intercept of a line from an accurate drawing,Finding the Gradient and Intercept of a Line from the Equation,B,"Series([], Name: AnswerText, dtype: object)",D,"2635    Neither is correct
 Name: AnswerText, dtype: object",True,780,Believes the constant only gives the y-intercept for linear graphs,Graphs & Coordinate Geometry,Hard,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
-659,Tom and Katie are discussing how to calculate the size of each interior angle in a regular \( 18 \) sided shape Tom says you can do \( \frac{20 \times 180}{18} \) Katie says you can do \( 360-\frac{180}{18} \) Who is correct?,Work out the size of each interior angle in a regular polygon,Angles in Polygons,D,"Series([], Name: AnswerText, dtype: object)",A,"2636    Only\nTom
+659,Tom and Katie are discussing how to calculate the size of each interior angle in a regular \( 18 \) sided shape Tom says you can do \( \frac{20 \times 180}{18} \) Katie says you can do \( 360-\frac{180}{18} \) Who is correct?,Work out the size of each interior angle in a regular polygon,Angles in Polygons,D,"Series([], Name: AnswerText, dtype: object)",A,"2636    Only\r\nTom
 Name: AnswerText, dtype: object",True,654,Believes an interior angle in a regular polygon can be found using 180(n+2)/n,Geometry & Shapes,Medium,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
 659,Tom and Katie are discussing how to calculate the size of each interior angle in a regular \( 18 \) sided shape Tom says you can do \( \frac{20 \times 180}{18} \) Katie says you can do \( 360-\frac{180}{18} \) Who is correct?,Work out the size of each interior angle in a regular polygon,Angles in Polygons,D,"Series([], Name: AnswerText, dtype: object)",B,"2637    Only Katie
 Name: AnswerText, dtype: object",True,1907,Believes an interior angle in a regular polygon can be found using 360 subtract (180 over number of sides),Geometry & Shapes,Medium,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
@@ -6081,22 +6081,22 @@ Name: AnswerText, dtype: object",False,567,"When doing operations with decimals,
 663,"This is how Teddy calculates the answer to \( 600 \div 25 \) mentally ""There are \( 4 \) lots of \( 25 \) in 100. I then multiplied \( 4 \) by \( 6 \) to get \( 24 \). So \( 600 \) divided by \( 25 \) is \( 24 \)"" Teddy uses the same method to calculate \( 800 \div 25 \). Which of the following shows how he would do this?",Recognise and use efficient methods for mental division,Mental Multiplication and Division,A,"Series([], Name: AnswerText, dtype: object)",B,"2653    There are \( 4 \) lots of \( 25 \) in \( 100 \...
 Name: AnswerText, dtype: object",False,2438,Does not copy a given method accurately,Core Mathematical Fundamentals,Medium,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 664,"Two different numbers are equal to \( 4.37 \) to two decimal places.
-The numbers could be....",Round numbers to two decimal places,Rounding to Decimal Places,A,"Series([], Name: AnswerText, dtype: object)",B,"2657    \[\n4.3728\n\]\nand\n\[\n4.3628\n\]
+The numbers could be....",Round numbers to two decimal places,Rounding to Decimal Places,A,"Series([], Name: AnswerText, dtype: object)",B,"2657    \[\r\n4.3728\r\n\]\r\nand\r\n\[\r\n4.3628\r\n\]
 Name: AnswerText, dtype: object",False,1988,Rounds up instead of down,Core Mathematical Fundamentals,Easy,Core Mathematical Knowledge Gaps,12,Fundamental_Arithmetic,1
 664,"Two different numbers are equal to \( 4.37 \) to two decimal places.
-The numbers could be....",Round numbers to two decimal places,Rounding to Decimal Places,A,"Series([], Name: AnswerText, dtype: object)",D,"2659    \[\n4.3751\n\]\nand\n\[\n4.3659\n\]
+The numbers could be....",Round numbers to two decimal places,Rounding to Decimal Places,A,"Series([], Name: AnswerText, dtype: object)",D,"2659    \[\r\n4.3751\r\n\]\r\nand\r\n\[\r\n4.3659\r\n\]
 Name: AnswerText, dtype: object",False,1379,Rounds down instead of up,Core Mathematical Fundamentals,Easy,Core Mathematical Knowledge Gaps,12,Fundamental_Arithmetic,1
 665,"Tom and Katie are discussing congruent shapes.
 Tom says you can reflect a shape and it will still be congruent to the original.
 
 Katie says you can rotate a shape and it will still be congruent to the original.
-Who is correct?",Understand the meaning of congruency,Congruency in Other Shapes,C,"Series([], Name: AnswerText, dtype: object)",A,"2660    Only\nTom
+Who is correct?",Understand the meaning of congruency,Congruency in Other Shapes,C,"Series([], Name: AnswerText, dtype: object)",A,"2660    Only\r\nTom
 Name: AnswerText, dtype: object",False,1318,Does not understand that shapes are congruent if they have the same size and shape,Geometry & Shapes,Medium,Simplification & Conversion Errors,9,Data_Conversions,5
 665,"Tom and Katie are discussing congruent shapes.
 Tom says you can reflect a shape and it will still be congruent to the original.
 
 Katie says you can rotate a shape and it will still be congruent to the original.
-Who is correct?",Understand the meaning of congruency,Congruency in Other Shapes,C,"Series([], Name: AnswerText, dtype: object)",B,"2661    Only\nKatie
+Who is correct?",Understand the meaning of congruency,Congruency in Other Shapes,C,"Series([], Name: AnswerText, dtype: object)",B,"2661    Only\r\nKatie
 Name: AnswerText, dtype: object",False,1318,Does not understand that shapes are congruent if they have the same size and shape,Geometry & Shapes,Medium,Simplification & Conversion Errors,9,Data_Conversions,5
 665,"Tom and Katie are discussing congruent shapes.
 Tom says you can reflect a shape and it will still be congruent to the original.
@@ -6324,7 +6324,7 @@ Name: AnswerText, dtype: object",False,1248,Rounds to the wrong degree of accura
 Name: AnswerText, dtype: object",False,8,Student thinks that any two angles along a straight line are equal,Graphs & Coordinate Geometry,Easy,Fraction Operations & Concepts,1,Fractions_Ratios,2
 688,What is the relationship between these two angles? ![Angles around a point made up of two angles: a green one and a pink one](),Recognise the angles on a straight line relationship,"Basic Angle Facts (straight line, opposite, around a point, etc)",C,"Series([], Name: AnswerText, dtype: object)",B,"2753    They are parallel
 Name: AnswerText, dtype: object",False,114,Does not know the meaning of the word parallel,Graphs & Coordinate Geometry,Easy,Fundamental Arithmetic Misconceptions,5,Fundamental_Arithmetic,1
-688,What is the relationship between these two angles? ![Angles around a point made up of two angles: a green one and a pink one](),Recognise the angles on a straight line relationship,"Basic Angle Facts (straight line, opposite, around a point, etc)",C,"Series([], Name: AnswerText, dtype: object)",D,"2755    They add together to make\n\[\n360^{\circ}\n\]
+688,What is the relationship between these two angles? ![Angles around a point made up of two angles: a green one and a pink one](),Recognise the angles on a straight line relationship,"Basic Angle Facts (straight line, opposite, around a point, etc)",C,"Series([], Name: AnswerText, dtype: object)",D,"2755    They add together to make\r\n\[\r\n360^{\circ}...
 Name: AnswerText, dtype: object",False,2362,Believes angles on a straight line add to 360 degrees,Graphs & Coordinate Geometry,Easy,Fraction Operations & Concepts,1,Fractions_Ratios,2
 689,"Solve the equation:
 \(
@@ -6608,12 +6608,12 @@ Name: AnswerText, dtype: object",True,113,Does not recognise difference of two s
 718,"Tom and Katie are discussing factors of \( \mathbf{1 2 y} \)
 Tom says \( y \) is a factor of \( 12 y \)
 Katie says \( 3 \) is a factor of \( 12 y \)
-Who do you agree with?",Identify factors of algebraic expressions,Factors and Highest Common Factor,C,"Series([], Name: AnswerText, dtype: object)",A,"2872    Only\nTom
+Who do you agree with?",Identify factors of algebraic expressions,Factors and Highest Common Factor,C,"Series([], Name: AnswerText, dtype: object)",A,"2872    Only\r\nTom
 Name: AnswerText, dtype: object",False,331,Does not understand the term factor,Core Mathematical Fundamentals,Medium,Simplification & Conversion Errors,9,Data_Conversions,5
 718,"Tom and Katie are discussing factors of \( \mathbf{1 2 y} \)
 Tom says \( y \) is a factor of \( 12 y \)
 Katie says \( 3 \) is a factor of \( 12 y \)
-Who do you agree with?",Identify factors of algebraic expressions,Factors and Highest Common Factor,C,"Series([], Name: AnswerText, dtype: object)",B,"2873    Only\nKatie
+Who do you agree with?",Identify factors of algebraic expressions,Factors and Highest Common Factor,C,"Series([], Name: AnswerText, dtype: object)",B,"2873    Only\r\nKatie
 Name: AnswerText, dtype: object",False,1614,Believes factors of algebraic terms/expressions will only be numbers,Core Mathematical Fundamentals,Medium,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
 718,"Tom and Katie are discussing factors of \( \mathbf{1 2 y} \)
 Tom says \( y \) is a factor of \( 12 y \)
@@ -6839,7 +6839,7 @@ Name: AnswerText, dtype: object",True,143,"Thinks that when you cancel identical
 Name: AnswerText, dtype: object",False,1769,Does not know how to read information off a pie chart,Core Mathematical Fundamentals,Easy,Fundamental Arithmetic Misconceptions,5,Fundamental_Arithmetic,1
 752,![A pictogram is shown. One smiley face = 12 people. Salt and vinegar 2 faces. Ready salted 1 face. Prawn cocktail 3.5 faces. Other 2 faces]() What is missing from this pictogram?,Construct a pictogram involving fractions of symbols,Pictogram,A,"Series([], Name: AnswerText, dtype: object)",B,"3009    Nothing
 Name: AnswerText, dtype: object",True,1767,Does not realise that a pictogram needs a title or question,Core Mathematical Fundamentals,Medium,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
-752,![A pictogram is shown. One smiley face = 12 people. Salt and vinegar 2 faces. Ready salted 1 face. Prawn cocktail 3.5 faces. Other 2 faces]() What is missing from this pictogram?,Construct a pictogram involving fractions of symbols,Pictogram,A,"Series([], Name: AnswerText, dtype: object)",D,"3011    Other needs to\nsay what\nflavour it is
+752,![A pictogram is shown. One smiley face = 12 people. Salt and vinegar 2 faces. Ready salted 1 face. Prawn cocktail 3.5 faces. Other 2 faces]() What is missing from this pictogram?,Construct a pictogram involving fractions of symbols,Pictogram,A,"Series([], Name: AnswerText, dtype: object)",D,"3011    Other needs to\r\nsay what\r\nflavour it is
 Name: AnswerText, dtype: object",True,252,Does not think 'other' is an acceptable category for data,Core Mathematical Fundamentals,Medium,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 753,"What is the gradient of this line? ![A set of axes with a graph drawn on. The graph passes through the points (1,2) and (0,6).]()","Given a line segment, calculate the gradient where the gradient is a negative integer",Gradient as change in y over change in x,D,"Series([], Name: AnswerText, dtype: object)",B,"3013    \( -\frac{1}{4} \)
 Name: AnswerText, dtype: object",False,1704,Believes gradient = change in x/change in y,Core Mathematical Fundamentals,Easy,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
@@ -6980,7 +6980,7 @@ Name: AnswerText, dtype: object",True,784,Thinks there are 100g in a kilogram,"F
 770,"Tom and Katie are arguing about the answer to \( \frac{1}{5} \times 9 \)
 Tom says \( \frac{1}{5} \times 9=1 \frac{4}{5} \)
 Katie says \( \frac{1}{5} \times 9=\frac{9}{45} \)
-Who is correct?",Multiply proper fractions in the form: Fraction × Integer,Multiplying Fractions,A,"Series([], Name: AnswerText, dtype: object)",B,"3081    Only\nKatie
+Who is correct?",Multiply proper fractions in the form: Fraction × Integer,Multiplying Fractions,A,"Series([], Name: AnswerText, dtype: object)",B,"3081    Only\r\nKatie
 Name: AnswerText, dtype: object",True,1976,"When multiplying a fraction by an integer, multiplies both numerator and denominator by the integer","Fractions, Decimals & Conversions",Medium,Advanced Functions & Graphs,11,Algebra_Advanced_Math,3
 771,Which of the following graphs is most likely to illustrate the time taken to complete a job \( (t) \) changes depending on the number of people working on it \( (p) \),Recognise graphical representations of inverse proportion in the form y = k/x,Indirect (Inverse) Proportion,C,"Series([], Name: AnswerText, dtype: object)",B,"3085    ![A straight line from top left to bottom righ...
 Name: AnswerText, dtype: object",False,16,Believes that graphs of inverse proportion meet the axes,Core Mathematical Fundamentals,Medium,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
@@ -7019,7 +7019,7 @@ Name: AnswerText, dtype: object",True,1384,"When reading decimals on a number li
 Name: AnswerText, dtype: object",True,1047,Estimates a measurement on a diagram rather than working it out,Core Mathematical Fundamentals,Medium,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 776,"![A horizontal number-line with 9 vertical, equally spaced, dashes representing the position of numbers. ""0"" above the 1st dash and ""2"" above the last dash are the only numbers marked on the line. A red arrow is pointing to the 8th dash.]() What number is the arrow pointing to?",Read a decimal on a scale where the required measurement is marked by a dash between two numbers,Ordering Decimals,D,"Series([], Name: AnswerText, dtype: object)",C,"3106    \( 1.9 \)
 Name: AnswerText, dtype: object",True,671,"When reading decimals on a number line, assumes each dash is 0.1",Core Mathematical Fundamentals,Medium,Fraction Operations & Concepts,1,Fractions_Ratios,2
-777,Which of the following best describes how to construct an angle of \( 60^{\circ} \) using a ruler and a pair of compasses?,Construct an angle of 60° using a ruler and a compass,Construct Triangle,C,"Series([], Name: AnswerText, dtype: object)",D,"3111    - Draw a straight line with a ruler\n- Set the...
+777,Which of the following best describes how to construct an angle of \( 60^{\circ} \) using a ruler and a pair of compasses?,Construct an angle of 60° using a ruler and a compass,Construct Triangle,C,"Series([], Name: AnswerText, dtype: object)",D,"3111    - Draw a straight line with a ruler\r\n- Set t...
 Name: AnswerText, dtype: object",True,542,Believes constructing a perpendicular gives an angle of 60 degrees,Core Mathematical Fundamentals,Medium,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
 778,"Tom and Katie are arguing about a first step to solve this equation:
 \(
@@ -7051,7 +7051,7 @@ Tom says \( 3 \) is a common factor of \( 18 x \) and \( 29 y \)
 
 Katie says \( x \) is a common factor of \( 6 x \) and \( 9 y \)
 
-Who is correct?",Identify factors of algebraic expressions,Factors and Highest Common Factor,D,"Series([], Name: AnswerText, dtype: object)",A,"3116    Only\nTom
+Who is correct?",Identify factors of algebraic expressions,Factors and Highest Common Factor,D,"Series([], Name: AnswerText, dtype: object)",A,"3116    Only\r\nTom
 Name: AnswerText, dtype: object",False,109,Thinks a factor of the final digit is also a factor of the whole number,Core Mathematical Fundamentals,Medium,Ratio & Proportional Reasoning Errors,0,Fractions_Ratios,2
 780,"Tom and Katie have been asked to give the name of a quadrilateral with four equal sides
 Tom says arrowhead
@@ -7105,7 +7105,7 @@ Jo says you can write: \( 2 v-8=6 v \)
 
 Paul says you can write: \( 2 v=6 v-8 \)
 
-Who is correct?","Solve linear equations with the variable appearing on both sides, with all positive integers",Linear Equations,D,"Series([], Name: AnswerText, dtype: object)",A,"3148    Only\nJo
+Who is correct?","Solve linear equations with the variable appearing on both sides, with all positive integers",Linear Equations,D,"Series([], Name: AnswerText, dtype: object)",A,"3148    Only\r\nJo
 Name: AnswerText, dtype: object",True,1214,"When solving an equation, uses the same operation rather than the inverse.",Core Mathematical Fundamentals,Hard,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 787,"Jo and Paul are arguing about a first step to solve this equation:
 \(2 v-5=6 v-3\)
@@ -7114,7 +7114,7 @@ Jo says you can write: \( 2 v-8=6 v \)
 
 Paul says you can write: \( 2 v=6 v-8 \)
 
-Who is correct?","Solve linear equations with the variable appearing on both sides, with all positive integers",Linear Equations,D,"Series([], Name: AnswerText, dtype: object)",B,"3149    Only\nPaul
+Who is correct?","Solve linear equations with the variable appearing on both sides, with all positive integers",Linear Equations,D,"Series([], Name: AnswerText, dtype: object)",B,"3149    Only\r\nPaul
 Name: AnswerText, dtype: object",True,1214,"When solving an equation, uses the same operation rather than the inverse.",Core Mathematical Fundamentals,Hard,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 787,"Jo and Paul are arguing about a first step to solve this equation:
 \(2 v-5=6 v-3\)
@@ -7420,7 +7420,7 @@ Jo says you can never simplify a fraction if either the numerator or denominator
 
 Paul says you will always be able to simplify a fraction if neither the numerator or denominator is prime.
 
-Who is correct?",Simplify fractions that simplify to a non-unit fraction,Simplifying Fractions,D,"Series([], Name: AnswerText, dtype: object)",A,"3308    Only\nJo
+Who is correct?",Simplify fractions that simplify to a non-unit fraction,Simplifying Fractions,D,"Series([], Name: AnswerText, dtype: object)",A,"3308    Only\r\nJo
 Name: AnswerText, dtype: object",False,2363,Assumes fractions with prime numerators cannot be simplified,"Fractions, Decimals & Conversions",Medium,Data Handling & Number Sense,10,Data_Conversions,5
 827,"Jo and Paul are arguing about simplifying fractions.
 
@@ -7428,7 +7428,7 @@ Jo says you can never simplify a fraction if either the numerator or denominator
 
 Paul says you will always be able to simplify a fraction if neither the numerator or denominator is prime.
 
-Who is correct?",Simplify fractions that simplify to a non-unit fraction,Simplifying Fractions,D,"Series([], Name: AnswerText, dtype: object)",B,"3309    Only\nPaul
+Who is correct?",Simplify fractions that simplify to a non-unit fraction,Simplifying Fractions,D,"Series([], Name: AnswerText, dtype: object)",B,"3309    Only\r\nPaul
 Name: AnswerText, dtype: object",False,557,Assumes a fact without considering enough examples,"Fractions, Decimals & Conversions",Medium,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 828,\( 30 \% \) of \( £ 120= \),Calculate percentage of an amount mentally where the percent is a multiple of 10,Percentages of an Amount,B,"Series([], Name: AnswerText, dtype: object)",A,"3312    \( £ 30 \)
 Name: AnswerText, dtype: object",True,2138,Does not understand a percentage can be applied to something not out of 100,Core Mathematical Fundamentals,Easy,Simplification & Conversion Errors,9,Data_Conversions,5
@@ -7532,7 +7532,7 @@ Name: AnswerText, dtype: object",False,655,Assumes that a list is given in size 
 
 Tom says a correct next line of working could be: \( 8 x=8 \)
 Katie says a correct next line of working could be: \( \frac{x}{5}=5 \)
-Who is correct?","Solve two-step linear equations, with the variable on one side, with all positive integers",Linear Equations,B,"Series([], Name: AnswerText, dtype: object)",A,"3360    Only\nTom
+Who is correct?","Solve two-step linear equations, with the variable on one side, with all positive integers",Linear Equations,B,"Series([], Name: AnswerText, dtype: object)",A,"3360    Only\r\nTom
 Name: AnswerText, dtype: object",True,1214,"When solving an equation, uses the same operation rather than the inverse.",Core Mathematical Fundamentals,Medium,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 840,"Tom and Katie are discussing how to solve:
 \(
@@ -7563,7 +7563,7 @@ Name: AnswerText, dtype: object",False,1542,Believes that a fraction means divid
 Name: AnswerText, dtype: object",False,1715,Converts a fraction to a decimal by using only the numerator after the decimal point,"Fractions, Decimals & Conversions",Easy,Spatial Reasoning & Estimation,7,Geometry_Spatial,4
 842,Convert \( \frac{4}{20} \) into a decimal,Convert fractions less than 1 to terminating decimals of 1 decimal place,Converting between Fractions and Decimals,C,"Series([], Name: AnswerText, dtype: object)",D,"3371    \( 4.20 \)
 Name: AnswerText, dtype: object",False,2308,Converts a fraction to a decimal by placing a decimal point between the numerator and denominator,"Fractions, Decimals & Conversions",Easy,Spatial Reasoning & Estimation,7,Geometry_Spatial,4
-843,Tom and Katie are discussing congruent shapes. Who is correct? Tom says these two shapes are congruent ![An image of two triangles. The triangles are the same shape and size but have different orientations.]() Katie says these two shapes are congruent ![An image of two triangles. A big one and a small one.](),Identify congruence in shapes other than triangles,Congruency in Other Shapes,A,"Series([], Name: AnswerText, dtype: object)",B,"3373    Only\nKatie
+843,Tom and Katie are discussing congruent shapes. Who is correct? Tom says these two shapes are congruent ![An image of two triangles. The triangles are the same shape and size but have different orientations.]() Katie says these two shapes are congruent ![An image of two triangles. A big one and a small one.](),Identify congruence in shapes other than triangles,Congruency in Other Shapes,A,"Series([], Name: AnswerText, dtype: object)",B,"3373    Only\r\nKatie
 Name: AnswerText, dtype: object",False,2312,Thinks congruent shapes are the same shape but can be different sizes,Geometry & Shapes,Medium,Ratio & Proportional Reasoning Errors,0,Fractions_Ratios,2
 843,Tom and Katie are discussing congruent shapes. Who is correct? Tom says these two shapes are congruent ![An image of two triangles. The triangles are the same shape and size but have different orientations.]() Katie says these two shapes are congruent ![An image of two triangles. A big one and a small one.](),Identify congruence in shapes other than triangles,Congruency in Other Shapes,A,"Series([], Name: AnswerText, dtype: object)",C,"3374    Both Tom and Katie
 Name: AnswerText, dtype: object",False,2312,Thinks congruent shapes are the same shape but can be different sizes,Geometry & Shapes,Medium,Ratio & Proportional Reasoning Errors,0,Fractions_Ratios,2
@@ -7616,7 +7616,7 @@ Name: AnswerText, dtype: object",False,2413,"When finding the value of a number 
 \hline
 \end{tabular} Jo says the star could be \( 16 \).
 Paul says the star could be \( -2 \).
-Who is correct?",Calculate the square root of a number,Plotting Quadratics from Tables of Values,B,"Series([], Name: AnswerText, dtype: object)",A,"3400    Only\nJo
+Who is correct?",Calculate the square root of a number,Plotting Quadratics from Tables of Values,B,"Series([], Name: AnswerText, dtype: object)",A,"3400    Only\r\nJo
 Name: AnswerText, dtype: object",True,1012,Squares when asked to find the square root,Core Mathematical Fundamentals,Hard,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 851,Write \( 0.07 \) as a percentage.,Convert decimals less than 1 with 2 decimal place to percentages,Converting between Decimals and Percentages,A,"Series([], Name: AnswerText, dtype: object)",C,"3406    \( 70 \% \)
 Name: AnswerText, dtype: object",False,539,Does not understand the value of zeros as placeholders,Core Mathematical Fundamentals,Easy,Simplification & Conversion Errors,9,Data_Conversions,5
@@ -7660,12 +7660,12 @@ Name: AnswerText, dtype: object",False,834,"When asked for the next term in the 
 858,"Problem P: \( (4+5)^{2}= \)
 Problem Q: \( 4+5^{2}= \)
 
-Which calculation should you do first in each problem?",Use the order of operations to carry out calculations involving brackets,BIDMAS,B,"Series([], Name: AnswerText, dtype: object)",A,"3432    Problem P: \( 4+5 \)\nProblem Q: \( 4+5 \)
+Which calculation should you do first in each problem?",Use the order of operations to carry out calculations involving brackets,BIDMAS,B,"Series([], Name: AnswerText, dtype: object)",A,"3432    Problem P: \( 4+5 \)\r\nProblem Q: \( 4+5 \)
 Name: AnswerText, dtype: object",True,1507,Carries out operations from left to right regardless of priority order,Core Mathematical Fundamentals,Hard,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 858,"Problem P: \( (4+5)^{2}= \)
 Problem Q: \( 4+5^{2}= \)
 
-Which calculation should you do first in each problem?",Use the order of operations to carry out calculations involving brackets,BIDMAS,B,"Series([], Name: AnswerText, dtype: object)",D,"3435    Problem P: \( 5^{2} \)\nProblem Q: \( 5^{2} \)
+Which calculation should you do first in each problem?",Use the order of operations to carry out calculations involving brackets,BIDMAS,B,"Series([], Name: AnswerText, dtype: object)",D,"3435    Problem P: \( 5^{2} \)\r\nProblem Q: \( 5^{2} \)
 Name: AnswerText, dtype: object",True,2488,Answers order of operations questions with brackets as if the brackets are not there,Core Mathematical Fundamentals,Hard,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 859,"Solve the equation:
 \(12 d-3=6 d+3\)","Solve linear equations with the variable appearing on both sides, with all positive integers",Linear Equations,B,"Series([], Name: AnswerText, dtype: object)",A,"3436    \( d=0 \)
@@ -7847,7 +7847,7 @@ Name: AnswerText, dtype: object",False,1356,Confuses the use of LCM and HCF in r
 877,"Tom and Katie are discussing units of length
 Tom says miles is a unit of length
 Katie says \( m l \) is a unit of length
-Who is correct?",Identify a unit of length,Length Units,A,"Series([], Name: AnswerText, dtype: object)",B,"3509    Only\nKatie
+Who is correct?",Identify a unit of length,Length Units,A,"Series([], Name: AnswerText, dtype: object)",B,"3509    Only\r\nKatie
 Name: AnswerText, dtype: object",False,1210,Does not recognise millilitres as a unit of volume,"Fractions, Decimals & Conversions",Medium,Geometric Concepts & Properties,3,Geometry_Spatial,4
 877,"Tom and Katie are discussing units of length
 Tom says miles is a unit of length
@@ -7989,7 +7989,7 @@ Name: AnswerText, dtype: object",True,1678,Confuses perimeter and area,Geometry 
 Jo and Paul are trying to make the calculation above equal to \( 6 \).
 Jo says you can write it like this: \( 9-(8+5) \)
 Paul says you can leave it like this: \( 9-8+5 \)
-Who is correct?",Use the order of operations to carry out calculations involving brackets,BIDMAS,B,"Series([], Name: AnswerText, dtype: object)",A,"3580    Only\nJo
+Who is correct?",Use the order of operations to carry out calculations involving brackets,BIDMAS,B,"Series([], Name: AnswerText, dtype: object)",A,"3580    Only\r\nJo
 Name: AnswerText, dtype: object",True,2488,Answers order of operations questions with brackets as if the brackets are not there,Core Mathematical Fundamentals,Hard,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 895,"\[
 9-8+5
@@ -8016,7 +8016,7 @@ x+y=12
 \] Katie uses the equation to write:
 \[
 x+2 y=24
-\] Who has written a related linear equation?","Given an equation, form  or identify related equations",Writing Expressions,A,"Series([], Name: AnswerText, dtype: object)",B,"3585    Only\nKatie
+\] Who has written a related linear equation?","Given an equation, form  or identify related equations",Writing Expressions,A,"Series([], Name: AnswerText, dtype: object)",B,"3585    Only\r\nKatie
 Name: AnswerText, dtype: object",True,340,Does not understand that when multiplying both sides of an equation by an amount every term must be multiplied by the same amount,Core Mathematical Fundamentals,Hard,Simplification & Conversion Errors,9,Data_Conversions,5
 896,"Tom and Katie are discussing this equation:
 \[
@@ -8290,11 +8290,11 @@ Name: AnswerText, dtype: object",False,2481,"When multiplying decimals, divides 
 Name: AnswerText, dtype: object",False,982,Calculates perimeter when asked for area,"Fractions, Decimals & Conversions",Medium,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 923,What is the area of this rectangle? ![Rectangle with base 0.4 m and height 0.16 m](),Multiply two decimals together with a different number of decimal places,Multiplying and Dividing with Decimals,C,"Series([], Name: AnswerText, dtype: object)",D,"3695    \( 0.56 \mathrm{~m}^{2} \)
 Name: AnswerText, dtype: object",False,828,Adds when calculating area instead of multiplying,"Fractions, Decimals & Conversions",Medium,Core Mathematical Knowledge Gaps,12,Fundamental_Arithmetic,1
-924,Which of the following collections of shapes would allow you to draw the net of a hexagonal prism?,Draw the net of a prism,Nets,B,"Series([], Name: AnswerText, dtype: object)",A,"3696    \( 1 \) hexagon\n\( 6 \) triangles
+924,Which of the following collections of shapes would allow you to draw the net of a hexagonal prism?,Draw the net of a prism,Nets,B,"Series([], Name: AnswerText, dtype: object)",A,"3696    \( 1 \) hexagon\r\n\( 6 \) triangles
 Name: AnswerText, dtype: object",False,1783,Confuses pyramid with prism,Core Mathematical Fundamentals,Easy,Fraction Arithmetic & Algebra,13,Fractions_Ratios,2
-924,Which of the following collections of shapes would allow you to draw the net of a hexagonal prism?,Draw the net of a prism,Nets,B,"Series([], Name: AnswerText, dtype: object)",C,"3698    \( 1 \) hexagon\n\( 6 \) rectangles
+924,Which of the following collections of shapes would allow you to draw the net of a hexagonal prism?,Draw the net of a prism,Nets,B,"Series([], Name: AnswerText, dtype: object)",C,"3698    \( 1 \) hexagon\r\n\( 6 \) rectangles
 Name: AnswerText, dtype: object",False,1783,Confuses pyramid with prism,Core Mathematical Fundamentals,Easy,Fraction Arithmetic & Algebra,13,Fractions_Ratios,2
-924,Which of the following collections of shapes would allow you to draw the net of a hexagonal prism?,Draw the net of a prism,Nets,B,"Series([], Name: AnswerText, dtype: object)",D,"3699    \( 2 \) hexagons\n\( 6 \) triangles
+924,Which of the following collections of shapes would allow you to draw the net of a hexagonal prism?,Draw the net of a prism,Nets,B,"Series([], Name: AnswerText, dtype: object)",D,"3699    \( 2 \) hexagons\r\n\( 6 \) triangles
 Name: AnswerText, dtype: object",False,690,Struggles to visualise nets of 3D shapes,Core Mathematical Fundamentals,Easy,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 925,"Vera wants to solve this equation using the quadratic formula.
 \(
@@ -8356,9 +8356,9 @@ Number of Spots & Frequency \\
 \hline
 \end{tabular}]()",Calculate the mean from a frequency table,Averages and Range from Frequency Table,C,"Series([], Name: AnswerText, dtype: object)",D,"3711    \( 6.5(1 \mathrm{dp}) \)
 Name: AnswerText, dtype: object",False,1379,Rounds down instead of up,Core Mathematical Fundamentals,Medium,Core Mathematical Knowledge Gaps,12,Fundamental_Arithmetic,1
-928,"How would you describe the movement to get from the star to the triangle? ![Positive coordinate grid from 0 to 5 in the x and y directions with a gold star at (1,4) and a purple triangle at (4,3)]()",Describe simple directions to translate a shape or object using words not vectors,Translation and Vectors,B,"Series([], Name: AnswerText, dtype: object)",C,"3714    \( 4 \) squares right,\n\( 1 \) square down
+928,"How would you describe the movement to get from the star to the triangle? ![Positive coordinate grid from 0 to 5 in the x and y directions with a gold star at (1,4) and a purple triangle at (4,3)]()",Describe simple directions to translate a shape or object using words not vectors,Translation and Vectors,B,"Series([], Name: AnswerText, dtype: object)",C,"3714    \( 4 \) squares right,\r\n\( 1 \) square down
 Name: AnswerText, dtype: object",False,556,"When describing a translation, counts the corners of squares (including the starting one) rather than the number of jumps between squares.",Core Mathematical Fundamentals,Medium,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
-928,"How would you describe the movement to get from the star to the triangle? ![Positive coordinate grid from 0 to 5 in the x and y directions with a gold star at (1,4) and a purple triangle at (4,3)]()",Describe simple directions to translate a shape or object using words not vectors,Translation and Vectors,B,"Series([], Name: AnswerText, dtype: object)",D,"3715    \( 3 \) squares down,\n\( 1 \) square right
+928,"How would you describe the movement to get from the star to the triangle? ![Positive coordinate grid from 0 to 5 in the x and y directions with a gold star at (1,4) and a purple triangle at (4,3)]()",Describe simple directions to translate a shape or object using words not vectors,Translation and Vectors,B,"Series([], Name: AnswerText, dtype: object)",D,"3715    \( 3 \) squares down,\r\n\( 1 \) square right
 Name: AnswerText, dtype: object",False,2354,"When describing a translation, identifies the correct number of jumps but mixes up the directions .",Core Mathematical Fundamentals,Medium,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 929,When factorising \( x^{2}+6 x+8 \) we need two numbers that:,Factorise a quadratic expression in the form x² + bx + c,Factorising into a Double Bracket,A,"Series([], Name: AnswerText, dtype: object)",B,"3717    Add to give \( 6 x \) and multiply to give \( ...
 Name: AnswerText, dtype: object",True,1432,"When factorising into double brackets, believes the sum of the two values in the brackets equals bx rather than b",Core Mathematical Fundamentals,Hard,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
@@ -8370,7 +8370,7 @@ Name: AnswerText, dtype: object",True,2142,"Does not know that to factorise a qu
 Tom says the sample space can be written as: \( S=\{1,2\} \)
 
 Katie says the sample space can be written as: \( S=\{1,1,2,2,2\} \)
-Who do you agree with? ![Circle divided into 5 equal sections. 2 sections labelled with a blue number 1. 3 sections labelled with a red number 2.]()",Identify and represent sets using set notation,Probability of Single Events,A,"Series([], Name: AnswerText, dtype: object)",B,"3721    Only\nKatie
+Who do you agree with? ![Circle divided into 5 equal sections. 2 sections labelled with a blue number 1. 3 sections labelled with a red number 2.]()",Identify and represent sets using set notation,Probability of Single Events,A,"Series([], Name: AnswerText, dtype: object)",B,"3721    Only\r\nKatie
 Name: AnswerText, dtype: object",True,2561,"Believes a sample space should show repeated outcomes, not just unique possible outcomes.",Core Mathematical Fundamentals,Medium,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 931,Which of the following is the most appropriate word to describe: \( A=\frac{b h}{2} \) ![A triangle with base labelled b and height labelled h.](),Recognise and name a formula,Writing Formula,B,"Series([], Name: AnswerText, dtype: object)",A,"3724    Equation
 Name: AnswerText, dtype: object",True,835,Confuses a formula with an equation,Core Mathematical Fundamentals,Easy,Fraction Arithmetic & Algebra,13,Fractions_Ratios,2
@@ -8647,7 +8647,7 @@ Name: AnswerText, dtype: object",True,2038,Believes a common denominator can onl
 957,"Tom and Katie are discussing how to work out the answer to \( \frac{5}{6}-\frac{1}{3} \)
 Tom says you could change both denominators to \( 6 \)
 Katie says you could change both denominators to \( 18 \)
-Who is correct?",Subtract proper fractions with different denominators which do not share a common factor,Adding and Subtracting Fractions,C,"Series([], Name: AnswerText, dtype: object)",B,"3829    Only\nKatie
+Who is correct?",Subtract proper fractions with different denominators which do not share a common factor,Adding and Subtracting Fractions,C,"Series([], Name: AnswerText, dtype: object)",B,"3829    Only\r\nKatie
 Name: AnswerText, dtype: object",True,2128,Believes a common denominator must always be the two denominators multiplied together,"Fractions, Decimals & Conversions",Medium,Data Handling & Number Sense,10,Data_Conversions,5
 957,"Tom and Katie are discussing how to work out the answer to \( \frac{5}{6}-\frac{1}{3} \)
 Tom says you could change both denominators to \( 6 \)
@@ -8819,7 +8819,7 @@ Name: AnswerText, dtype: object",False,932,Adds instead of multiplies when calcu
 \hline \( 3 \) & \( 2 \) \\
 \hline \( 4 \) & \( 5 \) \\
 \hline
-\end{tabular} If Dave wanted to work out the total number of pets own by his classmates, what would be a useful column to include?",Construct frequency tables,Frequency tables,A,"Series([], Name: AnswerText, dtype: object)",D,"3907    Number of pets -\nFrequency
+\end{tabular} If Dave wanted to work out the total number of pets own by his classmates, what would be a useful column to include?",Construct frequency tables,Frequency tables,A,"Series([], Name: AnswerText, dtype: object)",D,"3907    Number of pets -\r\nFrequency
 Name: AnswerText, dtype: object",False,2501,Subtracts rather than multiplies when calculating total frequency,Core Mathematical Fundamentals,Medium,Core Mathematical Knowledge Gaps,12,Fundamental_Arithmetic,1
 977,Which of the numbers is the same when rounded to \( 2 \) decimal places or to \( 2 \) significant figures?,Round numbers between 0 and 1 to two significant figures,Rounding to Decimal Places,D,"Series([], Name: AnswerText, dtype: object)",A,"3908    \( 15.983 \)
 Name: AnswerText, dtype: object",False,739,Rounds to wrong degree of accuracy (decimal places rather than significant figures),Core Mathematical Fundamentals,Easy,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
@@ -8894,7 +8894,7 @@ Name: AnswerText, dtype: object",True,547,Factorises difference of two squares w
 984,"Factorise this expression, if possible:
 \(
 p^{2}-4
-\)",Factorise a quadratic expression in the form x² - c,Difference of Two Squares,A,"Series([], Name: AnswerText, dtype: object)",D,"3939    Does not\nfactorise
+\)",Factorise a quadratic expression in the form x² - c,Difference of Two Squares,A,"Series([], Name: AnswerText, dtype: object)",D,"3939    Does not\r\nfactorise
 Name: AnswerText, dtype: object",True,113,Does not recognise difference of two squares,Core Mathematical Fundamentals,Hard,Geometric Concepts & Properties,3,Geometry_Spatial,4
 985,\(\square\quad -\quad 1.534=2.7 \),Carry out missing number subtraction problems where a written method is needed,Adding and Subtracting with Decimals,D,"Series([], Name: AnswerText, dtype: object)",A,"3940    \( 1.166 \)
 Name: AnswerText, dtype: object",True,234,Subtracts instead of adds,Core Mathematical Fundamentals,Easy,Core Mathematical Knowledge Gaps,12,Fundamental_Arithmetic,1
@@ -8909,7 +8909,7 @@ Name: AnswerText, dtype: object",True,1730,"When adding decimals with a differen
 
 Tom says a correct next line of working could be: \( \frac{x}{2}=16 \)
 Katie says a correct next line of working could be: \( x-6=5 \)
-Who is correct?","Solve two-step linear equations, with the variable on one side, with all positive integers",Linear Equations,D,"Series([], Name: AnswerText, dtype: object)",A,"3944    Only\nTom
+Who is correct?","Solve two-step linear equations, with the variable on one side, with all positive integers",Linear Equations,D,"Series([], Name: AnswerText, dtype: object)",A,"3944    Only\r\nTom
 Name: AnswerText, dtype: object",True,1566,Adds or subtracts from numerator first when solving an equation with a fraction,Core Mathematical Fundamentals,Hard,Advanced Functions & Graphs,11,Algebra_Advanced_Math,3
 986,"Tom and Katie are discussing how to solve:
 \(
@@ -9210,7 +9210,7 @@ x^{2}-9 x=0
 Jo says one solution is \( x=0 \)
 
 Paul says one solution is \( x=3 \)
-Who is correct?",Solve quadratic equations using factorisation in the form x(x + b) ,Quadratic Equations,A,"Series([], Name: AnswerText, dtype: object)",B,"4085    Only\nPaul
+Who is correct?",Solve quadratic equations using factorisation in the form x(x + b) ,Quadratic Equations,A,"Series([], Name: AnswerText, dtype: object)",B,"4085    Only\r\nPaul
 Name: AnswerText, dtype: object",True,1766,Thinks x^2 - a^2x is a valid form of difference of two squares,Core Mathematical Fundamentals,Hard,Ratio & Proportional Reasoning Errors,0,Fractions_Ratios,2
 1022,"\( 60 \) people completed an online survey about the car they own.
 The results are shown in the Venn Diagram.
@@ -9243,12 +9243,12 @@ Name: AnswerText, dtype: object",False,384,"When solving simultaneous equations 
 1026,"Jo and Paul are talking about which term could replace the star in this addition pyramid.
 Jo says it could be: \( f \)
 Paul says it could be: \( g \)
-Who is correct? ![A diagram showing 3 rows of boxes. the bottom row has 3 boxes, containing a star, and empty box and 2g from left to right. The next row up contains two boxes, overlapping the joins of the boxes below. The left one contains 4f+6g, the right one is empty. The top row is one box, centered over the join of the two below, it is empty.]()",Simplify algebraic expressions to maintain equivalence by collecting like terms involving just two linear variables,Simplifying Expressions by Collecting Like Terms,C,"Series([], Name: AnswerText, dtype: object)",A,"4104    Only\nJo
+Who is correct? ![A diagram showing 3 rows of boxes. the bottom row has 3 boxes, containing a star, and empty box and 2g from left to right. The next row up contains two boxes, overlapping the joins of the boxes below. The left one contains 4f+6g, the right one is empty. The top row is one box, centered over the join of the two below, it is empty.]()",Simplify algebraic expressions to maintain equivalence by collecting like terms involving just two linear variables,Simplifying Expressions by Collecting Like Terms,C,"Series([], Name: AnswerText, dtype: object)",A,"4104    Only\r\nJo
 Name: AnswerText, dtype: object",True,1690,Assumes an addition pyramid works in a different way to how it actually does,Core Mathematical Fundamentals,Medium,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 1026,"Jo and Paul are talking about which term could replace the star in this addition pyramid.
 Jo says it could be: \( f \)
 Paul says it could be: \( g \)
-Who is correct? ![A diagram showing 3 rows of boxes. the bottom row has 3 boxes, containing a star, and empty box and 2g from left to right. The next row up contains two boxes, overlapping the joins of the boxes below. The left one contains 4f+6g, the right one is empty. The top row is one box, centered over the join of the two below, it is empty.]()",Simplify algebraic expressions to maintain equivalence by collecting like terms involving just two linear variables,Simplifying Expressions by Collecting Like Terms,C,"Series([], Name: AnswerText, dtype: object)",B,"4105    Only\nPaul
+Who is correct? ![A diagram showing 3 rows of boxes. the bottom row has 3 boxes, containing a star, and empty box and 2g from left to right. The next row up contains two boxes, overlapping the joins of the boxes below. The left one contains 4f+6g, the right one is empty. The top row is one box, centered over the join of the two below, it is empty.]()",Simplify algebraic expressions to maintain equivalence by collecting like terms involving just two linear variables,Simplifying Expressions by Collecting Like Terms,C,"Series([], Name: AnswerText, dtype: object)",B,"4105    Only\r\nPaul
 Name: AnswerText, dtype: object",True,1690,Assumes an addition pyramid works in a different way to how it actually does,Core Mathematical Fundamentals,Medium,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 1027,"![2 arrows pointing to the right. + 7 in the first arrow. divide by 2 in the second arrow]() The rule above is used to generate a term-to-term sequence.
 If the third term is \( 9 \), what is the first term?",For a given output find the input of a function machine,Other Sequences,A,"Series([], Name: AnswerText, dtype: object)",B,"4109    \( 4 \)
@@ -9372,7 +9372,7 @@ Tom says one solution is: \( x=\frac{2}{5} \)
 
 Katie says one solution is: \( x=-\frac{5}{2} \)
 
-Who is correct?",Solve quadratic equations using factorisation in the form (px + a)(qx + b) ,Quadratic Equations,D,"Series([], Name: AnswerText, dtype: object)",A,"4168    Only\nTom
+Who is correct?",Solve quadratic equations using factorisation in the form (px + a)(qx + b) ,Quadratic Equations,D,"Series([], Name: AnswerText, dtype: object)",A,"4168    Only\r\nTom
 Name: AnswerText, dtype: object",True,783,Thinks the sign of solutions in a quadratic equation is always the same as the constant term,Core Mathematical Fundamentals,Hard,Basic Operation Confusions,8,Fundamental_Arithmetic,1
 1042,"Tom and Katie are discussing how to solve this quadratic equation:
 \(
@@ -9546,7 +9546,7 @@ Name: AnswerText, dtype: object",True,1213,"When finding the differences between
 When calculating the nth-term rule of this sequence, 
 what should replace the triangle?
 
-nth-term rule: \( n^{2} \)\( \color{red}\triangle \)  \(n\) \( \color{purple}\square \)",Find the nth term rule for ascending quadratic sequences in the form x² + bx + c,Quadratic Sequences,D,"Series([], Name: AnswerText, dtype: object)",C,"4246    \[\n+1\n\]\n(or just a + sign)
+nth-term rule: \( n^{2} \)\( \color{red}\triangle \)  \(n\) \( \color{purple}\square \)",Find the nth term rule for ascending quadratic sequences in the form x² + bx + c,Quadratic Sequences,D,"Series([], Name: AnswerText, dtype: object)",C,"4246    \[\r\n+1\r\n\]\r\n(or just a + sign)
 Name: AnswerText, dtype: object",True,2139,"When finding the nth term rule for a quadratic sequence, believes that the coefficient of n is half the second difference",Numerical Sequences & Patterns,Hard,Basic Operation Confusions,8,Fundamental_Arithmetic,1
 1062,"Find the value of \( P \). ![Horizontal green bar divided into 5 equal sections. Each section is labelled with a ""P"". Curly bracket shows that 3 of the sections sum to 615.]()",Interpret and carry out mental division using a bar model,Written Division,C,"Series([], Name: AnswerText, dtype: object)",A,"4248    \( 200 \)
 Name: AnswerText, dtype: object",False,1764,Estimated when not appropriate,Core Mathematical Fundamentals,Medium,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
@@ -9925,7 +9925,7 @@ Name: AnswerText, dtype: object",False,2262,Gets order of ratio wrong,Core Mathe
 Tuna: \( -2.6 m \)
 Ray: \( -6 m \)
 Ling: \( -1.5 \mathrm{~m} \)
-Arrange their depths in ascending order, starting with the deepest",Order negative decimals with the same number of digits,Ordering Negative Numbers,D,"Series([], Name: AnswerText, dtype: object)",A,"4408    \( 1^{\text {st }} \) Tuna\n\( 2^{\text {nd }}...
+Arrange their depths in ascending order, starting with the deepest",Order negative decimals with the same number of digits,Ordering Negative Numbers,D,"Series([], Name: AnswerText, dtype: object)",A,"4408    \( 1^{\text {st }} \) Tuna\r\n\( 2^{\text {nd ...
 Name: AnswerText, dtype: object",True,2237,"Thinks the more digits a number has the greater it is, regardless of place value",Core Mathematical Fundamentals,Hard,Ratio & Proportional Reasoning Errors,0,Fractions_Ratios,2
 1102,"Here are the depths below sea level of \( 3 \) creatures:
 Tuna: \( -2.6 m \)
@@ -9975,7 +9975,7 @@ Name: AnswerText, dtype: object",True,2466,Uses tan when sin is required,Core Ma
 
 Katie says if you subtract the two equations together you will eliminate a variable
 
-Who is correct?",Recognise whether you need to add or subtract linear equations in order to eliminate a variable,Simultaneous Equations,A,"Series([], Name: AnswerText, dtype: object)",B,"4429    Only\nKatie
+Who is correct?",Recognise whether you need to add or subtract linear equations in order to eliminate a variable,Simultaneous Equations,A,"Series([], Name: AnswerText, dtype: object)",B,"4429    Only\r\nKatie
 Name: AnswerText, dtype: object",True,1274,Subtracts simultaneous equations when addition is required,Core Mathematical Fundamentals,Hard,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 1107,"Tom and Katie are discussing this pair of simultaneous equations: \( \begin{array}{l}3 x-2 y=15 \\ x+2 y=20\end{array} \) Tom says if you add the two equations together you will eliminate a variable
 
@@ -10018,14 +10018,14 @@ Name: AnswerText, dtype: object",False,108,Uses only the first two terms of a se
 
 Tom says there is no value of \( m \) that means \( 2^{m} \) ends in \( 0 \).
 Katie says there is no value of \( n \) that means \( 5^{n} \) ends in \( 0 \).
-Who is correct?",Raise a positive integer to a positive integer power,"Squares, Cubes, etc",C,"Series([], Name: AnswerText, dtype: object)",A,"4440    Only\nTom
+Who is correct?",Raise a positive integer to a positive integer power,"Squares, Cubes, etc",C,"Series([], Name: AnswerText, dtype: object)",A,"4440    Only\r\nTom
 Name: AnswerText, dtype: object",True,557,Assumes a fact without considering enough examples,Core Mathematical Fundamentals,Hard,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 1110,"Tom and Katie are arguing about powers.
 \( m \) and \( n \) are integers
 
 Tom says there is no value of \( m \) that means \( 2^{m} \) ends in \( 0 \).
 Katie says there is no value of \( n \) that means \( 5^{n} \) ends in \( 0 \).
-Who is correct?",Raise a positive integer to a positive integer power,"Squares, Cubes, etc",C,"Series([], Name: AnswerText, dtype: object)",B,"4441    Only\nKatie
+Who is correct?",Raise a positive integer to a positive integer power,"Squares, Cubes, etc",C,"Series([], Name: AnswerText, dtype: object)",B,"4441    Only\r\nKatie
 Name: AnswerText, dtype: object",True,557,Assumes a fact without considering enough examples,Core Mathematical Fundamentals,Hard,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 1110,"Tom and Katie are arguing about powers.
 \( m \) and \( n \) are integers
@@ -10129,9 +10129,9 @@ Name: AnswerText, dtype: object",False,980,Hasn't lined up the place value colum
 128 \times 26
 \]",Multiply 3 digit integers by 2 digit integers using long multiplication,Written Multiplication,D,"Series([], Name: AnswerText, dtype: object)",C,"4502    ![128 multiplied by 26 set out to perform long...
 Name: AnswerText, dtype: object",False,1626,Has partitioned the digits when doing long multiplication,Core Mathematical Fundamentals,Medium,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
-1126,Jane is trying to find the angles \( x \) and \( y \). Here are her workings. Which step is incorrect? ![A diagram showing parallel lines and two transversals. Some angles are given and one is labelled x](),Find missing angles on parallel lines using more than one angle fact,Angle Facts with Parallel Lines,C,"Series([], Name: AnswerText, dtype: object)",A,"4504    \[\nx=103\degree\]\nas alternate angles
+1126,Jane is trying to find the angles \( x \) and \( y \). Here are her workings. Which step is incorrect? ![A diagram showing parallel lines and two transversals. Some angles are given and one is labelled x](),Find missing angles on parallel lines using more than one angle fact,Angle Facts with Parallel Lines,C,"Series([], Name: AnswerText, dtype: object)",A,"4504    \[\r\nx=103\degree\]\r\nas alternate angles
 Name: AnswerText, dtype: object",False,1528,Does not know the meaning of alternate,Graphs & Coordinate Geometry,Medium,Fundamental Arithmetic Misconceptions,5,Fundamental_Arithmetic,1
-1126,Jane is trying to find the angles \( x \) and \( y \). Here are her workings. Which step is incorrect? ![A diagram showing parallel lines and two transversals. Some angles are given and one is labelled x](),Find missing angles on parallel lines using more than one angle fact,Angle Facts with Parallel Lines,C,"Series([], Name: AnswerText, dtype: object)",B,"4505    \[\ny=65\degree\n\]\nas alternate angles
+1126,Jane is trying to find the angles \( x \) and \( y \). Here are her workings. Which step is incorrect? ![A diagram showing parallel lines and two transversals. Some angles are given and one is labelled x](),Find missing angles on parallel lines using more than one angle fact,Angle Facts with Parallel Lines,C,"Series([], Name: AnswerText, dtype: object)",B,"4505    \[\r\ny=65\degree\r\n\]\r\nas alternate angles
 Name: AnswerText, dtype: object",False,1528,Does not know the meaning of alternate,Graphs & Coordinate Geometry,Medium,Fundamental Arithmetic Misconceptions,5,Fundamental_Arithmetic,1
 1126,Jane is trying to find the angles \( x \) and \( y \). Here are her workings. Which step is incorrect? ![A diagram showing parallel lines and two transversals. Some angles are given and one is labelled x](),Find missing angles on parallel lines using more than one angle fact,Angle Facts with Parallel Lines,C,"Series([], Name: AnswerText, dtype: object)",D,"4507    Both steps are incorrect
 Name: AnswerText, dtype: object",False,1528,Does not know the meaning of alternate,Graphs & Coordinate Geometry,Medium,Fundamental Arithmetic Misconceptions,5,Fundamental_Arithmetic,1
@@ -10172,7 +10172,7 @@ Name: AnswerText, dtype: object",False,186,Does not understand the meaning of th
 1132,"Tom and Katie are discussing units of area
 Tom says centimetres is a unit of area
 Katie says \( \mathrm{mm}^{2} \) is a unit of area
-Who is correct?",Identify a unit of area,Area Units,B,"Series([], Name: AnswerText, dtype: object)",A,"4528    Only\nTom
+Who is correct?",Identify a unit of area,Area Units,B,"Series([], Name: AnswerText, dtype: object)",A,"4528    Only\r\nTom
 Name: AnswerText, dtype: object",True,686,Does not know units of area should be squared,"Fractions, Decimals & Conversions",Medium,Fundamental Arithmetic Misconceptions,5,Fundamental_Arithmetic,1
 1132,"Tom and Katie are discussing units of area
 Tom says centimetres is a unit of area
@@ -10333,7 +10333,7 @@ Name: AnswerText, dtype: object",True,2306,"Applies BIDMAS in strict order (does
 1153,"Tom and Katie are arguing about triangles.
 Tom says a triangle can have two right angles.
 Katie says only a scalene triangle can have a right angle.
-Who is correct?",Find missing angles in a right-angled triangle,Angles in Triangles,D,"Series([], Name: AnswerText, dtype: object)",A,"4612    Only\nTom
+Who is correct?",Find missing angles in a right-angled triangle,Angles in Triangles,D,"Series([], Name: AnswerText, dtype: object)",A,"4612    Only\r\nTom
 Name: AnswerText, dtype: object",False,1539,Does not consider that all three angles in a triangle sum to 180 degrees,Geometry & Shapes,Easy,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 1153,"Tom and Katie are arguing about triangles.
 Tom says a triangle can have two right angles.
@@ -10401,7 +10401,7 @@ Name: AnswerText, dtype: object",True,1259,Believes division is sometimes commut
 -5 p-2 q=12 \\
 3 p+2 q=8
 \end{array}
-\)",Recognise whether you need to add or subtract linear equations in order to eliminate a variable,Simultaneous Equations,B,"Series([], Name: AnswerText, dtype: object)",D,"4655    Subtract Pair \( 1 \)\nSubtract Pair \( 2 \)
+\)",Recognise whether you need to add or subtract linear equations in order to eliminate a variable,Simultaneous Equations,B,"Series([], Name: AnswerText, dtype: object)",D,"4655    Subtract Pair \( 1 \)\r\nSubtract Pair \( 2 \)
 Name: AnswerText, dtype: object",True,2077,"Believes that when eliminating a variable, if the signs of the terms with matching coefficients are different, we subtract the equations.",Core Mathematical Fundamentals,Hard,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
 1164,This graph shows how much a block of ice melted over time. ![Chart of water depth (cm) against time (minutes)]() What was the difference between the second minute and fourth minute?,Interpret continuous data using a line graph,Time Series and Line Graphs,A,"Series([], Name: AnswerText, dtype: object)",B,"4657    \( 6 \)
 Name: AnswerText, dtype: object",False,1183,Does not include units in answer.,Graphs & Coordinate Geometry,Medium,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
@@ -10735,7 +10735,7 @@ Name: AnswerText, dtype: object",True,433,Believes a negative power results in a
 1207,"Tom and Katie are discussing expressions
 Tom says \( \frac{p}{q} \) is equivalent to \( \frac{q}{p} \)
 Katie says \( p q \) is equivalent to \( q p \)
-Who do you agree with?",Understand the non-commutativity of division,Writing Expressions,B,"Series([], Name: AnswerText, dtype: object)",A,"4828    Only\nTom
+Who do you agree with?",Understand the non-commutativity of division,Writing Expressions,B,"Series([], Name: AnswerText, dtype: object)",A,"4828    Only\r\nTom
 Name: AnswerText, dtype: object",False,2359,Believes division is commutative ,Core Mathematical Fundamentals,Hard,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
 1207,"Tom and Katie are discussing expressions
 Tom says \( \frac{p}{q} \) is equivalent to \( \frac{q}{p} \)
@@ -10775,7 +10775,7 @@ Name: AnswerText, dtype: object",False,910,Cannot identify the correct side leng
 1212,"Tom and Katie are discussing this shape
 Tom says it is a rectangle
 Katie says it is a parallelogram
-Who do you agree with? ![Purple parallelogram with parallel sides labelled]()",Sort and class quadrilaterals into hierarchical families,Properties of Quadrilaterals,B,"Series([], Name: AnswerText, dtype: object)",A,"4848    Only\nTom
+Who do you agree with? ![Purple parallelogram with parallel sides labelled]()",Sort and class quadrilaterals into hierarchical families,Properties of Quadrilaterals,B,"Series([], Name: AnswerText, dtype: object)",A,"4848    Only\r\nTom
 Name: AnswerText, dtype: object",False,1348,Does not recognise a parallelogram,Geometry & Shapes,Hard,Geometric Concepts & Properties,3,Geometry_Spatial,4
 1212,"Tom and Katie are discussing this shape
 Tom says it is a rectangle
@@ -10901,7 +10901,7 @@ Name: AnswerText, dtype: object",True,661,Confuses an expression with a term,Cor
 1224,"Tom and Katie are arguing about angle relationships on parallel lines.
 Tom says allied (co-interior) angles are equal.
 Katie says corresponding angles are equal.
-Who is correct?",Identify co-interior angles,Angle Facts with Parallel Lines,B,"Series([], Name: AnswerText, dtype: object)",A,"4896    Only\nTom
+Who is correct?",Identify co-interior angles,Angle Facts with Parallel Lines,B,"Series([], Name: AnswerText, dtype: object)",A,"4896    Only\r\nTom
 Name: AnswerText, dtype: object",True,1505,Thinks co-interior angles are equal,Graphs & Coordinate Geometry,Medium,Ratio & Proportional Reasoning Errors,0,Fractions_Ratios,2
 1224,"Tom and Katie are arguing about angle relationships on parallel lines.
 Tom says allied (co-interior) angles are equal.
@@ -11190,7 +11190,7 @@ Name: AnswerText, dtype: object",False,2357,Thinks sign for parallel lines just 
 Name: AnswerText, dtype: object",False,423,Does not know the meaning of equilateral,Geometry & Shapes,Medium,Fundamental Arithmetic Misconceptions,5,Fundamental_Arithmetic,1
 1257,"Problem 1: What is the product of \( 17 \) and \(32\)?
 Problem 2: Each person in a group of \( 17 \) people owns \( 32 \) pieces of art. How many pieces of art does the group own in total?
-Which of these problems needs multiplication to solve it?",Identify that a problem needs to be solved using multiplication,Mental Multiplication and Division,C,"Series([], Name: AnswerText, dtype: object)",A,"5028    Only\nProblem \( 1 \)
+Which of these problems needs multiplication to solve it?",Identify that a problem needs to be solved using multiplication,Mental Multiplication and Division,C,"Series([], Name: AnswerText, dtype: object)",A,"5028    Only\r\nProblem \( 1 \)
 Name: AnswerText, dtype: object",False,2340,Does not recognise when to find a multiple from a worded question,Core Mathematical Fundamentals,Medium,Geometric Concepts & Properties,3,Geometry_Spatial,4
 1257,"Problem 1: What is the product of \( 17 \) and \(32\)?
 Problem 2: Each person in a group of \( 17 \) people owns \( 32 \) pieces of art. How many pieces of art does the group own in total?
@@ -11284,7 +11284,7 @@ Jo says \( t \) could be \( -3.4 \)
 
 Paul says \( t \) could be \( 3.4 \)
 
-Who is correct?",Solve one-step linear inequalities in one variable where the variable appears on one side of the equation,Solving Linear Inequalities,B,"Series([], Name: AnswerText, dtype: object)",A,"5084    Only\nJo
+Who is correct?",Solve one-step linear inequalities in one variable where the variable appears on one side of the equation,Solving Linear Inequalities,B,"Series([], Name: AnswerText, dtype: object)",A,"5084    Only\r\nJo
 Name: AnswerText, dtype: object",True,1880,Mixes up greater than and less than symbols,Core Mathematical Fundamentals,Hard,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 1271,"Jo and Paul are arguing about the solution to this inequality:
 \(t+3>-0.3\)
@@ -11323,9 +11323,9 @@ Name: AnswerText, dtype: object",False,618,Does not recall rectangle side length
 Name: AnswerText, dtype: object",True,2155,"Reflects in an axis, instead of the given mirror line",Core Mathematical Fundamentals,Hard,Fraction Operations & Concepts,1,Fractions_Ratios,2
 1274,"Which is the correct description of the transformation that maps shape A onto shape \( B \) ? ![A coordinate grid with two triangles drawn on it. Triangle A has the coordinates: (6,4) (4,4) and (4,5). Triangle B has the coordinates: (-4,4) (-2,4) and (-2,5).]()","Describe a reflection in a vertical line by giving the line of reflection as an equation, where the line of reflection lies on the edge or outside the object",Reflection,D,"Series([], Name: AnswerText, dtype: object)",C,"5098    Reflection in \( \mathrm{y}=1 \)
 Name: AnswerText, dtype: object",True,287,Thinks y = ? is a vertical line through ?,Core Mathematical Fundamentals,Hard,Fraction Operations & Concepts,1,Fractions_Ratios,2
-1275,"What is the relationship between these two angles? ![A pair of lines crossing to form an X shape. Two angles are marked, with one blank angle between them on each side.]()",Recognise the vertically opposite angles relationship,"Basic Angle Facts (straight line, opposite, around a point, etc)",C,"Series([], Name: AnswerText, dtype: object)",A,"5100    They add together to make\n\[\n180^{\circ}\n\]
+1275,"What is the relationship between these two angles? ![A pair of lines crossing to form an X shape. Two angles are marked, with one blank angle between them on each side.]()",Recognise the vertically opposite angles relationship,"Basic Angle Facts (straight line, opposite, around a point, etc)",C,"Series([], Name: AnswerText, dtype: object)",A,"5100    They add together to make\r\n\[\r\n180^{\circ}...
 Name: AnswerText, dtype: object",False,1997,Believes vertically opposite angles sum to 180 degrees,Graphs & Coordinate Geometry,Medium,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
-1275,"What is the relationship between these two angles? ![A pair of lines crossing to form an X shape. Two angles are marked, with one blank angle between them on each side.]()",Recognise the vertically opposite angles relationship,"Basic Angle Facts (straight line, opposite, around a point, etc)",C,"Series([], Name: AnswerText, dtype: object)",B,"5101    They add together to make\n\[\n360^{\circ}\n\]
+1275,"What is the relationship between these two angles? ![A pair of lines crossing to form an X shape. Two angles are marked, with one blank angle between them on each side.]()",Recognise the vertically opposite angles relationship,"Basic Angle Facts (straight line, opposite, around a point, etc)",C,"Series([], Name: AnswerText, dtype: object)",B,"5101    They add together to make\r\n\[\r\n360^{\circ}...
 Name: AnswerText, dtype: object",False,875,Believes vertically opposite angles sum to 360 degrees,Graphs & Coordinate Geometry,Medium,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
 1275,"What is the relationship between these two angles? ![A pair of lines crossing to form an X shape. Two angles are marked, with one blank angle between them on each side.]()",Recognise the vertically opposite angles relationship,"Basic Angle Facts (straight line, opposite, around a point, etc)",C,"Series([], Name: AnswerText, dtype: object)",D,"5103    They are parallel
 Name: AnswerText, dtype: object",False,114,Does not know the meaning of the word parallel,Graphs & Coordinate Geometry,Medium,Fundamental Arithmetic Misconceptions,5,Fundamental_Arithmetic,1
@@ -11950,7 +11950,7 @@ To calculate the mean age, what is the most sensible heading for the third colum
 \hline \( 20 \) & \( 1 \) & \\
 \hline \( 21 \) & \( 2 \) & \\
 \hline
-\end{tabular}",Calculate the mean from a frequency table,Averages and Range from Frequency Table,C,"Series([], Name: AnswerText, dtype: object)",D,"5391    Age \( \div \)\nFrequency
+\end{tabular}",Calculate the mean from a frequency table,Averages and Range from Frequency Table,C,"Series([], Name: AnswerText, dtype: object)",D,"5391    Age \( \div \)\r\nFrequency
 Name: AnswerText, dtype: object",False,565,Divides rather than multiplies ,Core Mathematical Fundamentals,Medium,Core Mathematical Knowledge Gaps,12,Fundamental_Arithmetic,1
 1348,"\( 1,3,6,10,15,21,28 \ldots \) What is the name commonly given to this sequence of numbers?",Identify triangular numbers,Other Sequences,D,"Series([], Name: AnswerText, dtype: object)",A,"5392    The cube numbers
 Name: AnswerText, dtype: object",False,2489,Thinks cube numbers are triangular numbers,Numerical Sequences & Patterns,Easy,Ratio & Proportional Reasoning Errors,0,Fractions_Ratios,2
@@ -12134,7 +12134,7 @@ Name: AnswerText, dtype: object",False,1917,Confuses the meaning of parallel and
 1364,"\( A B C D \) is a rhombus.
 Which lines must be perpendicular? ![Parallelogram with the vertices labelled A, B, C and D]()",Describe the properties of a rhombus,Properties of Quadrilaterals,C,"Series([], Name: AnswerText, dtype: object)",D,"5459    None of them
 Name: AnswerText, dtype: object",False,2493,Does not know the properties of a rhombus,Geometry & Shapes,Medium,Fundamental Arithmetic Misconceptions,5,Fundamental_Arithmetic,1
-1365,\( 300 \% \) of \( 25= \),Calculate percentage of an amount mentally where the percent is greater than 100,Percentages of an Amount,C,"Series([], Name: AnswerText, dtype: object)",D,"5463    You cannot have\na percentage\ngreater than \(...
+1365,\( 300 \% \) of \( 25= \),Calculate percentage of an amount mentally where the percent is greater than 100,Percentages of an Amount,C,"Series([], Name: AnswerText, dtype: object)",D,"5463    You cannot have\r\na percentage\r\ngreater tha...
 Name: AnswerText, dtype: object",True,1601,Does not understand that you can have percentages greater than 100%,Core Mathematical Fundamentals,Easy,Simplification & Conversion Errors,9,Data_Conversions,5
 1366,"How many squares will the next term in this sequence have? ![A diagram showing the first 3 patterns in a sequences. Pattern 1 contains 7 squares, pattern 2 contains 5 squares and pattern 3 contains 3 squares.]()",Continue linear sequences expressed as patterns by drawing the next pattern,Linear Sequences (nth term),B,"Series([], Name: AnswerText, dtype: object)",A,"5464    \( 2 \)
 Name: AnswerText, dtype: object",False,1720,Identifies the term-to-term rule rather than the next term,Numerical Sequences & Patterns,Medium,Basic Operation Confusions,8,Fundamental_Arithmetic,1
@@ -12307,7 +12307,7 @@ Name: AnswerText, dtype: object",False,1783,Confuses pyramid with prism,Core Mat
 1395,"Tom and Katie are arguing about parallel lines. 
 Tom says \( \boldsymbol{y}=\mathbf{5} \boldsymbol{x}+\mathbf{7} \) and \( \boldsymbol{y}=\mathbf{3 x + 7} \) are parallel. 
 Katie says \( \boldsymbol{y}=\mathbf{5} \boldsymbol{x}+\mathbf{7} \) and \( \boldsymbol{y}=\mathbf{5} \boldsymbol{x}-\mathbf{2 2} \) are parallel. 
-Who is correct?",Identify parallel lines written in the form y = mx + c,Parallel Lines,B,"Series([], Name: AnswerText, dtype: object)",A,"5580    Only\nTom
+Who is correct?",Identify parallel lines written in the form y = mx + c,Parallel Lines,B,"Series([], Name: AnswerText, dtype: object)",A,"5580    Only\r\nTom
 Name: AnswerText, dtype: object",True,1868,Believes lines are parallel if they have the same y intercept ,Graphs & Coordinate Geometry,Hard,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
 1395,"Tom and Katie are arguing about parallel lines. 
 Tom says \( \boldsymbol{y}=\mathbf{5} \boldsymbol{x}+\mathbf{7} \) and \( \boldsymbol{y}=\mathbf{3 x + 7} \) are parallel. 
@@ -12431,7 +12431,7 @@ Name: AnswerText, dtype: object",False,743,"When calculating the area of a recti
 Name: AnswerText, dtype: object",False,982,Calculates perimeter when asked for area,Core Mathematical Fundamentals,Hard,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 1414,"Tom and Katie are discussing regular polygons.
 Tom says if all the angles are Katie says if all the sides are equal equal then the polygon must be length then the polygon must be regular regular
-Who is correct?","Understand the terms equilateral and regular, and recognise the notation for regular polygons",2D Names and Properties of Shapes-Others,D,"Series([], Name: AnswerText, dtype: object)",A,"5656    Only\nTom
+Who is correct?","Understand the terms equilateral and regular, and recognise the notation for regular polygons",2D Names and Properties of Shapes-Others,D,"Series([], Name: AnswerText, dtype: object)",A,"5656    Only\r\nTom
 Name: AnswerText, dtype: object",False,2104,Thinks that only the angles need to be the same for a polygon to be regular,Geometry & Shapes,Medium,Ratio & Proportional Reasoning Errors,0,Fractions_Ratios,2
 1414,"Tom and Katie are discussing regular polygons.
 Tom says if all the angles are Katie says if all the sides are equal equal then the polygon must be length then the polygon must be regular regular
@@ -12615,7 +12615,7 @@ Name: AnswerText, dtype: object",True,1361,Does not recognise that addition is t
 Name: AnswerText, dtype: object",True,971,Believes that adding a negative will increase the value of the original number,Core Mathematical Fundamentals,Medium,Decimal Operations & Place Value,6,Fundamental_Arithmetic,1
 1433,\( (-9)+(-4)= \),Carry out addition problems involving two negative integers ,Adding and Subtracting Negative Numbers,D,"Series([], Name: AnswerText, dtype: object)",C,"5734    \( 13 \)
 Name: AnswerText, dtype: object",True,1639,Believes adding two negatives gives a positive answer,Core Mathematical Fundamentals,Medium,Decimal Operations & Place Value,6,Fundamental_Arithmetic,1
-1434,Tom and Katie are discussing sequences Tom says \( (2 n+1)^{2} \) would produce a linear sequence Katie says \( 1-\frac{n}{2} \) would produce a linear sequence Who is correct?,Generate a descending integer linear sequence from the nth term rule,Quadratic Sequences,B,"Series([], Name: AnswerText, dtype: object)",A,"5736    Only\nTom
+1434,Tom and Katie are discussing sequences Tom says \( (2 n+1)^{2} \) would produce a linear sequence Katie says \( 1-\frac{n}{2} \) would produce a linear sequence Who is correct?,Generate a descending integer linear sequence from the nth term rule,Quadratic Sequences,B,"Series([], Name: AnswerText, dtype: object)",A,"5736    Only\r\nTom
 Name: AnswerText, dtype: object",True,1198,Does not recognise that a linear sequence must increase or decrease by same amount,Numerical Sequences & Patterns,Hard,Geometric Concepts & Properties,3,Geometry_Spatial,4
 1434,Tom and Katie are discussing sequences Tom says \( (2 n+1)^{2} \) would produce a linear sequence Katie says \( 1-\frac{n}{2} \) would produce a linear sequence Who is correct?,Generate a descending integer linear sequence from the nth term rule,Quadratic Sequences,B,"Series([], Name: AnswerText, dtype: object)",C,"5738    Both Tom and Katie
 Name: AnswerText, dtype: object",True,1198,Does not recognise that a linear sequence must increase or decrease by same amount,Numerical Sequences & Patterns,Hard,Geometric Concepts & Properties,3,Geometry_Spatial,4
@@ -12725,9 +12725,9 @@ Name: AnswerText, dtype: object",True,1507,Carries out operations from left to r
 Name: AnswerText, dtype: object",False,2355,Does not know how to find order of rotational symmetry,Core Mathematical Fundamentals,Easy,Fundamental Arithmetic Misconceptions,5,Fundamental_Arithmetic,1
 1450,![A solid yellow equilateral triangle (3 sided polygon with all 3 sides of equal length).]() What is the order of rotational symmetry of this equilateral triangle?,Identify the order of rotational symmetry of a shape,Rotational Symmetry,D,"Series([], Name: AnswerText, dtype: object)",C,"5802    \( 2 \)
 Name: AnswerText, dtype: object",False,1687,Gives one fewer order of rotational symmetry than there is,Core Mathematical Fundamentals,Easy,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
-1451,"Tom and Katie are discussing linear sequences Tom says this is a linear sequence: ![Three shapes made of squares. The first is an L-shape made of 3 squares so the bottom line is two squares long. The second shape is also an L but with a bottom line of three squares. The fourth shape is the same but the bottom line is four squares long.  ]() Katie says this is a linear sequence: ![Three shapes made of squares. The first is an L-shape made of 3 squares. The second shape is an L made of 5 squares, two on the top row and three on the bottom row. The third shape is an L made of 7 squares, 3 on the top row and four on the bottom. ]() Who is correct?",Recognise that a sequence is linear sequences when expressed as a pattern,Linear Sequences (nth term),C,"Series([], Name: AnswerText, dtype: object)",A,"5804    Only\nTom
+1451,"Tom and Katie are discussing linear sequences Tom says this is a linear sequence: ![Three shapes made of squares. The first is an L-shape made of 3 squares so the bottom line is two squares long. The second shape is also an L but with a bottom line of three squares. The fourth shape is the same but the bottom line is four squares long.  ]() Katie says this is a linear sequence: ![Three shapes made of squares. The first is an L-shape made of 3 squares. The second shape is an L made of 5 squares, two on the top row and three on the bottom row. The third shape is an L made of 7 squares, 3 on the top row and four on the bottom. ]() Who is correct?",Recognise that a sequence is linear sequences when expressed as a pattern,Linear Sequences (nth term),C,"Series([], Name: AnswerText, dtype: object)",A,"5804    Only\r\nTom
 Name: AnswerText, dtype: object",True,1198,Does not recognise that a linear sequence must increase or decrease by same amount,Numerical Sequences & Patterns,Hard,Geometric Concepts & Properties,3,Geometry_Spatial,4
-1451,"Tom and Katie are discussing linear sequences Tom says this is a linear sequence: ![Three shapes made of squares. The first is an L-shape made of 3 squares so the bottom line is two squares long. The second shape is also an L but with a bottom line of three squares. The fourth shape is the same but the bottom line is four squares long.  ]() Katie says this is a linear sequence: ![Three shapes made of squares. The first is an L-shape made of 3 squares. The second shape is an L made of 5 squares, two on the top row and three on the bottom row. The third shape is an L made of 7 squares, 3 on the top row and four on the bottom. ]() Who is correct?",Recognise that a sequence is linear sequences when expressed as a pattern,Linear Sequences (nth term),C,"Series([], Name: AnswerText, dtype: object)",B,"5805    Only\nKatie
+1451,"Tom and Katie are discussing linear sequences Tom says this is a linear sequence: ![Three shapes made of squares. The first is an L-shape made of 3 squares so the bottom line is two squares long. The second shape is also an L but with a bottom line of three squares. The fourth shape is the same but the bottom line is four squares long.  ]() Katie says this is a linear sequence: ![Three shapes made of squares. The first is an L-shape made of 3 squares. The second shape is an L made of 5 squares, two on the top row and three on the bottom row. The third shape is an L made of 7 squares, 3 on the top row and four on the bottom. ]() Who is correct?",Recognise that a sequence is linear sequences when expressed as a pattern,Linear Sequences (nth term),C,"Series([], Name: AnswerText, dtype: object)",B,"5805    Only\r\nKatie
 Name: AnswerText, dtype: object",True,1198,Does not recognise that a linear sequence must increase or decrease by same amount,Numerical Sequences & Patterns,Hard,Geometric Concepts & Properties,3,Geometry_Spatial,4
 1451,"Tom and Katie are discussing linear sequences Tom says this is a linear sequence: ![Three shapes made of squares. The first is an L-shape made of 3 squares so the bottom line is two squares long. The second shape is also an L but with a bottom line of three squares. The fourth shape is the same but the bottom line is four squares long.  ]() Katie says this is a linear sequence: ![Three shapes made of squares. The first is an L-shape made of 3 squares. The second shape is an L made of 5 squares, two on the top row and three on the bottom row. The third shape is an L made of 7 squares, 3 on the top row and four on the bottom. ]() Who is correct?",Recognise that a sequence is linear sequences when expressed as a pattern,Linear Sequences (nth term),C,"Series([], Name: AnswerText, dtype: object)",D,"5807    Neither is correct
 Name: AnswerText, dtype: object",True,1198,Does not recognise that a linear sequence must increase or decrease by same amount,Numerical Sequences & Patterns,Hard,Geometric Concepts & Properties,3,Geometry_Spatial,4
@@ -12767,7 +12767,7 @@ Name: AnswerText, dtype: object",False,488,Does not correctly apply the distribu
 Name: AnswerText, dtype: object",False,488,Does not correctly apply the distributive property of multiplication,Core Mathematical Fundamentals,Medium,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 1457,Tom and Katie are discussing ways to calculate \( 21 \times 12 \) mentally Tom does \( 12 \times 7 \) and then multiplies his answer by \( 3 \) Katie does \( 21 \times 6 \) and then doubles her answer Who would get the correct answer?,Recognise and use efficient methods for mental multiplication,Mental Multiplication and Division,C,"Series([], Name: AnswerText, dtype: object)",D,"5831    Neither is correct
 Name: AnswerText, dtype: object",False,488,Does not correctly apply the distributive property of multiplication,Core Mathematical Fundamentals,Medium,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
-1458,Tom and Katie are arguing about simplifying fractions. Tom says \( \frac{3 p-1}{p} \equiv 2 \) Katie says \( \frac{3 p-1}{p} \equiv 3-\frac{1}{p} \) Who is correct?,Simplify an algebraic fraction by dividing by a single letter,Simplifying Algebraic Fractions,B,"Series([], Name: AnswerText, dtype: object)",A,"5832    Only\nTom
+1458,Tom and Katie are arguing about simplifying fractions. Tom says \( \frac{3 p-1}{p} \equiv 2 \) Katie says \( \frac{3 p-1}{p} \equiv 3-\frac{1}{p} \) Who is correct?,Simplify an algebraic fraction by dividing by a single letter,Simplifying Algebraic Fractions,B,"Series([], Name: AnswerText, dtype: object)",A,"5832    Only\r\nTom
 Name: AnswerText, dtype: object",True,363,Only applies a division to one of multiple terms in a numerator when simplifying an algebraic fraction,"Fractions, Decimals & Conversions",Hard,Advanced Functions & Graphs,11,Algebra_Advanced_Math,3
 1459,"Work out:
 \[
@@ -13015,12 +13015,12 @@ Name: AnswerText, dtype: object",True,539,Does not understand the value of zeros
 1487,"Tom and Katie are discussing units of volume
 Tom says litres is a unit of volume
 Katie says \( m^{3} \) is a unit of volume
-Who is correct?",Identify a unit of volume or capacity,Volume and Capacity Units,C,"Series([], Name: AnswerText, dtype: object)",A,"5948    Only\nTom
+Who is correct?",Identify a unit of volume or capacity,Volume and Capacity Units,C,"Series([], Name: AnswerText, dtype: object)",A,"5948    Only\r\nTom
 Name: AnswerText, dtype: object",True,996,Does not know that units of volume are usually cubed,"Fractions, Decimals & Conversions",Medium,Fundamental Arithmetic Misconceptions,5,Fundamental_Arithmetic,1
 1487,"Tom and Katie are discussing units of volume
 Tom says litres is a unit of volume
 Katie says \( m^{3} \) is a unit of volume
-Who is correct?",Identify a unit of volume or capacity,Volume and Capacity Units,C,"Series([], Name: AnswerText, dtype: object)",B,"5949    Only\nKatie
+Who is correct?",Identify a unit of volume or capacity,Volume and Capacity Units,C,"Series([], Name: AnswerText, dtype: object)",B,"5949    Only\r\nKatie
 Name: AnswerText, dtype: object",True,1520,Does not recognise litres as a unit of volume,"Fractions, Decimals & Conversions",Medium,Geometric Concepts & Properties,3,Geometry_Spatial,4
 1487,"Tom and Katie are discussing units of volume
 Tom says litres is a unit of volume
@@ -13164,10 +13164,10 @@ Name: AnswerText, dtype: object",True,2398,Thinks you can divide terms by differ
 How many potatoes were consumed on Friday? ![Graph of potatoes consumed with kilos against day of week]()",Interpret discrete data using a line graph,Time Series and Line Graphs,C,"Series([], Name: AnswerText, dtype: object)",A,"6008    \( 3 \mathrm{~kg} \)
 Name: AnswerText, dtype: object",False,445,Counts squares instead of the correct scale when plotting coordinates,Graphs & Coordinate Geometry,Medium,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 1503,"Two different numbers are equal to \( 7.46 \) to two decimal places.
-The numbers could be....",Round numbers to two decimal places,Rounding to Decimal Places,D,"Series([], Name: AnswerText, dtype: object)",A,"6012    \( 7.4651 \)\nand\n\( 7.4559 \)
+The numbers could be....",Round numbers to two decimal places,Rounding to Decimal Places,D,"Series([], Name: AnswerText, dtype: object)",A,"6012    \( 7.4651 \)\r\nand\r\n\( 7.4559 \)
 Name: AnswerText, dtype: object",False,1402,Rounds down instead of up when next digit is 5,Core Mathematical Fundamentals,Easy,Core Mathematical Knowledge Gaps,12,Fundamental_Arithmetic,1
 1503,"Two different numbers are equal to \( 7.46 \) to two decimal places.
-The numbers could be....",Round numbers to two decimal places,Rounding to Decimal Places,D,"Series([], Name: AnswerText, dtype: object)",B,"6013    \( 7.4628 \)\nand\n\( 7.4528 \)
+The numbers could be....",Round numbers to two decimal places,Rounding to Decimal Places,D,"Series([], Name: AnswerText, dtype: object)",B,"6013    \( 7.4628 \)\r\nand\r\n\( 7.4528 \)
 Name: AnswerText, dtype: object",False,1988,Rounds up instead of down,Core Mathematical Fundamentals,Easy,Core Mathematical Knowledge Gaps,12,Fundamental_Arithmetic,1
 1504,Which of the following is a power of \( 4 \) ?,Raise a positive integer to a positive integer power,Laws of Indices,B,"Series([], Name: AnswerText, dtype: object)",A,"6016    \( 44 \)
 Name: AnswerText, dtype: object",False,968,Confuses powers and multiples,Core Mathematical Fundamentals,Easy,Fraction Arithmetic & Algebra,13,Fractions_Ratios,2
@@ -13175,7 +13175,7 @@ Name: AnswerText, dtype: object",False,968,Confuses powers and multiples,Core Ma
 Name: AnswerText, dtype: object",False,968,Confuses powers and multiples,Core Mathematical Fundamentals,Easy,Fraction Arithmetic & Algebra,13,Fractions_Ratios,2
 1504,Which of the following is a power of \( 4 \) ?,Raise a positive integer to a positive integer power,Laws of Indices,B,"Series([], Name: AnswerText, dtype: object)",D,"6019    \( 8 \)
 Name: AnswerText, dtype: object",False,968,Confuses powers and multiples,Core Mathematical Fundamentals,Easy,Fraction Arithmetic & Algebra,13,Fractions_Ratios,2
-1505,Which of the following best describes how to construct a triangle with side length \( 7 \mathrm{~cm} \) with angles of \( 40^{\degree} \) and \( 50^{\degree} \) either side?,Construct a triangle using Angle-Side-Angle,Construct Triangle,D,"Series([], Name: AnswerText, dtype: object)",C,"6022    - Draw a line \( 7 \mathrm{~cm} \) long\n- Pla...
+1505,Which of the following best describes how to construct a triangle with side length \( 7 \mathrm{~cm} \) with angles of \( 40^{\degree} \) and \( 50^{\degree} \) either side?,Construct a triangle using Angle-Side-Angle,Construct Triangle,D,"Series([], Name: AnswerText, dtype: object)",C,"6022    - Draw a line \( 7 \mathrm{~cm} \) long\r\n- P...
 Name: AnswerText, dtype: object",True,796,Draws both angles at the same end of the line when constructing a triangle,Core Mathematical Fundamentals,Medium,Fraction Operations & Concepts,1,Fractions_Ratios,2
 1506,Which option gives a correct substitution into the quadratic formula to solve the quadratic equation? \( 2 x^{2}-8 x+7=0 \),Solve quadratic equations using the quadratic formula where the coefficient of x² is not 1 ,Quadratic Equations,D,"Series([], Name: AnswerText, dtype: object)",A,"6024    \( -8 \pm \frac{\sqrt{(-8)^{2}-4(2)(7)}}{2(2)} \)
 Name: AnswerText, dtype: object",True,1044,Misremembers the quadratic formula,Core Mathematical Fundamentals,Hard,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
@@ -13258,9 +13258,9 @@ Katie says to find \( 30 \% \) you divide by \( 100 \) and multiply by \( 3 \).
 
 Who is correct?",Calculate percentage of an amount mentally where the percent is a multiple of 10,Percentages of an Amount,D,"Series([], Name: AnswerText, dtype: object)",C,"6058    Both Tom and Katie
 Name: AnswerText, dtype: object",False,329,Does not understand a percentage is out of 100,Core Mathematical Fundamentals,Medium,Simplification & Conversion Errors,9,Data_Conversions,5
-1515,"John walks from home at a constant speed to a bench, stops for a rest, and then runs home at a constant speed. Which of the following displacement \( (d) \) time \( (t) \) graphs is most likely to illustrate John's journey?",Given a situation sketch an appropriate displacement-time graph,Real Life Graphs,D,"Series([], Name: AnswerText, dtype: object)",B,"6061    ![The graph has three sections.\nThe first sec...
+1515,"John walks from home at a constant speed to a bench, stops for a rest, and then runs home at a constant speed. Which of the following displacement \( (d) \) time \( (t) \) graphs is most likely to illustrate John's journey?",Given a situation sketch an appropriate displacement-time graph,Real Life Graphs,D,"Series([], Name: AnswerText, dtype: object)",B,"6061    ![The graph has three sections.\r\nThe first s...
 Name: AnswerText, dtype: object",False,601,Believes a less steep gradient corresponds to a faster speed,Graphs & Coordinate Geometry,Hard,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
-1515,"John walks from home at a constant speed to a bench, stops for a rest, and then runs home at a constant speed. Which of the following displacement \( (d) \) time \( (t) \) graphs is most likely to illustrate John's journey?",Given a situation sketch an appropriate displacement-time graph,Real Life Graphs,D,"Series([], Name: AnswerText, dtype: object)",C,"6062    ![The graph has three sections.\nThe first sec...
+1515,"John walks from home at a constant speed to a bench, stops for a rest, and then runs home at a constant speed. Which of the following displacement \( (d) \) time \( (t) \) graphs is most likely to illustrate John's journey?",Given a situation sketch an appropriate displacement-time graph,Real Life Graphs,D,"Series([], Name: AnswerText, dtype: object)",C,"6062    ![The graph has three sections.\r\nThe first s...
 Name: AnswerText, dtype: object",False,211,Believes displacement continues to increase even when returning to starting point,Graphs & Coordinate Geometry,Hard,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
 1516,How many millimetres in \( 100 \) kilometres?,Complete multi-step conversions of length that use multiplication,Length Units,C,"Series([], Name: AnswerText, dtype: object)",A,"6064    One hundred thousand
 Name: AnswerText, dtype: object",False,205,Thinks there are 1000mm in a km,"Fractions, Decimals & Conversions",Medium,Ratio & Proportional Reasoning Errors,0,Fractions_Ratios,2
@@ -13287,17 +13287,17 @@ Name: AnswerText, dtype: object",True,2386,Believes there is a multiplicative re
 1520,"What transformation maps the graph of
 \(y=3 x-7\)
 to the graph of
-\(y=7-3 x\)",Identify vertical reflections in the form f(x) = for non-trigonometric functions,Transformations of functions in the form f(x),C,"Series([], Name: AnswerText, dtype: object)",A,"6080    Reflection in the line\n\[\ny=x\n\]
+\(y=7-3 x\)",Identify vertical reflections in the form f(x) = for non-trigonometric functions,Transformations of functions in the form f(x),C,"Series([], Name: AnswerText, dtype: object)",A,"6080    Reflection in the line\r\n\[\r\ny=x\r\n\]
 Name: AnswerText, dtype: object",True,47,Believes y=-f(x) is a reflection in y=x,Core Mathematical Fundamentals,Medium,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
 1520,"What transformation maps the graph of
 \(y=3 x-7\)
 to the graph of
-\(y=7-3 x\)",Identify vertical reflections in the form f(x) = for non-trigonometric functions,Transformations of functions in the form f(x),C,"Series([], Name: AnswerText, dtype: object)",B,"6081    Reflection in the line\n\[\ny=-x\n\]
+\(y=7-3 x\)",Identify vertical reflections in the form f(x) = for non-trigonometric functions,Transformations of functions in the form f(x),C,"Series([], Name: AnswerText, dtype: object)",B,"6081    Reflection in the line\r\n\[\r\ny=-x\r\n\]
 Name: AnswerText, dtype: object",True,1303,Believes y=-f(x) is a reflection in y=-x,Core Mathematical Fundamentals,Medium,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
 1520,"What transformation maps the graph of
 \(y=3 x-7\)
 to the graph of
-\(y=7-3 x\)",Identify vertical reflections in the form f(x) = for non-trigonometric functions,Transformations of functions in the form f(x),C,"Series([], Name: AnswerText, dtype: object)",D,"6083    Reflection in the\n\[\ny \text {-axis }\n\]
+\(y=7-3 x\)",Identify vertical reflections in the form f(x) = for non-trigonometric functions,Transformations of functions in the form f(x),C,"Series([], Name: AnswerText, dtype: object)",D,"6083    Reflection in the\r\n\[\r\ny \text {-axis }\r\n\]
 Name: AnswerText, dtype: object",True,594,Believes y=-f(x) is a reflection in the y-axis,Core Mathematical Fundamentals,Medium,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
 1521,"What length replaces the \( \color{green}\bigstar \) ? ![A diagram showing a compound shape. It is an L shape rotated 90 degrees clockwise. The top full width is 3x+4, the partial width to the right is x+4. The left full height is 5, the partial height on the right is 3. There is a green star on the left partial width at the bottom of the diagram.]()","Calculate missing lengths of shapes by geometrical inference, where the lengths involve algebraic expressions",Missing Lengths,B,"Series([], Name: AnswerText, dtype: object)",A,"6084    \( 3 \)
 Name: AnswerText, dtype: object",True,2504,"Does not realise that two letters together, or a number and letter together, are multiplying",Core Mathematical Fundamentals,Medium,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
@@ -13621,7 +13621,7 @@ Name: AnswerText, dtype: object",True,772,Rotates instead of reflects,Core Mathe
 1558,"Tom and Katie have been asked to give the name of a quadrilateral with four equal sides
 Tom says rectangle
 Katie says rhombus
-Who do you agree with?",Identify a rhombus from a description of the properties,Properties of Quadrilaterals,B,"Series([], Name: AnswerText, dtype: object)",A,"6232    Only\nTom
+Who do you agree with?",Identify a rhombus from a description of the properties,Properties of Quadrilaterals,B,"Series([], Name: AnswerText, dtype: object)",A,"6232    Only\r\nTom
 Name: AnswerText, dtype: object",False,551,Believes a rectangle has four equal sides,Geometry & Shapes,Medium,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
 1558,"Tom and Katie have been asked to give the name of a quadrilateral with four equal sides
 Tom says rectangle
@@ -13738,7 +13738,7 @@ Jo says \( (10,-4) \) lies on the line \( \mathbf{4 x}-\mathbf{5 y}=\mathbf{2 0}
 
 Paul says \( (-4,10) \) lies on the line \( \mathbf{4} \boldsymbol{x}-\mathbf{5 y}=\mathbf{2 0} \)
 
-Who is correct?",Determine if a given point lies on a line,Plotting Lines from Tables of Values,D,"Series([], Name: AnswerText, dtype: object)",A,"6284    Only\nJo
+Who is correct?",Determine if a given point lies on a line,Plotting Lines from Tables of Values,D,"Series([], Name: AnswerText, dtype: object)",A,"6284    Only\r\nJo
 Name: AnswerText, dtype: object",True,55,"When subtracting a negative number from a positive number, uses a method which assumes one of the negative signs can be ignored ",Graphs & Coordinate Geometry,Hard,Decimal Operations & Place Value,6,Fundamental_Arithmetic,1
 1572,"The triangle is reflected in the dashed line
 What are the new coordinates of point \( \mathrm{P} \) ? ![A coordinate grid with the reflection line y=-x drawn and a triangle with the coordinates (-2,3) (-1,4) and (0,3). P is the point (0,3)]()","Reflect an object or a point in a diagonal line with the line of reflection drawn, where the line of reflection lies on the edge or outside the object",Reflection,D,"Series([], Name: AnswerText, dtype: object)",A,"6288    \( (-6,3) \)
@@ -13749,11 +13749,11 @@ Name: AnswerText, dtype: object",True,1990,Fails to reflect across mirror line,C
 1572,"The triangle is reflected in the dashed line
 What are the new coordinates of point \( \mathrm{P} \) ? ![A coordinate grid with the reflection line y=-x drawn and a triangle with the coordinates (-2,3) (-1,4) and (0,3). P is the point (0,3)]()","Reflect an object or a point in a diagonal line with the line of reflection drawn, where the line of reflection lies on the edge or outside the object",Reflection,D,"Series([], Name: AnswerText, dtype: object)",C,"6290    \( (-3,3) \)
 Name: AnswerText, dtype: object",True,1990,Fails to reflect across mirror line,Core Mathematical Fundamentals,Hard,Fraction Operations & Concepts,1,Fractions_Ratios,2
-1573,Which combination of mathematical instruments has been used to construct this triangle? ![A triangle construction with one angle and two sides labelled ](),Construct a triangle using Side-Angle-Side,Construct Triangle,C,"Series([], Name: AnswerText, dtype: object)",A,"6292    Protractor \nCompass
+1573,Which combination of mathematical instruments has been used to construct this triangle? ![A triangle construction with one angle and two sides labelled ](),Construct a triangle using Side-Angle-Side,Construct Triangle,C,"Series([], Name: AnswerText, dtype: object)",A,"6292    Protractor \r\nCompass
 Name: AnswerText, dtype: object",False,723,Forgets you need a ruler to measure lengths,Core Mathematical Fundamentals,Easy,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
-1573,Which combination of mathematical instruments has been used to construct this triangle? ![A triangle construction with one angle and two sides labelled ](),Construct a triangle using Side-Angle-Side,Construct Triangle,C,"Series([], Name: AnswerText, dtype: object)",B,"6293    Ruler \nCompass
+1573,Which combination of mathematical instruments has been used to construct this triangle? ![A triangle construction with one angle and two sides labelled ](),Construct a triangle using Side-Angle-Side,Construct Triangle,C,"Series([], Name: AnswerText, dtype: object)",B,"6293    Ruler \r\nCompass
 Name: AnswerText, dtype: object",False,651,Forgets you need a protractor to measure angles,Core Mathematical Fundamentals,Easy,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
-1573,Which combination of mathematical instruments has been used to construct this triangle? ![A triangle construction with one angle and two sides labelled ](),Construct a triangle using Side-Angle-Side,Construct Triangle,C,"Series([], Name: AnswerText, dtype: object)",D,"6295    Ruler \nProtractor
+1573,Which combination of mathematical instruments has been used to construct this triangle? ![A triangle construction with one angle and two sides labelled ](),Construct a triangle using Side-Angle-Side,Construct Triangle,C,"Series([], Name: AnswerText, dtype: object)",D,"6295    Ruler \r\nProtractor
 Name: AnswerText, dtype: object",False,297,Forgets you need a compass to draw arcs,Core Mathematical Fundamentals,Easy,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 1574,"Every week for \( 4 \) weeks, Cara buys a magazine for \( £ 6 \) and gets her nails painted for \( £ 28 \).
 
@@ -13820,7 +13820,7 @@ Name: AnswerText, dtype: object",True,2505,Confuses cl and ml,"Fractions, Decima
 5 p-2 q=12 \\
 3 p-2 q=8
 \end{array}
-\)",Recognise whether you need to add or subtract linear equations in order to eliminate a variable,Simultaneous Equations,D,"Series([], Name: AnswerText, dtype: object)",A,"6312    Add Pair \( 1 \)\nSubtract Pair \( 2 \)
+\)",Recognise whether you need to add or subtract linear equations in order to eliminate a variable,Simultaneous Equations,D,"Series([], Name: AnswerText, dtype: object)",A,"6312    Add Pair \( 1 \)\r\nSubtract Pair \( 2 \)
 Name: AnswerText, dtype: object",True,2157,"Believes that when eliminating a variable, if the signs of the terms with matching coefficients are the same, we do the operation matching the sign (+ if positive, - if negative)",Core Mathematical Fundamentals,Hard,Decimal Operations & Place Value,6,Fundamental_Arithmetic,1
 1578,"What do you need to do to eliminate the \( q s \) in each of these pairs of simultaneous equations?
  Pair \( 1 \)
@@ -13835,7 +13835,7 @@ Name: AnswerText, dtype: object",True,2157,"Believes that when eliminating a var
 5 p-2 q=12 \\
 3 p-2 q=8
 \end{array}
-\)",Recognise whether you need to add or subtract linear equations in order to eliminate a variable,Simultaneous Equations,D,"Series([], Name: AnswerText, dtype: object)",B,"6313    Add Pair \( 1 \)\nAdd Pair \( 2 \)
+\)",Recognise whether you need to add or subtract linear equations in order to eliminate a variable,Simultaneous Equations,D,"Series([], Name: AnswerText, dtype: object)",B,"6313    Add Pair \( 1 \)\r\nAdd Pair \( 2 \)
 Name: AnswerText, dtype: object",True,1233,"Believes that when eliminating a variable, if the signs of the terms with matching coefficients are the same, we add the equations.",Core Mathematical Fundamentals,Hard,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
 1578,"What do you need to do to eliminate the \( q s \) in each of these pairs of simultaneous equations?
  Pair \( 1 \)
@@ -13850,7 +13850,7 @@ Name: AnswerText, dtype: object",True,1233,"Believes that when eliminating a var
 5 p-2 q=12 \\
 3 p-2 q=8
 \end{array}
-\)",Recognise whether you need to add or subtract linear equations in order to eliminate a variable,Simultaneous Equations,D,"Series([], Name: AnswerText, dtype: object)",C,"6314    Subtract Pair \( 1 \)\nAdd Pair \( 2 \)
+\)",Recognise whether you need to add or subtract linear equations in order to eliminate a variable,Simultaneous Equations,D,"Series([], Name: AnswerText, dtype: object)",C,"6314    Subtract Pair \( 1 \)\r\nAdd Pair \( 2 \)
 Name: AnswerText, dtype: object",True,303,"Believes that when eliminating a variable, if the signs of the terms with matching coefficients are the same, we do the operation inverse to the sign (- if positive, + if negative)",Core Mathematical Fundamentals,Hard,Decimal Operations & Place Value,6,Fundamental_Arithmetic,1
 1579,"How far away from home was Rachel at 10:15? ![A line graph with title ""A graph to show the distance Rachel travels from her home on her daily run."" 
 The x-axis is titled ""Time"" and is labelled with times from 0800 to 1300 in steps of 1 hour, with the axis going half an hour beyond 1300.
@@ -14389,17 +14389,17 @@ Name: AnswerText, dtype: object",False,357,Does not understand that in the ratio
 1645,"Solve this equation, giving all solutions:
 \(
 3 p^{2}+9=39
-\)",Solve quadratic equations using balancing,Quadratic Equations,B,"Series([], Name: AnswerText, dtype: object)",A,"6580    \[\nn=5\n\]\nor\n\[\nn=-5\n\]
+\)",Solve quadratic equations using balancing,Quadratic Equations,B,"Series([], Name: AnswerText, dtype: object)",A,"6580    \[\r\nn=5\r\n\]\r\nor\r\n\[\r\nn=-5\r\n\]
 Name: AnswerText, dtype: object",True,2539,Believes the inverse of square rooting is halving,Core Mathematical Fundamentals,Medium,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
 1645,"Solve this equation, giving all solutions:
 \(
 3 p^{2}+9=39
-\)",Solve quadratic equations using balancing,Quadratic Equations,B,"Series([], Name: AnswerText, dtype: object)",C,"6582    \[\np=2\n\]\nor\n\[\np=-2\n\]
+\)",Solve quadratic equations using balancing,Quadratic Equations,B,"Series([], Name: AnswerText, dtype: object)",C,"6582    \[\r\np=2\r\n\]\r\nor\r\n\[\r\np=-2\r\n\]
 Name: AnswerText, dtype: object",True,256,Does not reverse the order of operations when solving an equation,Core Mathematical Fundamentals,Medium,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 1645,"Solve this equation, giving all solutions:
 \(
 3 p^{2}+9=39
-\)",Solve quadratic equations using balancing,Quadratic Equations,B,"Series([], Name: AnswerText, dtype: object)",D,"6583    \[\np=4\n\]\nor\n\[\np=-4\n\]
+\)",Solve quadratic equations using balancing,Quadratic Equations,B,"Series([], Name: AnswerText, dtype: object)",D,"6583    \[\r\np=4\r\n\]\r\nor\r\n\[\r\np=-4\r\n\]
 Name: AnswerText, dtype: object",True,1214,"When solving an equation, uses the same operation rather than the inverse.",Core Mathematical Fundamentals,Medium,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 1646,"Which of the following statements can you prove from this diagram? ![Angles around a point split into three parts with the parts labelled: m+50, 2m+n and 220-2m]()",Use angles around a point with algebra to prove results,"Basic Angle Facts (straight line, opposite, around a point, etc)",B,"Series([], Name: AnswerText, dtype: object)",A,"6584    \( m=n \)
 Name: AnswerText, dtype: object",True,1908,Ignores numerical terms when setting up an equation from a question,Graphs & Coordinate Geometry,Medium,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
@@ -14438,9 +14438,9 @@ Name: AnswerText, dtype: object",False,968,Confuses powers and multiples,Core Ma
 Name: AnswerText, dtype: object",True,914,Finds 10% of an amount rather than the percentage being asked,Core Mathematical Fundamentals,Easy,Spatial Reasoning & Estimation,7,Geometry_Spatial,4
 1650,\( 20 \% \) of \( 35= \),Calculate percentage of an amount mentally where the percent is a multiple of 10,Percentages of an Amount,B,"Series([], Name: AnswerText, dtype: object)",D,"6603    \( 70 \)
 Name: AnswerText, dtype: object",True,1710,"When finding a percentage of an amount, assumes they divide the percentage by 10, but not the amount, before multiplying",Core Mathematical Fundamentals,Easy,Spatial Reasoning & Estimation,7,Geometry_Spatial,4
-1651,"Tom and Katie are arguing about parallelograms. Tom says this shape is a parallelogram ![A four sided shape. All sides are equal, opposite angles are equal. There are no right angles.]() Katie says this shape is a parallelogram ![A four sided shape. Opposite sides are equal, all angles are right angles.]() Who is correct?",Sort and class quadrilaterals into hierarchical families,Properties of Polygons,C,"Series([], Name: AnswerText, dtype: object)",A,"6604    Only\nTom
+1651,"Tom and Katie are arguing about parallelograms. Tom says this shape is a parallelogram ![A four sided shape. All sides are equal, opposite angles are equal. There are no right angles.]() Katie says this shape is a parallelogram ![A four sided shape. Opposite sides are equal, all angles are right angles.]() Who is correct?",Sort and class quadrilaterals into hierarchical families,Properties of Polygons,C,"Series([], Name: AnswerText, dtype: object)",A,"6604    Only\r\nTom
 Name: AnswerText, dtype: object",False,515,Does not know a rectangle is a type of parallelogram ,Geometry & Shapes,Hard,Fundamental Arithmetic Misconceptions,5,Fundamental_Arithmetic,1
-1651,"Tom and Katie are arguing about parallelograms. Tom says this shape is a parallelogram ![A four sided shape. All sides are equal, opposite angles are equal. There are no right angles.]() Katie says this shape is a parallelogram ![A four sided shape. Opposite sides are equal, all angles are right angles.]() Who is correct?",Sort and class quadrilaterals into hierarchical families,Properties of Polygons,C,"Series([], Name: AnswerText, dtype: object)",B,"6605    Only\nKatie
+1651,"Tom and Katie are arguing about parallelograms. Tom says this shape is a parallelogram ![A four sided shape. All sides are equal, opposite angles are equal. There are no right angles.]() Katie says this shape is a parallelogram ![A four sided shape. Opposite sides are equal, all angles are right angles.]() Who is correct?",Sort and class quadrilaterals into hierarchical families,Properties of Polygons,C,"Series([], Name: AnswerText, dtype: object)",B,"6605    Only\r\nKatie
 Name: AnswerText, dtype: object",False,1041,Does not know a rhombus is a type of parallelogram ,Geometry & Shapes,Hard,Fundamental Arithmetic Misconceptions,5,Fundamental_Arithmetic,1
 1651,"Tom and Katie are arguing about parallelograms. Tom says this shape is a parallelogram ![A four sided shape. All sides are equal, opposite angles are equal. There are no right angles.]() Katie says this shape is a parallelogram ![A four sided shape. Opposite sides are equal, all angles are right angles.]() Who is correct?",Sort and class quadrilaterals into hierarchical families,Properties of Polygons,C,"Series([], Name: AnswerText, dtype: object)",D,"6607    Neither is correct
 Name: AnswerText, dtype: object",False,1370,Does not believe a shape can have two correct names e.g. rectangle and parallelogram,Geometry & Shapes,Hard,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
@@ -14574,7 +14574,7 @@ Tom says a correct next line of working could be: \( 5 x-1=6 \)
 
 Katie says a correct next line of working could be: \( \frac{5 x}{3}=3 \)
 
-Who is correct?","Solve three or more step linear equations, with the variable on one side, with all positive integers",Linear Equations,A,"Series([], Name: AnswerText, dtype: object)",B,"6661    Only\nKatie
+Who is correct?","Solve three or more step linear equations, with the variable on one side, with all positive integers",Linear Equations,A,"Series([], Name: AnswerText, dtype: object)",B,"6661    Only\r\nKatie
 Name: AnswerText, dtype: object",True,1566,Adds or subtracts from numerator first when solving an equation with a fraction,Core Mathematical Fundamentals,Hard,Advanced Functions & Graphs,11,Algebra_Advanced_Math,3
 1665,"Tom and Katie are discussing how to solve:
 \(\frac{5 x-1}{3}=2\)
@@ -14606,7 +14606,7 @@ Name: AnswerText, dtype: object",False,1897,Confuses vertically opposite angles 
 Name: AnswerText, dtype: object",False,699,"When “borrowing” during a subtraction problem, does not subtract one from the preceding digit",Graphs & Coordinate Geometry,Easy,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 1668,"Which element(s) is/are in \( P^{\prime} \) ? ![A diagram showing a Venn diagram of 2 circles. The left cicle is for Set P and contains cat in its left part, horse in the intersection. The right circle is for set Q and contains goat in its right part, horse in the intersection. Outside of the circles it says toad.]()",Identify the regions on a double Venn diagram given in set notation,Venn Diagrams,C,"Series([], Name: AnswerText, dtype: object)",A,"6672    cat
 Name: AnswerText, dtype: object",True,564,Does not understand set notation for complement (eg. A'),Core Mathematical Fundamentals,Medium,Simplification & Conversion Errors,9,Data_Conversions,5
-1668,"Which element(s) is/are in \( P^{\prime} \) ? ![A diagram showing a Venn diagram of 2 circles. The left cicle is for Set P and contains cat in its left part, horse in the intersection. The right circle is for set Q and contains goat in its right part, horse in the intersection. Outside of the circles it says toad.]()",Identify the regions on a double Venn diagram given in set notation,Venn Diagrams,C,"Series([], Name: AnswerText, dtype: object)",D,"6675    horse, goat\n& toad
+1668,"Which element(s) is/are in \( P^{\prime} \) ? ![A diagram showing a Venn diagram of 2 circles. The left cicle is for Set P and contains cat in its left part, horse in the intersection. The right circle is for set Q and contains goat in its right part, horse in the intersection. Outside of the circles it says toad.]()",Identify the regions on a double Venn diagram given in set notation,Venn Diagrams,C,"Series([], Name: AnswerText, dtype: object)",D,"6675    horse, goat\r\n& toad
 Name: AnswerText, dtype: object",True,42,Believes that the complement of a set includes any elements which are also in another set.,Core Mathematical Fundamentals,Medium,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
 1669,"Which of these options show the numbers
 \[
@@ -14664,11 +14664,11 @@ Name: AnswerText, dtype: object",True,1209,Believes a mixed number can contain a
 \)
 What should replace the star?",Add fractions involving mixed number fractions with different denominators,Adding and Subtracting Fractions,A,"Series([], Name: AnswerText, dtype: object)",D,"6699    \( 37 \)
 Name: AnswerText, dtype: object",True,2034,Finds an equivalent improper fraction when asked for a mixed number,"Fractions, Decimals & Conversions",Easy,Advanced Functions & Graphs,11,Algebra_Advanced_Math,3
-1675,Which combination of mathematical instruments has been used to construct this triangle? ![Constructed triangle with two sides and an angle labelled](),Construct a triangle using Side-Angle-Side,Construct Triangle,D,"Series([], Name: AnswerText, dtype: object)",A,"6700    Protractor \nCompass
+1675,Which combination of mathematical instruments has been used to construct this triangle? ![Constructed triangle with two sides and an angle labelled](),Construct a triangle using Side-Angle-Side,Construct Triangle,D,"Series([], Name: AnswerText, dtype: object)",A,"6700    Protractor \r\nCompass
 Name: AnswerText, dtype: object",False,723,Forgets you need a ruler to measure lengths,Core Mathematical Fundamentals,Easy,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
-1675,Which combination of mathematical instruments has been used to construct this triangle? ![Constructed triangle with two sides and an angle labelled](),Construct a triangle using Side-Angle-Side,Construct Triangle,D,"Series([], Name: AnswerText, dtype: object)",B,"6701    Ruler \nCompass
+1675,Which combination of mathematical instruments has been used to construct this triangle? ![Constructed triangle with two sides and an angle labelled](),Construct a triangle using Side-Angle-Side,Construct Triangle,D,"Series([], Name: AnswerText, dtype: object)",B,"6701    Ruler \r\nCompass
 Name: AnswerText, dtype: object",False,651,Forgets you need a protractor to measure angles,Core Mathematical Fundamentals,Easy,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
-1675,Which combination of mathematical instruments has been used to construct this triangle? ![Constructed triangle with two sides and an angle labelled](),Construct a triangle using Side-Angle-Side,Construct Triangle,D,"Series([], Name: AnswerText, dtype: object)",C,"6702    Ruler\nProtractor\nCompass
+1675,Which combination of mathematical instruments has been used to construct this triangle? ![Constructed triangle with two sides and an angle labelled](),Construct a triangle using Side-Angle-Side,Construct Triangle,D,"Series([], Name: AnswerText, dtype: object)",C,"6702    Ruler\r\nProtractor\r\nCompass
 Name: AnswerText, dtype: object",False,1613,Believes constructing a triangle with given SAS requires a compass,Core Mathematical Fundamentals,Easy,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
 1676,3 litres =  \( \color{gold}\bigstar \) millilitres What should replace the star?,Convert between l and ml,Volume and Capacity Units,D,"Series([], Name: AnswerText, dtype: object)",A,"6704    \( 0.3 \)
 Name: AnswerText, dtype: object",True,1954,Divides when converting to a smaller unit,"Fractions, Decimals & Conversions",Easy,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
@@ -14924,7 +14924,7 @@ Tom says: ""a rotation of \( 90^{\degree} \) about point \( (1,1) \) ""
 
 Katie says: ""a rotation of \( 90^{\degree} \) clockwise""
 
-Who is correct? ![A coordinate grid with two pentagons drawn on it labelled P and Q. Pentagon P has the coordinates: (-3,-1) (-3,0) (-2,3) (-1,0) and (-1,-1). Pentagon A has the coordinates: (-1,5) (0,5) (3,4) (0,3) and -1,3).]()","Describe a 90° or 270° rotation giving the angle and direction of rotation, and the coordinates of the centre of rotation, where the centre of rotation lies on the edge or outside of the object ",Rotation,D,"Series([], Name: AnswerText, dtype: object)",A,"6848    Only\nTom
+Who is correct? ![A coordinate grid with two pentagons drawn on it labelled P and Q. Pentagon P has the coordinates: (-3,-1) (-3,0) (-2,3) (-1,0) and (-1,-1). Pentagon A has the coordinates: (-1,5) (0,5) (3,4) (0,3) and -1,3).]()","Describe a 90° or 270° rotation giving the angle and direction of rotation, and the coordinates of the centre of rotation, where the centre of rotation lies on the edge or outside of the object ",Rotation,D,"Series([], Name: AnswerText, dtype: object)",A,"6848    Only\r\nTom
 Name: AnswerText, dtype: object",True,537,Believes you do not need to give the direction when describing a rotation,Core Mathematical Fundamentals,Hard,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
 1712,"Tom and Katie are arguing about how to fully describe the rotation from shape \( P \) to shape \( Q \)
 
@@ -14987,7 +14987,7 @@ Name: AnswerText, dtype: object",False,1208,Believes the subtraction button writ
 1716,"When you multiply out the brackets and simplify, what replaces the triangle?
 \(
 (3 m+2)(m-2) \equiv \bigstar \ m^{2} \triangle \  m \bigcirc
-\)",Expand two brackets with linear terms in the form (ax + b)(x + c),Expanding Double Brackets,B,"Series([], Name: AnswerText, dtype: object)",A,"6864    \(\n\triangle=+0\n\)\n(no \( \mathrm{m} \) term)
+\)",Expand two brackets with linear terms in the form (ax + b)(x + c),Expanding Double Brackets,B,"Series([], Name: AnswerText, dtype: object)",A,"6864    \(\r\n\triangle=+0\r\n\)\r\n(no \( \mathrm{m} ...
 Name: AnswerText, dtype: object",True,1153,Believes they can ignore the coefficient when expanding double brackets ,Core Mathematical Fundamentals,Hard,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
 1716,"When you multiply out the brackets and simplify, what replaces the triangle?
 \(
@@ -15048,7 +15048,7 @@ Name: AnswerText, dtype: object",False,1652,Thinks there are 100mm in a centimet
 1723,"When you multiply out the brackets and simplify, what replaces the triangle?
 \(
 m(m+2)(m-2) \equiv m^{3} \bigstar \ m^{2} \triangle \ m
-\)",Expand double brackets with an extra variable outside,Expanding Double Brackets,D,"Series([], Name: AnswerText, dtype: object)",A,"6892    \(\n\triangle=+0\n\)\n(no \( m \) term)
+\)",Expand double brackets with an extra variable outside,Expanding Double Brackets,D,"Series([], Name: AnswerText, dtype: object)",A,"6892    \(\r\n\triangle=+0\r\n\)\r\n(no \( m \) term)
 Name: AnswerText, dtype: object",True,2256,Believes the constant in an expanded quadratic comes from adding the two numbers in the brackets,Core Mathematical Fundamentals,Hard,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
 1723,"When you multiply out the brackets and simplify, what replaces the triangle?
 \(
@@ -15175,7 +15175,7 @@ Name: AnswerText, dtype: object",True,107,"When expanding brackets, multiplies o
 When calculating the nth-term rule of this sequence, what should replace the square? nth-term rule:
 \(
 n^{2}+2 n \) \(\square\)
-",Find the nth term rule for ascending quadratic sequences in the form x² + bx + c,Quadratic Sequences,C,"Series([], Name: AnswerText, dtype: object)",A,"6944    \[\n+0\n\]\n(no number term)
+",Find the nth term rule for ascending quadratic sequences in the form x² + bx + c,Quadratic Sequences,C,"Series([], Name: AnswerText, dtype: object)",A,"6944    \[\r\n+0\r\n\]\r\n(no number term)
 Name: AnswerText, dtype: object",True,2220,Mixes up term in a sequence and position of a term,Numerical Sequences & Patterns,Hard,Basic Operation Confusions,8,Fundamental_Arithmetic,1
 1736,"\[
 -1,4,11,20,31, \ldots
@@ -15770,7 +15770,7 @@ Name: AnswerText, dtype: object",False,1811,Believes that the compensation strat
 1814,"Tom and Katie are discussing ways to calculate \( 49 \times 9 \) mentally
 Tom multiplies \( 49 \) by \( 10 \) and then subtracts \( 49 \) from the answer.
 Katie does \( 50 \times 9 \) and then subtracts \( 9 \) from the answer
-Who would get the correct answer?",Recognise and use efficient methods for mental multiplication,Mental Multiplication and Division,C,"Series([], Name: AnswerText, dtype: object)",B,"7257    Only\nKatie
+Who would get the correct answer?",Recognise and use efficient methods for mental multiplication,Mental Multiplication and Division,C,"Series([], Name: AnswerText, dtype: object)",B,"7257    Only\r\nKatie
 Name: AnswerText, dtype: object",False,1811,Believes that the compensation strategy for the multiplication of 2 numbers can only be used one way round.,Core Mathematical Fundamentals,Medium,Negative Numbers & Inequalities,4,Algebra_Advanced_Math,3
 1814,"Tom and Katie are discussing ways to calculate \( 49 \times 9 \) mentally
 Tom multiplies \( 49 \) by \( 10 \) and then subtracts \( 49 \) from the answer.
@@ -15867,7 +15867,7 @@ Name: AnswerText, dtype: object",True,673,Finds total instead of difference when
 1825,"Tom and Katie are discussing this pair of lines
 Tom says they are parallel
 Katie says they are perpendicular
-Who do you agree with? ![Two blue lines, each with a small red line marked across them about halfway up. The two blue lines do not touch, but they are closer together at one end.]()",Recognise perpendicular lines,Parallel Lines,D,"Series([], Name: AnswerText, dtype: object)",A,"7300    Only\nTom
+Who do you agree with? ![Two blue lines, each with a small red line marked across them about halfway up. The two blue lines do not touch, but they are closer together at one end.]()",Recognise perpendicular lines,Parallel Lines,D,"Series([], Name: AnswerText, dtype: object)",A,"7300    Only\r\nTom
 Name: AnswerText, dtype: object",False,281,Thinks that if two lines do not intersect on a diagram then they will never intersect and are therefore parallel,Graphs & Coordinate Geometry,Medium,Ratio & Proportional Reasoning Errors,0,Fractions_Ratios,2
 1825,"Tom and Katie are discussing this pair of lines
 Tom says they are parallel
@@ -16300,7 +16300,7 @@ Name: AnswerText, dtype: object",True,2306,"Applies BIDMAS in strict order (does
 8-7+10 \times 3
 \]","Use the order of operations to carry out calculations involving addition, subtraction, multiplication, and/or division",BIDMAS,B,"Series([], Name: AnswerText, dtype: object)",D,"7467    \( 33 \)
 Name: AnswerText, dtype: object",True,1507,Carries out operations from left to right regardless of priority order,Core Mathematical Fundamentals,Medium,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
-1867,Tom and Katie are discussing congruence and similarity. Who is correct? Tom says these two squares are congruent ![An image of two squares. A little one and a big one. They are enlargements of each other.]() Katie says these two squares are similar ![An image of two squares. A little one and a big one. They are enlargements of each other.](),Distinguish between congruency and similarity,Congruency in Other Shapes,B,"Series([], Name: AnswerText, dtype: object)",A,"7468    Only\nTom
+1867,Tom and Katie are discussing congruence and similarity. Who is correct? Tom says these two squares are congruent ![An image of two squares. A little one and a big one. They are enlargements of each other.]() Katie says these two squares are similar ![An image of two squares. A little one and a big one. They are enlargements of each other.](),Distinguish between congruency and similarity,Congruency in Other Shapes,B,"Series([], Name: AnswerText, dtype: object)",A,"7468    Only\r\nTom
 Name: AnswerText, dtype: object",False,2312,Thinks congruent shapes are the same shape but can be different sizes,Geometry & Shapes,Medium,Ratio & Proportional Reasoning Errors,0,Fractions_Ratios,2
 1867,Tom and Katie are discussing congruence and similarity. Who is correct? Tom says these two squares are congruent ![An image of two squares. A little one and a big one. They are enlargements of each other.]() Katie says these two squares are similar ![An image of two squares. A little one and a big one. They are enlargements of each other.](),Distinguish between congruency and similarity,Congruency in Other Shapes,B,"Series([], Name: AnswerText, dtype: object)",C,"7470    Both Tom and Katie
 Name: AnswerText, dtype: object",False,2312,Thinks congruent shapes are the same shape but can be different sizes,Geometry & Shapes,Medium,Ratio & Proportional Reasoning Errors,0,Fractions_Ratios,2
@@ -16312,7 +16312,7 @@ Jo says: ""a rotation of \( 90^{\degree} \) anticlockwise""
 
 Paul says: ""a rotation of \( +270^{\degree} \) about \( (-1,1)^{\prime \prime} \)
 
-Who is correct? ![A coordinate grid with two trapeziums drawn on it and a centre of rotation marked on, one space to the right and one space up from the origin. Trapezium P has the coordinates: (-4,4) (-2,4) (-2,3) and (-4,1). Trapezium Q has the coordinates: (-4,-2) (-4,0) (-3,0) and (-1,-2).]()","Describe a 90° or 270° rotation giving the angle and direction of rotation, and the coordinates of the centre of rotation, where the centre of rotation lies on the edge or outside of the object ",Rotation,B,"Series([], Name: AnswerText, dtype: object)",A,"7472    Only\nJo
+Who is correct? ![A coordinate grid with two trapeziums drawn on it and a centre of rotation marked on, one space to the right and one space up from the origin. Trapezium P has the coordinates: (-4,4) (-2,4) (-2,3) and (-4,1). Trapezium Q has the coordinates: (-4,-2) (-4,0) (-3,0) and (-1,-2).]()","Describe a 90° or 270° rotation giving the angle and direction of rotation, and the coordinates of the centre of rotation, where the centre of rotation lies on the edge or outside of the object ",Rotation,B,"Series([], Name: AnswerText, dtype: object)",A,"7472    Only\r\nJo
 Name: AnswerText, dtype: object",True,801,Forgets to give the centre of rotation,Core Mathematical Fundamentals,Hard,Algebraic Expressions & Sequences,2,Algebra_Advanced_Math,3
 1868,"Jo and Paul are arguing about how to fully describe the rotation from shape \( P \) to shape \( Q \)
 
