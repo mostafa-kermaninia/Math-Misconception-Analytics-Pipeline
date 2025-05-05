@@ -18,14 +18,14 @@ jobs:
           MYSQL_DATABASE: University_DB
           MYSQL_USER: workbench_user
           MYSQL_PASSWORD: 1
-          MYSQL_AUTHENTICATION_PLUGIN: mysql_native_password  # این خط اضافه شد
         ports:
           - 3306:3306
         options: >-
           --health-cmd="mysqladmin ping -h 127.0.0.1 -uroot -proot"
-          --health-interval=10s
-          --health-timeout=5s
-          --health-retries=5
+          --health-interval=15s
+          --health-timeout=10s
+          --health-retries=10
+          --default-authentication-plugin=mysql_native_password
 
     steps:
       - uses: actions/checkout@v3
@@ -39,22 +39,38 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-          pip install cryptography  # اطمینان از نصب cryptography
+          pip install cryptography pymysql
       
-      - name: Configure MySQL
+      - name: Wait for MySQL to be ready
         run: |
-          # تنظیم فایل پیکربندی
-          mysql_config="[client]\nuser=root\npassword=root\nhost=127.0.0.1"
-          echo "$mysql_config" > ~/.my.cnf
+          # ایجاد فایل پیکربندی موقت
+          echo "[client]\nuser=root\npassword=root\nhost=127.0.0.1" > ~/.my.cnf
           chmod 600 ~/.my.cnf
           
-
-          
-          # ایجاد دیتابیس و کاربر با روش احراز هویت قدیمی
-          mysql -e "CREATE DATABASE IF NOT EXISTS University_DB;"
-          mysql -e "CREATE USER IF NOT EXISTS 'workbench_user'@'%' IDENTIFIED WITH mysql_native_password BY '1';"
-          mysql -e "GRANT ALL PRIVILEGES ON University_DB.* TO 'workbench_user'@'%';"
-          mysql -e "FLUSH PRIVILEGES;"
+          # افزایش زمان انتظار و تعداد تلاش‌ها
+          for i in {1..15}; do
+            if mysqladmin ping --silent; then
+              echo "MySQL is ready!"
+              mysql -e "CREATE DATABASE IF NOT EXISTS University_DB;"
+              mysql -e "CREATE USER IF NOT EXISTS 'workbench_user'@'%' IDENTIFIED WITH mysql_native_password BY '1';"
+              mysql -e "GRANT ALL PRIVILEGES ON University_DB.* TO 'workbench_user'@'%';"
+              mysql -e "FLUSH PRIVILEGES;"
+              exit 0
+            else
+              echo "Waiting for MySQL... Attempt $i"
+              sleep 10
+            fi
+          done
+          echo "::error::Failed to connect to MySQL after 15 attempts"
+          exit 1
+      
+      - name: Verify dataset files
+        run: |
+          if [ ! -f "database/train.csv" ] || [ ! -f "database/misconception_mapping.csv" ]; then
+            echo "::error::Dataset files are missing!"
+            exit 1
+          fi
+          echo "Dataset files verified successfully"
       
       - name: Run database import script
         env:
@@ -63,8 +79,7 @@ jobs:
           DB_PASSWORD: 1
           DB_NAME: University_DB
         run: python scripts/database_operations/import_csv_to_db.py
-
-              
+      
       - name: Run main pipeline
         env:
           DB_HOST: 127.0.0.1
