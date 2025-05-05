@@ -55,7 +55,11 @@ def preprocess_data(df_questions, df_answers, df_misconceptions):
             if option == correct_ans:
                 continue
                 
-            misconception_id = row[f"Misconception{option}Id"]
+            misconception_id = df_answers.loc[
+                df_answers["QuestionId"] == row["QuestionId"]
+                and df_answers["AnswerType"] == option,
+                "MisconceptionId"
+                ]
             if pd.isna(misconception_id):
                 continue
                 
