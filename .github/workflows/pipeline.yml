@@ -21,10 +21,10 @@ jobs:
         ports:
           - 3306:3306
         options: >-
-          --health-cmd="mysqladmin ping -h 127.0.0.1 -uroot -proot"
-          --health-interval=15s
-          --health-timeout=10s
-          --health-retries=10
+          --health-cmd="mysqladmin ping -h 172.18.0.2 -uroot -proot"
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=5
 
     steps:
       - uses: actions/checkout@v3
@@ -34,68 +34,51 @@ jobs:
         with:
           python-version: '3.12'
       
-      - name: Verify MySQL health
-        run: |
-          # بررسی وضعیت سلامت
-          docker inspect --format='{{.State.Health.Status}}' $(docker ps -qf "name=mysql")
-          
-          # بررسی IP کانتینر
-          echo "Container IP:"
-          docker inspect --format='{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' $(docker ps -qf "name=mysql")
-
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
           pip install cryptography pymysql
       
-      # - name: Configure MySQL
-      #   run: |
-      #     # تنظیم فایل پیکربندی امن
-      #     echo "[client]
-      #     user=root
-      #     password=root
-      #     host=127.0.0.1
-      #     protocol=TCP" > ~/.my.cnf
-      #     chmod 600 ~/.my.cnf
+      - name: Verify MySQL container
+        run: |
+          # بررسی وضعیت کانتینر
+          echo "Container IP: 172.18.0.2"
+          docker inspect --format='{{.State.Health.Status}}' $(docker ps -qf "name=mysql")
           
-      #     # انتظار برای MySQL با تلاش‌های بیشتر
-      #     for i in {1..20}; do
-      #       if mysql -e "SET GLOBAL default_authentication_plugin='mysql_native_password'; SELECT 1" &>/dev/null; then
-      #         echo "MySQL is ready and configured!"
-      #         mysql -e "CREATE DATABASE IF NOT EXISTS University_DB;"
-      #         mysql -e "CREATE USER IF NOT EXISTS 'workbench_user'@'%' IDENTIFIED WITH mysql_native_password BY '1';"
-      #         mysql -e "GRANT ALL PRIVILEGES ON University_DB.* TO 'workbench_user'@'%';"
-      #         mysql -e "FLUSH PRIVILEGES;"
-      #         exit 0
-      #       else
-      #         echo "Waiting for MySQL to be ready... Attempt $i"
-      #         sleep 10
-      #       fi
-      #     done
-      #     echo "::error::MySQL failed to start after 20 attempts"
-      #     exit 1
+          # تست اتصال مستقیم
+          mysql -h 172.18.0.2 -u root -proot -e "SHOW DATABASES;"
       
-      # - name: Verify dataset files
-      #   run: |
-      #     if [ ! -f "database/train.csv" ] || [ ! -f "database/misconception_mapping.csv" ]; then
-      #       echo "::error::Required dataset files are missing!"
-      #       exit 1
-      #     fi
-      #     echo "All dataset files present"
+      - name: Configure MySQL
+        run: |
+          # تنظیم فایل پیکربندی با IP صحیح
+          echo "[client]
+          user=root
+          password=root
+          host=172.18.0.2" > ~/.my.cnf
+          chmod 600 ~/.my.cnf
+          
+          # تنظیم authentication plugin
+          mysql -h 172.18.0.2 -u root -proot -e "SET GLOBAL default_authentication_plugin='mysql_native_password';"
+          
+          # ایجاد دیتابیس و کاربر
+          mysql -h 172.18.0.2 -u root -proot -e "CREATE DATABASE IF NOT EXISTS University_DB;"
+          mysql -h 172.18.0.2 -u root -proot -e "CREATE USER IF NOT EXISTS 'workbench_user'@'%' IDENTIFIED WITH mysql_native_password BY '1';"
+          mysql -h 172.18.0.2 -u root -proot -e "GRANT ALL PRIVILEGES ON University_DB.* TO 'workbench_user'@'%';"
+          mysql -h 172.18.0.2 -u root -proot -e "FLUSH PRIVILEGES;"
       
-      # - name: Run database import script
-      #   env:
-      #     DB_HOST: 127.0.0.1
-      #     DB_USER: workbench_user
-      #     DB_PASSWORD: 1
-      #     DB_NAME: University_DB
-      #   run: python scripts/database_operations/import_csv_to_db.py
+      - name: Run database import script
+        env:
+          DB_HOST: 172.18.0.2
+          DB_USER: workbench_user
+          DB_PASSWORD: 1
+          DB_NAME: University_DB
+        run: python scripts/database_operations/import_csv_to_db.py
       
       - name: Run main pipeline
-        # env:
-        #   DB_HOST: 127.0.0.1
-        #   DB_USER: workbench_user
-        #   DB_PASSWORD: 1
-        #   DB_NAME: University_DB
+        env:
+          DB_HOST: 172.18.0.2
+          DB_USER: workbench_user
+          DB_PASSWORD: 1
+          DB_NAME: University_DB
         run: python pipeline.py
