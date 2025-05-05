@@ -69,8 +69,10 @@ def preprocess_data(df_questions, df_answers, df_misconceptions):
             misconception_desc = df_misconceptions.loc[
                 df_misconceptions["MisconceptionId"] == misconception_id,
                 "MisconceptionName"
-            ].values[0]
-
+            ]
+            misconception_desc = misconception_desc.iloc[0]
+            # print(misconception_desc)
+            
             # Feature engineering for LLM
             preprocess_data.append({
                 "question_id": question_id,
@@ -113,6 +115,6 @@ if __name__ == "__main__":
     # df_questions, df_answers, df_misconceptions = preprocess_data(df_questions, df_answers, df_misconceptions)
 
     print("Preprocessing complete!")
-    print("Processed Questions DataFrame:", df_questions.head())
-    print("Processed Answers DataFrame:", df_answers.head())
-    print("Processed Misconceptions DataFrame:", df_misconceptions.head())
+    # print("Processed Questions DataFrame:", df_questions.head())
+    # print("Processed Answers DataFrame:", df_answers.head())
+    # print("Processed Misconceptions DataFrame:", df_misconceptions.head())

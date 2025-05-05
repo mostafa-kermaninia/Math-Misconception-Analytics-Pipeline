@@ -226,7 +226,7 @@ def feature_engineering(df_dataset):
     df_answers.to_csv('./processed_data/processed_answers.csv', index=False)
     df_misconceptions.to_csv('./processed_data/misconceptions.csv', index=False)
     df_dataset.to_csv('./processed_data/dataset.csv', index=False)
-    print(df_dataset.head())
+    # print(df_dataset.head())
     return df_dataset
 
 if __name__ == "__main__":
