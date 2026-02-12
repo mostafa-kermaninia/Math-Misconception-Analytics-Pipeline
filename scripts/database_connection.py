@@ -3,7 +3,6 @@ import os
 
 def get_db_engine():
     """Returns a connection engine for MySQL with enhanced compatibility."""
-    # تنظیمات پایه با اولویت دادن به متغیرهای محیطی
     db_config = {
         "user": os.getenv('DB_USER', 'workbench_user'),
         "password": os.getenv('DB_PASSWORD', '1'),
@@ -17,10 +16,9 @@ def get_db_engine():
         }
     }
     
-    # تنظیمات خاص برای GitHub Actions
     if os.getenv('GITHUB_ACTIONS') == 'true':
         db_config.update({
-            "host": os.getenv('DB_HOST', '172.18.0.2'),  # استفاده از IP کانتینر در GitHub Actions
+            "host": os.getenv('DB_HOST', '172.18.0.2'),  
             "connect_args": {
                 'connect_timeout': 20,
                 'client_flag': 0,
@@ -32,10 +30,10 @@ def get_db_engine():
     
     engine = sqlalchemy.create_engine(
         connection_string,
-        pool_pre_ping=True,  # بررسی سلامت اتصال قبل از استفاده
-        pool_recycle=3600,   # بازیابی اتصالات هر 1 ساعت
-        pool_size=5,         # اندازه‌ی پیش‌فرض pool
-        max_overflow=10,     # حداکثر اتصالات اضافی
-        echo=False           # نمایش لاگ‌های SQL (برای دیباگ می‌توانید True کنید)
+        pool_pre_ping=True,  
+        pool_recycle=3600,  
+        pool_size=5,         
+        max_overflow=10,    
+        echo=False          
     )
     return engine
